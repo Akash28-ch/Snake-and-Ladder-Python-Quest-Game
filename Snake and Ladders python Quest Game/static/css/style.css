@@ -1,0 +1,152 @@
+#board-container {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 5px solid #34495e;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.dice {
+    font-size: 4rem;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: white;
+    color: black;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* Responsive Scaling */
+@media (max-width: 768px) {
+    #board-container {
+        width: 100%;
+        height: auto;
+    }
+    canvas {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Dice Styling */
+.dice-container {
+    perspective: 1000px;
+    width: 60px;
+    height: 60px;
+    margin: 20px auto;
+}
+
+.dice {
+    width: 100%;
+    height: 100%;
+    background: white;
+    border: 3px solid #333;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    transition: transform 0.5s;
+}
+
+.dice.rolling {
+    animation: roll-anim 0.2s infinite;
+}
+
+@keyframes roll-anim {
+    0% { transform: rotateX(0deg) rotateY(0deg); }
+    50% { transform: rotateX(180deg) rotateY(90deg); }
+    100% { transform: rotateX(360deg) rotateY(180deg); }
+}
+
+/* Snake and Ladder Board Markers */
+.cell.snake-head::after { content: '🐍'; position: absolute; font-size: 1.5rem; top: 0; right: 0; }
+.cell.ladder-bottom::after { content: '🪜'; position: absolute; font-size: 1.5rem; top: 0; right: 0; }
+
+.cell.win-cell { background: #f1c40f !important; animation: pulse 2s infinite; }
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Board Styling */
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border: 5px solid #333;
+    background: #fff;
+    position: relative;
+}
+
+.cell {
+    aspect-ratio: 1;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+    position: relative;
+}
+
+/* Markers for Snakes and Ladders */
+.cell.snake-head::after {
+    content: '🐍';
+    position: absolute;
+    font-size: 1.2rem;
+    top: -5px;
+}
+
+.cell.ladder-bottom::after {
+    content: '🪜';
+    position: absolute;
+    font-size: 1.2rem;
+    bottom: -5px;
+}
+
+/* Dice Animation */
+.dice-container {
+    background: #2c3e50;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#dice-visual {
+    width: 80px;
+    height: 80px;
+    background: white;
+    color: #333;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+
+.rolling {
+    animation: shake 0.1s infinite;
+    background: #f1c40f !important;
+}
+
+@keyframes shake {
+    0% { transform: translate(2px, 1px) rotate(0deg); }
+    50% { transform: translate(-1px, -2px) rotate(-1deg); }
+    100% { transform: translate(1px, 2px) rotate(1deg); }
+}

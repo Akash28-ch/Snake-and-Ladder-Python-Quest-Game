@@ -1,0 +1,5202 @@
+[
+    {
+        "id": 801,
+        "topic": "Closures",
+        "question": "What allows an inner function to remember variables from an outer function? (Advanced concept 1)",
+        "options": [
+            "A metaclass",
+            "A static method",
+            "A module reload",
+            "A closure"
+        ],
+        "correctAnswer": "A closure",
+        "explanation": "A closure retains references to variables from its enclosing scope."
+    },
+    {
+        "id": 802,
+        "topic": "Context Managers",
+        "question": "Which method is called when entering a with block? (Advanced concept 2)",
+        "options": [
+            "__call__",
+            "__init__",
+            "__enter__",
+            "__start__"
+        ],
+        "correctAnswer": "__enter__",
+        "explanation": "The with statement calls __enter__ at the start and __exit__ at the end."
+    },
+    {
+        "id": 803,
+        "topic": "Context Managers",
+        "question": "Which method receives exception details from a with block? (Advanced concept 3)",
+        "options": [
+            "__del__",
+            "__exit__",
+            "__enter__",
+            "__except__"
+        ],
+        "correctAnswer": "__exit__",
+        "explanation": "__exit__ receives exception type, value, and traceback."
+    },
+    {
+        "id": 804,
+        "topic": "OOP",
+        "question": "Which method customizes instance creation before __init__? (Advanced concept 4)",
+        "options": [
+            "__new__",
+            "__call__",
+            "__prepare__",
+            "__post_init__"
+        ],
+        "correctAnswer": "__new__",
+        "explanation": "__new__ creates the object before __init__ initializes it."
+    },
+    {
+        "id": 805,
+        "topic": "OOP",
+        "question": "What does super() usually follow in Python inheritance? (Advanced concept 5)",
+        "options": [
+            "Alphabetical class order",
+            "File import order",
+            "Object memory address order",
+            "The method resolution order"
+        ],
+        "correctAnswer": "The method resolution order",
+        "explanation": "super() delegates according to the MRO."
+    },
+    {
+        "id": 806,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute access? (Advanced concept 6)",
+        "options": [
+            "__attr__",
+            "__read__",
+            "__get__",
+            "__fetch__"
+        ],
+        "correctAnswer": "__get__",
+        "explanation": "Descriptor __get__ is invoked during managed attribute access."
+    },
+    {
+        "id": 807,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute assignment? (Advanced concept 7)",
+        "options": [
+            "__write__",
+            "__set__",
+            "__assign__",
+            "__put__"
+        ],
+        "correctAnswer": "__set__",
+        "explanation": "Descriptor __set__ is invoked when assigning to a managed attribute."
+    },
+    {
+        "id": 808,
+        "topic": "Dataclasses",
+        "question": "Which decorator generates init and repr methods for simple classes? (Advanced concept 8)",
+        "options": [
+            "@dataclass",
+            "@classmethod",
+            "@property",
+            "@staticmethod"
+        ],
+        "correctAnswer": "@dataclass",
+        "explanation": "dataclasses.dataclass generates common methods from type annotations."
+    },
+    {
+        "id": 809,
+        "topic": "Typing",
+        "question": "What does list[int] describe? (Advanced concept 9)",
+        "options": [
+            "A tuple of integers",
+            "An integer list constructor",
+            "A list index",
+            "A list containing integers"
+        ],
+        "correctAnswer": "A list containing integers",
+        "explanation": "Modern Python supports built-in generic type hints such as list[int]."
+    },
+    {
+        "id": 810,
+        "topic": "Iterators",
+        "question": "Which method returns the next item from an iterator? (Advanced concept 10)",
+        "options": [
+            "__yield__",
+            "__call__",
+            "__next__",
+            "__iter__"
+        ],
+        "correctAnswer": "__next__",
+        "explanation": "next(iterator) calls iterator.__next__()."
+    },
+    {
+        "id": 811,
+        "topic": "Generators",
+        "question": "What exception is raised when a generator is exhausted? (Advanced concept 11)",
+        "options": [
+            "EOFError",
+            "StopIteration",
+            "GeneratorExit",
+            "StopAsyncIteration"
+        ],
+        "correctAnswer": "StopIteration",
+        "explanation": "Synchronous iterators signal exhaustion with StopIteration."
+    },
+    {
+        "id": 812,
+        "topic": "Asyncio",
+        "question": "Which keyword pauses a coroutine until an awaitable completes? (Advanced concept 12)",
+        "options": [
+            "await",
+            "yield",
+            "pause",
+            "async"
+        ],
+        "correctAnswer": "await",
+        "explanation": "await waits for an awaitable inside async code."
+    },
+    {
+        "id": 813,
+        "topic": "Asyncio",
+        "question": "Which keyword defines a coroutine function? (Advanced concept 13)",
+        "options": [
+            "coroutine def",
+            "await def",
+            "defer def",
+            "async def"
+        ],
+        "correctAnswer": "async def",
+        "explanation": "async def defines a coroutine function."
+    },
+    {
+        "id": 814,
+        "topic": "Concurrency",
+        "question": "What is best for CPU-bound parallelism in CPython? (Advanced concept 14)",
+        "options": [
+            "asyncio only",
+            "recursion",
+            "multiprocessing",
+            "threading only"
+        ],
+        "correctAnswer": "multiprocessing",
+        "explanation": "Separate processes can run on multiple CPU cores."
+    },
+    {
+        "id": 815,
+        "topic": "Concurrency",
+        "question": "What does the GIL mainly limit in CPython? (Advanced concept 15)",
+        "options": [
+            "List indexing",
+            "Parallel execution of Python bytecode in threads",
+            "File reading",
+            "Process creation"
+        ],
+        "correctAnswer": "Parallel execution of Python bytecode in threads",
+        "explanation": "The GIL prevents multiple threads from executing Python bytecode simultaneously."
+    },
+    {
+        "id": 816,
+        "topic": "Memory",
+        "question": "Which module can measure current and peak Python memory allocations? (Advanced concept 16)",
+        "options": [
+            "tracemalloc",
+            "timeit",
+            "gcview",
+            "memcache"
+        ],
+        "correctAnswer": "tracemalloc",
+        "explanation": "tracemalloc tracks Python memory allocations."
+    },
+    {
+        "id": 817,
+        "topic": "Performance",
+        "question": "Which module benchmarks small code snippets? (Advanced concept 17)",
+        "options": [
+            "profiled",
+            "clock",
+            "benchmarkit",
+            "timeit"
+        ],
+        "correctAnswer": "timeit",
+        "explanation": "timeit is designed for timing small snippets reliably."
+    },
+    {
+        "id": 818,
+        "topic": "Flask",
+        "question": "Which Flask helper builds URLs by endpoint name? (Advanced concept 18)",
+        "options": [
+            "make_url",
+            "route_to",
+            "url_for",
+            "redirect_for"
+        ],
+        "correctAnswer": "url_for",
+        "explanation": "url_for creates URLs from endpoint names and arguments."
+    },
+    {
+        "id": 819,
+        "topic": "Flask",
+        "question": "Where are query string values stored in Flask request? (Advanced concept 19)",
+        "options": [
+            "request.files",
+            "request.args",
+            "request.form",
+            "request.json"
+        ],
+        "correctAnswer": "request.args",
+        "explanation": "request.args contains URL query parameters."
+    },
+    {
+        "id": 820,
+        "topic": "SQLAlchemy",
+        "question": "What does db.session.commit() do? (Advanced concept 20)",
+        "options": [
+            "Persists pending database changes",
+            "Rolls back changes",
+            "Creates a model class",
+            "Starts Flask"
+        ],
+        "correctAnswer": "Persists pending database changes",
+        "explanation": "commit writes pending session changes to the database."
+    },
+    {
+        "id": 821,
+        "topic": "SQLAlchemy",
+        "question": "What does a one-to-many relationship usually connect? (Advanced concept 21)",
+        "options": [
+            "One column to one type hint",
+            "Many apps to one route",
+            "One function to many decorators",
+            "One parent row to many child rows"
+        ],
+        "correctAnswer": "One parent row to many child rows",
+        "explanation": "One-to-many relationships model parent-child records."
+    },
+    {
+        "id": 822,
+        "topic": "Pandas",
+        "question": "What is a DataFrame? (Advanced concept 22)",
+        "options": [
+            "A Flask request object",
+            "A compiled regex",
+            "A two-dimensional labeled table",
+            "A Python set"
+        ],
+        "correctAnswer": "A two-dimensional labeled table",
+        "explanation": "A DataFrame stores rows and columns with labels."
+    },
+    {
+        "id": 823,
+        "topic": "Pandas",
+        "question": "Which method selects rows by label? (Advanced concept 23)",
+        "options": [
+            "label",
+            "loc",
+            "iloc",
+            "at_index"
+        ],
+        "correctAnswer": "loc",
+        "explanation": "DataFrame.loc selects by labels."
+    },
+    {
+        "id": 824,
+        "topic": "NumPy",
+        "question": "What does broadcasting allow? (Advanced concept 24)",
+        "options": [
+            "Operations on compatible different-shaped arrays",
+            "Automatic web routing",
+            "Database commits",
+            "Thread locking"
+        ],
+        "correctAnswer": "Operations on compatible different-shaped arrays",
+        "explanation": "Broadcasting expands compatible shapes without explicit copies."
+    },
+    {
+        "id": 825,
+        "topic": "NumPy",
+        "question": "What does ndarray.shape describe? (Advanced concept 25)",
+        "options": [
+            "Array data type only",
+            "Array memory address",
+            "Array sorting order",
+            "Array dimensions"
+        ],
+        "correctAnswer": "Array dimensions",
+        "explanation": "shape is a tuple of dimension lengths."
+    },
+    {
+        "id": 826,
+        "topic": "Decorators",
+        "question": "What does a decorator receive first when applied to a function? (Advanced concept 26)",
+        "options": [
+            "Only the function name as text",
+            "The module path",
+            "The function object being decorated",
+            "The function result"
+        ],
+        "correctAnswer": "The function object being decorated",
+        "explanation": "A decorator is called with the original function object and returns a replacement callable."
+    },
+    {
+        "id": 827,
+        "topic": "Closures",
+        "question": "What allows an inner function to remember variables from an outer function? (Advanced concept 27)",
+        "options": [
+            "A module reload",
+            "A closure",
+            "A metaclass",
+            "A static method"
+        ],
+        "correctAnswer": "A closure",
+        "explanation": "A closure retains references to variables from its enclosing scope."
+    },
+    {
+        "id": 828,
+        "topic": "Context Managers",
+        "question": "Which method is called when entering a with block? (Advanced concept 28)",
+        "options": [
+            "__enter__",
+            "__start__",
+            "__call__",
+            "__init__"
+        ],
+        "correctAnswer": "__enter__",
+        "explanation": "The with statement calls __enter__ at the start and __exit__ at the end."
+    },
+    {
+        "id": 829,
+        "topic": "Context Managers",
+        "question": "Which method receives exception details from a with block? (Advanced concept 29)",
+        "options": [
+            "__enter__",
+            "__except__",
+            "__del__",
+            "__exit__"
+        ],
+        "correctAnswer": "__exit__",
+        "explanation": "__exit__ receives exception type, value, and traceback."
+    },
+    {
+        "id": 830,
+        "topic": "OOP",
+        "question": "Which method customizes instance creation before __init__? (Advanced concept 30)",
+        "options": [
+            "__prepare__",
+            "__post_init__",
+            "__new__",
+            "__call__"
+        ],
+        "correctAnswer": "__new__",
+        "explanation": "__new__ creates the object before __init__ initializes it."
+    },
+    {
+        "id": 831,
+        "topic": "OOP",
+        "question": "What does super() usually follow in Python inheritance? (Advanced concept 31)",
+        "options": [
+            "Object memory address order",
+            "The method resolution order",
+            "Alphabetical class order",
+            "File import order"
+        ],
+        "correctAnswer": "The method resolution order",
+        "explanation": "super() delegates according to the MRO."
+    },
+    {
+        "id": 832,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute access? (Advanced concept 32)",
+        "options": [
+            "__get__",
+            "__fetch__",
+            "__attr__",
+            "__read__"
+        ],
+        "correctAnswer": "__get__",
+        "explanation": "Descriptor __get__ is invoked during managed attribute access."
+    },
+    {
+        "id": 833,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute assignment? (Advanced concept 33)",
+        "options": [
+            "__assign__",
+            "__put__",
+            "__write__",
+            "__set__"
+        ],
+        "correctAnswer": "__set__",
+        "explanation": "Descriptor __set__ is invoked when assigning to a managed attribute."
+    },
+    {
+        "id": 834,
+        "topic": "Dataclasses",
+        "question": "Which decorator generates init and repr methods for simple classes? (Advanced concept 34)",
+        "options": [
+            "@property",
+            "@staticmethod",
+            "@dataclass",
+            "@classmethod"
+        ],
+        "correctAnswer": "@dataclass",
+        "explanation": "dataclasses.dataclass generates common methods from type annotations."
+    },
+    {
+        "id": 835,
+        "topic": "Typing",
+        "question": "What does list[int] describe? (Advanced concept 35)",
+        "options": [
+            "A list index",
+            "A list containing integers",
+            "A tuple of integers",
+            "An integer list constructor"
+        ],
+        "correctAnswer": "A list containing integers",
+        "explanation": "Modern Python supports built-in generic type hints such as list[int]."
+    },
+    {
+        "id": 836,
+        "topic": "Iterators",
+        "question": "Which method returns the next item from an iterator? (Advanced concept 36)",
+        "options": [
+            "__next__",
+            "__iter__",
+            "__yield__",
+            "__call__"
+        ],
+        "correctAnswer": "__next__",
+        "explanation": "next(iterator) calls iterator.__next__()."
+    },
+    {
+        "id": 837,
+        "topic": "Generators",
+        "question": "What exception is raised when a generator is exhausted? (Advanced concept 37)",
+        "options": [
+            "GeneratorExit",
+            "StopAsyncIteration",
+            "EOFError",
+            "StopIteration"
+        ],
+        "correctAnswer": "StopIteration",
+        "explanation": "Synchronous iterators signal exhaustion with StopIteration."
+    },
+    {
+        "id": 838,
+        "topic": "Asyncio",
+        "question": "Which keyword pauses a coroutine until an awaitable completes? (Advanced concept 38)",
+        "options": [
+            "pause",
+            "async",
+            "await",
+            "yield"
+        ],
+        "correctAnswer": "await",
+        "explanation": "await waits for an awaitable inside async code."
+    },
+    {
+        "id": 839,
+        "topic": "Asyncio",
+        "question": "Which keyword defines a coroutine function? (Advanced concept 39)",
+        "options": [
+            "defer def",
+            "async def",
+            "coroutine def",
+            "await def"
+        ],
+        "correctAnswer": "async def",
+        "explanation": "async def defines a coroutine function."
+    },
+    {
+        "id": 840,
+        "topic": "Concurrency",
+        "question": "What is best for CPU-bound parallelism in CPython? (Advanced concept 40)",
+        "options": [
+            "multiprocessing",
+            "threading only",
+            "asyncio only",
+            "recursion"
+        ],
+        "correctAnswer": "multiprocessing",
+        "explanation": "Separate processes can run on multiple CPU cores."
+    },
+    {
+        "id": 841,
+        "topic": "Concurrency",
+        "question": "What does the GIL mainly limit in CPython? (Advanced concept 41)",
+        "options": [
+            "File reading",
+            "Process creation",
+            "List indexing",
+            "Parallel execution of Python bytecode in threads"
+        ],
+        "correctAnswer": "Parallel execution of Python bytecode in threads",
+        "explanation": "The GIL prevents multiple threads from executing Python bytecode simultaneously."
+    },
+    {
+        "id": 842,
+        "topic": "Memory",
+        "question": "Which module can measure current and peak Python memory allocations? (Advanced concept 42)",
+        "options": [
+            "gcview",
+            "memcache",
+            "tracemalloc",
+            "timeit"
+        ],
+        "correctAnswer": "tracemalloc",
+        "explanation": "tracemalloc tracks Python memory allocations."
+    },
+    {
+        "id": 843,
+        "topic": "Performance",
+        "question": "Which module benchmarks small code snippets? (Advanced concept 43)",
+        "options": [
+            "benchmarkit",
+            "timeit",
+            "profiled",
+            "clock"
+        ],
+        "correctAnswer": "timeit",
+        "explanation": "timeit is designed for timing small snippets reliably."
+    },
+    {
+        "id": 844,
+        "topic": "Flask",
+        "question": "Which Flask helper builds URLs by endpoint name? (Advanced concept 44)",
+        "options": [
+            "url_for",
+            "redirect_for",
+            "make_url",
+            "route_to"
+        ],
+        "correctAnswer": "url_for",
+        "explanation": "url_for creates URLs from endpoint names and arguments."
+    },
+    {
+        "id": 845,
+        "topic": "Flask",
+        "question": "Where are query string values stored in Flask request? (Advanced concept 45)",
+        "options": [
+            "request.form",
+            "request.json",
+            "request.files",
+            "request.args"
+        ],
+        "correctAnswer": "request.args",
+        "explanation": "request.args contains URL query parameters."
+    },
+    {
+        "id": 846,
+        "topic": "SQLAlchemy",
+        "question": "What does db.session.commit() do? (Advanced concept 46)",
+        "options": [
+            "Creates a model class",
+            "Starts Flask",
+            "Persists pending database changes",
+            "Rolls back changes"
+        ],
+        "correctAnswer": "Persists pending database changes",
+        "explanation": "commit writes pending session changes to the database."
+    },
+    {
+        "id": 847,
+        "topic": "SQLAlchemy",
+        "question": "What does a one-to-many relationship usually connect? (Advanced concept 47)",
+        "options": [
+            "One function to many decorators",
+            "One parent row to many child rows",
+            "One column to one type hint",
+            "Many apps to one route"
+        ],
+        "correctAnswer": "One parent row to many child rows",
+        "explanation": "One-to-many relationships model parent-child records."
+    },
+    {
+        "id": 848,
+        "topic": "Pandas",
+        "question": "What is a DataFrame? (Advanced concept 48)",
+        "options": [
+            "A two-dimensional labeled table",
+            "A Python set",
+            "A Flask request object",
+            "A compiled regex"
+        ],
+        "correctAnswer": "A two-dimensional labeled table",
+        "explanation": "A DataFrame stores rows and columns with labels."
+    },
+    {
+        "id": 849,
+        "topic": "Pandas",
+        "question": "Which method selects rows by label? (Advanced concept 49)",
+        "options": [
+            "iloc",
+            "at_index",
+            "label",
+            "loc"
+        ],
+        "correctAnswer": "loc",
+        "explanation": "DataFrame.loc selects by labels."
+    },
+    {
+        "id": 850,
+        "topic": "NumPy",
+        "question": "What does broadcasting allow? (Advanced concept 50)",
+        "options": [
+            "Database commits",
+            "Thread locking",
+            "Operations on compatible different-shaped arrays",
+            "Automatic web routing"
+        ],
+        "correctAnswer": "Operations on compatible different-shaped arrays",
+        "explanation": "Broadcasting expands compatible shapes without explicit copies."
+    },
+    {
+        "id": 851,
+        "topic": "NumPy",
+        "question": "What does ndarray.shape describe? (Advanced concept 51)",
+        "options": [
+            "Array sorting order",
+            "Array dimensions",
+            "Array data type only",
+            "Array memory address"
+        ],
+        "correctAnswer": "Array dimensions",
+        "explanation": "shape is a tuple of dimension lengths."
+    },
+    {
+        "id": 852,
+        "topic": "Decorators",
+        "question": "What does a decorator receive first when applied to a function? (Advanced concept 52)",
+        "options": [
+            "The function object being decorated",
+            "The function result",
+            "Only the function name as text",
+            "The module path"
+        ],
+        "correctAnswer": "The function object being decorated",
+        "explanation": "A decorator is called with the original function object and returns a replacement callable."
+    },
+    {
+        "id": 853,
+        "topic": "Closures",
+        "question": "What allows an inner function to remember variables from an outer function? (Advanced concept 53)",
+        "options": [
+            "A metaclass",
+            "A static method",
+            "A module reload",
+            "A closure"
+        ],
+        "correctAnswer": "A closure",
+        "explanation": "A closure retains references to variables from its enclosing scope."
+    },
+    {
+        "id": 854,
+        "topic": "Context Managers",
+        "question": "Which method is called when entering a with block? (Advanced concept 54)",
+        "options": [
+            "__call__",
+            "__init__",
+            "__enter__",
+            "__start__"
+        ],
+        "correctAnswer": "__enter__",
+        "explanation": "The with statement calls __enter__ at the start and __exit__ at the end."
+    },
+    {
+        "id": 855,
+        "topic": "Context Managers",
+        "question": "Which method receives exception details from a with block? (Advanced concept 55)",
+        "options": [
+            "__del__",
+            "__exit__",
+            "__enter__",
+            "__except__"
+        ],
+        "correctAnswer": "__exit__",
+        "explanation": "__exit__ receives exception type, value, and traceback."
+    },
+    {
+        "id": 856,
+        "topic": "OOP",
+        "question": "Which method customizes instance creation before __init__? (Advanced concept 56)",
+        "options": [
+            "__new__",
+            "__call__",
+            "__prepare__",
+            "__post_init__"
+        ],
+        "correctAnswer": "__new__",
+        "explanation": "__new__ creates the object before __init__ initializes it."
+    },
+    {
+        "id": 857,
+        "topic": "OOP",
+        "question": "What does super() usually follow in Python inheritance? (Advanced concept 57)",
+        "options": [
+            "Alphabetical class order",
+            "File import order",
+            "Object memory address order",
+            "The method resolution order"
+        ],
+        "correctAnswer": "The method resolution order",
+        "explanation": "super() delegates according to the MRO."
+    },
+    {
+        "id": 858,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute access? (Advanced concept 58)",
+        "options": [
+            "__attr__",
+            "__read__",
+            "__get__",
+            "__fetch__"
+        ],
+        "correctAnswer": "__get__",
+        "explanation": "Descriptor __get__ is invoked during managed attribute access."
+    },
+    {
+        "id": 859,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute assignment? (Advanced concept 59)",
+        "options": [
+            "__write__",
+            "__set__",
+            "__assign__",
+            "__put__"
+        ],
+        "correctAnswer": "__set__",
+        "explanation": "Descriptor __set__ is invoked when assigning to a managed attribute."
+    },
+    {
+        "id": 860,
+        "topic": "Dataclasses",
+        "question": "Which decorator generates init and repr methods for simple classes? (Advanced concept 60)",
+        "options": [
+            "@dataclass",
+            "@classmethod",
+            "@property",
+            "@staticmethod"
+        ],
+        "correctAnswer": "@dataclass",
+        "explanation": "dataclasses.dataclass generates common methods from type annotations."
+    },
+    {
+        "id": 861,
+        "topic": "Typing",
+        "question": "What does list[int] describe? (Advanced concept 61)",
+        "options": [
+            "A tuple of integers",
+            "An integer list constructor",
+            "A list index",
+            "A list containing integers"
+        ],
+        "correctAnswer": "A list containing integers",
+        "explanation": "Modern Python supports built-in generic type hints such as list[int]."
+    },
+    {
+        "id": 862,
+        "topic": "Iterators",
+        "question": "Which method returns the next item from an iterator? (Advanced concept 62)",
+        "options": [
+            "__yield__",
+            "__call__",
+            "__next__",
+            "__iter__"
+        ],
+        "correctAnswer": "__next__",
+        "explanation": "next(iterator) calls iterator.__next__()."
+    },
+    {
+        "id": 863,
+        "topic": "Generators",
+        "question": "What exception is raised when a generator is exhausted? (Advanced concept 63)",
+        "options": [
+            "EOFError",
+            "StopIteration",
+            "GeneratorExit",
+            "StopAsyncIteration"
+        ],
+        "correctAnswer": "StopIteration",
+        "explanation": "Synchronous iterators signal exhaustion with StopIteration."
+    },
+    {
+        "id": 864,
+        "topic": "Asyncio",
+        "question": "Which keyword pauses a coroutine until an awaitable completes? (Advanced concept 64)",
+        "options": [
+            "await",
+            "yield",
+            "pause",
+            "async"
+        ],
+        "correctAnswer": "await",
+        "explanation": "await waits for an awaitable inside async code."
+    },
+    {
+        "id": 865,
+        "topic": "Asyncio",
+        "question": "Which keyword defines a coroutine function? (Advanced concept 65)",
+        "options": [
+            "coroutine def",
+            "await def",
+            "defer def",
+            "async def"
+        ],
+        "correctAnswer": "async def",
+        "explanation": "async def defines a coroutine function."
+    },
+    {
+        "id": 866,
+        "topic": "Concurrency",
+        "question": "What is best for CPU-bound parallelism in CPython? (Advanced concept 66)",
+        "options": [
+            "asyncio only",
+            "recursion",
+            "multiprocessing",
+            "threading only"
+        ],
+        "correctAnswer": "multiprocessing",
+        "explanation": "Separate processes can run on multiple CPU cores."
+    },
+    {
+        "id": 867,
+        "topic": "Concurrency",
+        "question": "What does the GIL mainly limit in CPython? (Advanced concept 67)",
+        "options": [
+            "List indexing",
+            "Parallel execution of Python bytecode in threads",
+            "File reading",
+            "Process creation"
+        ],
+        "correctAnswer": "Parallel execution of Python bytecode in threads",
+        "explanation": "The GIL prevents multiple threads from executing Python bytecode simultaneously."
+    },
+    {
+        "id": 868,
+        "topic": "Memory",
+        "question": "Which module can measure current and peak Python memory allocations? (Advanced concept 68)",
+        "options": [
+            "tracemalloc",
+            "timeit",
+            "gcview",
+            "memcache"
+        ],
+        "correctAnswer": "tracemalloc",
+        "explanation": "tracemalloc tracks Python memory allocations."
+    },
+    {
+        "id": 869,
+        "topic": "Performance",
+        "question": "Which module benchmarks small code snippets? (Advanced concept 69)",
+        "options": [
+            "profiled",
+            "clock",
+            "benchmarkit",
+            "timeit"
+        ],
+        "correctAnswer": "timeit",
+        "explanation": "timeit is designed for timing small snippets reliably."
+    },
+    {
+        "id": 870,
+        "topic": "Flask",
+        "question": "Which Flask helper builds URLs by endpoint name? (Advanced concept 70)",
+        "options": [
+            "make_url",
+            "route_to",
+            "url_for",
+            "redirect_for"
+        ],
+        "correctAnswer": "url_for",
+        "explanation": "url_for creates URLs from endpoint names and arguments."
+    },
+    {
+        "id": 871,
+        "topic": "Flask",
+        "question": "Where are query string values stored in Flask request? (Advanced concept 71)",
+        "options": [
+            "request.files",
+            "request.args",
+            "request.form",
+            "request.json"
+        ],
+        "correctAnswer": "request.args",
+        "explanation": "request.args contains URL query parameters."
+    },
+    {
+        "id": 872,
+        "topic": "SQLAlchemy",
+        "question": "What does db.session.commit() do? (Advanced concept 72)",
+        "options": [
+            "Persists pending database changes",
+            "Rolls back changes",
+            "Creates a model class",
+            "Starts Flask"
+        ],
+        "correctAnswer": "Persists pending database changes",
+        "explanation": "commit writes pending session changes to the database."
+    },
+    {
+        "id": 873,
+        "topic": "SQLAlchemy",
+        "question": "What does a one-to-many relationship usually connect? (Advanced concept 73)",
+        "options": [
+            "One column to one type hint",
+            "Many apps to one route",
+            "One function to many decorators",
+            "One parent row to many child rows"
+        ],
+        "correctAnswer": "One parent row to many child rows",
+        "explanation": "One-to-many relationships model parent-child records."
+    },
+    {
+        "id": 874,
+        "topic": "Pandas",
+        "question": "What is a DataFrame? (Advanced concept 74)",
+        "options": [
+            "A Flask request object",
+            "A compiled regex",
+            "A two-dimensional labeled table",
+            "A Python set"
+        ],
+        "correctAnswer": "A two-dimensional labeled table",
+        "explanation": "A DataFrame stores rows and columns with labels."
+    },
+    {
+        "id": 875,
+        "topic": "Pandas",
+        "question": "Which method selects rows by label? (Advanced concept 75)",
+        "options": [
+            "label",
+            "loc",
+            "iloc",
+            "at_index"
+        ],
+        "correctAnswer": "loc",
+        "explanation": "DataFrame.loc selects by labels."
+    },
+    {
+        "id": 876,
+        "topic": "NumPy",
+        "question": "What does broadcasting allow? (Advanced concept 76)",
+        "options": [
+            "Operations on compatible different-shaped arrays",
+            "Automatic web routing",
+            "Database commits",
+            "Thread locking"
+        ],
+        "correctAnswer": "Operations on compatible different-shaped arrays",
+        "explanation": "Broadcasting expands compatible shapes without explicit copies."
+    },
+    {
+        "id": 877,
+        "topic": "NumPy",
+        "question": "What does ndarray.shape describe? (Advanced concept 77)",
+        "options": [
+            "Array data type only",
+            "Array memory address",
+            "Array sorting order",
+            "Array dimensions"
+        ],
+        "correctAnswer": "Array dimensions",
+        "explanation": "shape is a tuple of dimension lengths."
+    },
+    {
+        "id": 878,
+        "topic": "Decorators",
+        "question": "What does a decorator receive first when applied to a function? (Advanced concept 78)",
+        "options": [
+            "Only the function name as text",
+            "The module path",
+            "The function object being decorated",
+            "The function result"
+        ],
+        "correctAnswer": "The function object being decorated",
+        "explanation": "A decorator is called with the original function object and returns a replacement callable."
+    },
+    {
+        "id": 879,
+        "topic": "Closures",
+        "question": "What allows an inner function to remember variables from an outer function? (Advanced concept 79)",
+        "options": [
+            "A module reload",
+            "A closure",
+            "A metaclass",
+            "A static method"
+        ],
+        "correctAnswer": "A closure",
+        "explanation": "A closure retains references to variables from its enclosing scope."
+    },
+    {
+        "id": 880,
+        "topic": "Context Managers",
+        "question": "Which method is called when entering a with block? (Advanced concept 80)",
+        "options": [
+            "__enter__",
+            "__start__",
+            "__call__",
+            "__init__"
+        ],
+        "correctAnswer": "__enter__",
+        "explanation": "The with statement calls __enter__ at the start and __exit__ at the end."
+    },
+    {
+        "id": 881,
+        "topic": "Context Managers",
+        "question": "Which method receives exception details from a with block? (Advanced concept 81)",
+        "options": [
+            "__enter__",
+            "__except__",
+            "__del__",
+            "__exit__"
+        ],
+        "correctAnswer": "__exit__",
+        "explanation": "__exit__ receives exception type, value, and traceback."
+    },
+    {
+        "id": 882,
+        "topic": "OOP",
+        "question": "Which method customizes instance creation before __init__? (Advanced concept 82)",
+        "options": [
+            "__prepare__",
+            "__post_init__",
+            "__new__",
+            "__call__"
+        ],
+        "correctAnswer": "__new__",
+        "explanation": "__new__ creates the object before __init__ initializes it."
+    },
+    {
+        "id": 883,
+        "topic": "OOP",
+        "question": "What does super() usually follow in Python inheritance? (Advanced concept 83)",
+        "options": [
+            "Object memory address order",
+            "The method resolution order",
+            "Alphabetical class order",
+            "File import order"
+        ],
+        "correctAnswer": "The method resolution order",
+        "explanation": "super() delegates according to the MRO."
+    },
+    {
+        "id": 884,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute access? (Advanced concept 84)",
+        "options": [
+            "__get__",
+            "__fetch__",
+            "__attr__",
+            "__read__"
+        ],
+        "correctAnswer": "__get__",
+        "explanation": "Descriptor __get__ is invoked during managed attribute access."
+    },
+    {
+        "id": 885,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute assignment? (Advanced concept 85)",
+        "options": [
+            "__assign__",
+            "__put__",
+            "__write__",
+            "__set__"
+        ],
+        "correctAnswer": "__set__",
+        "explanation": "Descriptor __set__ is invoked when assigning to a managed attribute."
+    },
+    {
+        "id": 886,
+        "topic": "Dataclasses",
+        "question": "Which decorator generates init and repr methods for simple classes? (Advanced concept 86)",
+        "options": [
+            "@property",
+            "@staticmethod",
+            "@dataclass",
+            "@classmethod"
+        ],
+        "correctAnswer": "@dataclass",
+        "explanation": "dataclasses.dataclass generates common methods from type annotations."
+    },
+    {
+        "id": 887,
+        "topic": "Typing",
+        "question": "What does list[int] describe? (Advanced concept 87)",
+        "options": [
+            "A list index",
+            "A list containing integers",
+            "A tuple of integers",
+            "An integer list constructor"
+        ],
+        "correctAnswer": "A list containing integers",
+        "explanation": "Modern Python supports built-in generic type hints such as list[int]."
+    },
+    {
+        "id": 888,
+        "topic": "Iterators",
+        "question": "Which method returns the next item from an iterator? (Advanced concept 88)",
+        "options": [
+            "__next__",
+            "__iter__",
+            "__yield__",
+            "__call__"
+        ],
+        "correctAnswer": "__next__",
+        "explanation": "next(iterator) calls iterator.__next__()."
+    },
+    {
+        "id": 889,
+        "topic": "Generators",
+        "question": "What exception is raised when a generator is exhausted? (Advanced concept 89)",
+        "options": [
+            "GeneratorExit",
+            "StopAsyncIteration",
+            "EOFError",
+            "StopIteration"
+        ],
+        "correctAnswer": "StopIteration",
+        "explanation": "Synchronous iterators signal exhaustion with StopIteration."
+    },
+    {
+        "id": 890,
+        "topic": "Asyncio",
+        "question": "Which keyword pauses a coroutine until an awaitable completes? (Advanced concept 90)",
+        "options": [
+            "pause",
+            "async",
+            "await",
+            "yield"
+        ],
+        "correctAnswer": "await",
+        "explanation": "await waits for an awaitable inside async code."
+    },
+    {
+        "id": 891,
+        "topic": "Asyncio",
+        "question": "Which keyword defines a coroutine function? (Advanced concept 91)",
+        "options": [
+            "defer def",
+            "async def",
+            "coroutine def",
+            "await def"
+        ],
+        "correctAnswer": "async def",
+        "explanation": "async def defines a coroutine function."
+    },
+    {
+        "id": 892,
+        "topic": "Concurrency",
+        "question": "What is best for CPU-bound parallelism in CPython? (Advanced concept 92)",
+        "options": [
+            "multiprocessing",
+            "threading only",
+            "asyncio only",
+            "recursion"
+        ],
+        "correctAnswer": "multiprocessing",
+        "explanation": "Separate processes can run on multiple CPU cores."
+    },
+    {
+        "id": 893,
+        "topic": "Concurrency",
+        "question": "What does the GIL mainly limit in CPython? (Advanced concept 93)",
+        "options": [
+            "File reading",
+            "Process creation",
+            "List indexing",
+            "Parallel execution of Python bytecode in threads"
+        ],
+        "correctAnswer": "Parallel execution of Python bytecode in threads",
+        "explanation": "The GIL prevents multiple threads from executing Python bytecode simultaneously."
+    },
+    {
+        "id": 894,
+        "topic": "Memory",
+        "question": "Which module can measure current and peak Python memory allocations? (Advanced concept 94)",
+        "options": [
+            "gcview",
+            "memcache",
+            "tracemalloc",
+            "timeit"
+        ],
+        "correctAnswer": "tracemalloc",
+        "explanation": "tracemalloc tracks Python memory allocations."
+    },
+    {
+        "id": 895,
+        "topic": "Performance",
+        "question": "Which module benchmarks small code snippets? (Advanced concept 95)",
+        "options": [
+            "benchmarkit",
+            "timeit",
+            "profiled",
+            "clock"
+        ],
+        "correctAnswer": "timeit",
+        "explanation": "timeit is designed for timing small snippets reliably."
+    },
+    {
+        "id": 896,
+        "topic": "Flask",
+        "question": "Which Flask helper builds URLs by endpoint name? (Advanced concept 96)",
+        "options": [
+            "url_for",
+            "redirect_for",
+            "make_url",
+            "route_to"
+        ],
+        "correctAnswer": "url_for",
+        "explanation": "url_for creates URLs from endpoint names and arguments."
+    },
+    {
+        "id": 897,
+        "topic": "Flask",
+        "question": "Where are query string values stored in Flask request? (Advanced concept 97)",
+        "options": [
+            "request.form",
+            "request.json",
+            "request.files",
+            "request.args"
+        ],
+        "correctAnswer": "request.args",
+        "explanation": "request.args contains URL query parameters."
+    },
+    {
+        "id": 898,
+        "topic": "SQLAlchemy",
+        "question": "What does db.session.commit() do? (Advanced concept 98)",
+        "options": [
+            "Creates a model class",
+            "Starts Flask",
+            "Persists pending database changes",
+            "Rolls back changes"
+        ],
+        "correctAnswer": "Persists pending database changes",
+        "explanation": "commit writes pending session changes to the database."
+    },
+    {
+        "id": 899,
+        "topic": "SQLAlchemy",
+        "question": "What does a one-to-many relationship usually connect? (Advanced concept 99)",
+        "options": [
+            "One function to many decorators",
+            "One parent row to many child rows",
+            "One column to one type hint",
+            "Many apps to one route"
+        ],
+        "correctAnswer": "One parent row to many child rows",
+        "explanation": "One-to-many relationships model parent-child records."
+    },
+    {
+        "id": 900,
+        "topic": "Pandas",
+        "question": "What is a DataFrame? (Advanced concept 100)",
+        "options": [
+            "A two-dimensional labeled table",
+            "A Python set",
+            "A Flask request object",
+            "A compiled regex"
+        ],
+        "correctAnswer": "A two-dimensional labeled table",
+        "explanation": "A DataFrame stores rows and columns with labels."
+    },
+    {
+        "id": 901,
+        "topic": "Pandas",
+        "question": "Which method selects rows by label? (Advanced concept 101)",
+        "options": [
+            "iloc",
+            "at_index",
+            "label",
+            "loc"
+        ],
+        "correctAnswer": "loc",
+        "explanation": "DataFrame.loc selects by labels."
+    },
+    {
+        "id": 902,
+        "topic": "NumPy",
+        "question": "What does broadcasting allow? (Advanced concept 102)",
+        "options": [
+            "Database commits",
+            "Thread locking",
+            "Operations on compatible different-shaped arrays",
+            "Automatic web routing"
+        ],
+        "correctAnswer": "Operations on compatible different-shaped arrays",
+        "explanation": "Broadcasting expands compatible shapes without explicit copies."
+    },
+    {
+        "id": 903,
+        "topic": "NumPy",
+        "question": "What does ndarray.shape describe? (Advanced concept 103)",
+        "options": [
+            "Array sorting order",
+            "Array dimensions",
+            "Array data type only",
+            "Array memory address"
+        ],
+        "correctAnswer": "Array dimensions",
+        "explanation": "shape is a tuple of dimension lengths."
+    },
+    {
+        "id": 904,
+        "topic": "Decorators",
+        "question": "What does a decorator receive first when applied to a function? (Advanced concept 104)",
+        "options": [
+            "The function object being decorated",
+            "The function result",
+            "Only the function name as text",
+            "The module path"
+        ],
+        "correctAnswer": "The function object being decorated",
+        "explanation": "A decorator is called with the original function object and returns a replacement callable."
+    },
+    {
+        "id": 905,
+        "topic": "Closures",
+        "question": "What allows an inner function to remember variables from an outer function? (Advanced concept 105)",
+        "options": [
+            "A metaclass",
+            "A static method",
+            "A module reload",
+            "A closure"
+        ],
+        "correctAnswer": "A closure",
+        "explanation": "A closure retains references to variables from its enclosing scope."
+    },
+    {
+        "id": 906,
+        "topic": "Context Managers",
+        "question": "Which method is called when entering a with block? (Advanced concept 106)",
+        "options": [
+            "__call__",
+            "__init__",
+            "__enter__",
+            "__start__"
+        ],
+        "correctAnswer": "__enter__",
+        "explanation": "The with statement calls __enter__ at the start and __exit__ at the end."
+    },
+    {
+        "id": 907,
+        "topic": "Context Managers",
+        "question": "Which method receives exception details from a with block? (Advanced concept 107)",
+        "options": [
+            "__del__",
+            "__exit__",
+            "__enter__",
+            "__except__"
+        ],
+        "correctAnswer": "__exit__",
+        "explanation": "__exit__ receives exception type, value, and traceback."
+    },
+    {
+        "id": 908,
+        "topic": "OOP",
+        "question": "Which method customizes instance creation before __init__? (Advanced concept 108)",
+        "options": [
+            "__new__",
+            "__call__",
+            "__prepare__",
+            "__post_init__"
+        ],
+        "correctAnswer": "__new__",
+        "explanation": "__new__ creates the object before __init__ initializes it."
+    },
+    {
+        "id": 909,
+        "topic": "OOP",
+        "question": "What does super() usually follow in Python inheritance? (Advanced concept 109)",
+        "options": [
+            "Alphabetical class order",
+            "File import order",
+            "Object memory address order",
+            "The method resolution order"
+        ],
+        "correctAnswer": "The method resolution order",
+        "explanation": "super() delegates according to the MRO."
+    },
+    {
+        "id": 910,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute access? (Advanced concept 110)",
+        "options": [
+            "__attr__",
+            "__read__",
+            "__get__",
+            "__fetch__"
+        ],
+        "correctAnswer": "__get__",
+        "explanation": "Descriptor __get__ is invoked during managed attribute access."
+    },
+    {
+        "id": 911,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute assignment? (Advanced concept 111)",
+        "options": [
+            "__write__",
+            "__set__",
+            "__assign__",
+            "__put__"
+        ],
+        "correctAnswer": "__set__",
+        "explanation": "Descriptor __set__ is invoked when assigning to a managed attribute."
+    },
+    {
+        "id": 912,
+        "topic": "Dataclasses",
+        "question": "Which decorator generates init and repr methods for simple classes? (Advanced concept 112)",
+        "options": [
+            "@dataclass",
+            "@classmethod",
+            "@property",
+            "@staticmethod"
+        ],
+        "correctAnswer": "@dataclass",
+        "explanation": "dataclasses.dataclass generates common methods from type annotations."
+    },
+    {
+        "id": 913,
+        "topic": "Typing",
+        "question": "What does list[int] describe? (Advanced concept 113)",
+        "options": [
+            "A tuple of integers",
+            "An integer list constructor",
+            "A list index",
+            "A list containing integers"
+        ],
+        "correctAnswer": "A list containing integers",
+        "explanation": "Modern Python supports built-in generic type hints such as list[int]."
+    },
+    {
+        "id": 914,
+        "topic": "Iterators",
+        "question": "Which method returns the next item from an iterator? (Advanced concept 114)",
+        "options": [
+            "__yield__",
+            "__call__",
+            "__next__",
+            "__iter__"
+        ],
+        "correctAnswer": "__next__",
+        "explanation": "next(iterator) calls iterator.__next__()."
+    },
+    {
+        "id": 915,
+        "topic": "Generators",
+        "question": "What exception is raised when a generator is exhausted? (Advanced concept 115)",
+        "options": [
+            "EOFError",
+            "StopIteration",
+            "GeneratorExit",
+            "StopAsyncIteration"
+        ],
+        "correctAnswer": "StopIteration",
+        "explanation": "Synchronous iterators signal exhaustion with StopIteration."
+    },
+    {
+        "id": 916,
+        "topic": "Asyncio",
+        "question": "Which keyword pauses a coroutine until an awaitable completes? (Advanced concept 116)",
+        "options": [
+            "await",
+            "yield",
+            "pause",
+            "async"
+        ],
+        "correctAnswer": "await",
+        "explanation": "await waits for an awaitable inside async code."
+    },
+    {
+        "id": 917,
+        "topic": "Asyncio",
+        "question": "Which keyword defines a coroutine function? (Advanced concept 117)",
+        "options": [
+            "coroutine def",
+            "await def",
+            "defer def",
+            "async def"
+        ],
+        "correctAnswer": "async def",
+        "explanation": "async def defines a coroutine function."
+    },
+    {
+        "id": 918,
+        "topic": "Concurrency",
+        "question": "What is best for CPU-bound parallelism in CPython? (Advanced concept 118)",
+        "options": [
+            "asyncio only",
+            "recursion",
+            "multiprocessing",
+            "threading only"
+        ],
+        "correctAnswer": "multiprocessing",
+        "explanation": "Separate processes can run on multiple CPU cores."
+    },
+    {
+        "id": 919,
+        "topic": "Concurrency",
+        "question": "What does the GIL mainly limit in CPython? (Advanced concept 119)",
+        "options": [
+            "List indexing",
+            "Parallel execution of Python bytecode in threads",
+            "File reading",
+            "Process creation"
+        ],
+        "correctAnswer": "Parallel execution of Python bytecode in threads",
+        "explanation": "The GIL prevents multiple threads from executing Python bytecode simultaneously."
+    },
+    {
+        "id": 920,
+        "topic": "Memory",
+        "question": "Which module can measure current and peak Python memory allocations? (Advanced concept 120)",
+        "options": [
+            "tracemalloc",
+            "timeit",
+            "gcview",
+            "memcache"
+        ],
+        "correctAnswer": "tracemalloc",
+        "explanation": "tracemalloc tracks Python memory allocations."
+    },
+    {
+        "id": 921,
+        "topic": "Performance",
+        "question": "Which module benchmarks small code snippets? (Advanced concept 121)",
+        "options": [
+            "profiled",
+            "clock",
+            "benchmarkit",
+            "timeit"
+        ],
+        "correctAnswer": "timeit",
+        "explanation": "timeit is designed for timing small snippets reliably."
+    },
+    {
+        "id": 922,
+        "topic": "Flask",
+        "question": "Which Flask helper builds URLs by endpoint name? (Advanced concept 122)",
+        "options": [
+            "make_url",
+            "route_to",
+            "url_for",
+            "redirect_for"
+        ],
+        "correctAnswer": "url_for",
+        "explanation": "url_for creates URLs from endpoint names and arguments."
+    },
+    {
+        "id": 923,
+        "topic": "Flask",
+        "question": "Where are query string values stored in Flask request? (Advanced concept 123)",
+        "options": [
+            "request.files",
+            "request.args",
+            "request.form",
+            "request.json"
+        ],
+        "correctAnswer": "request.args",
+        "explanation": "request.args contains URL query parameters."
+    },
+    {
+        "id": 924,
+        "topic": "SQLAlchemy",
+        "question": "What does db.session.commit() do? (Advanced concept 124)",
+        "options": [
+            "Persists pending database changes",
+            "Rolls back changes",
+            "Creates a model class",
+            "Starts Flask"
+        ],
+        "correctAnswer": "Persists pending database changes",
+        "explanation": "commit writes pending session changes to the database."
+    },
+    {
+        "id": 925,
+        "topic": "SQLAlchemy",
+        "question": "What does a one-to-many relationship usually connect? (Advanced concept 125)",
+        "options": [
+            "One column to one type hint",
+            "Many apps to one route",
+            "One function to many decorators",
+            "One parent row to many child rows"
+        ],
+        "correctAnswer": "One parent row to many child rows",
+        "explanation": "One-to-many relationships model parent-child records."
+    },
+    {
+        "id": 926,
+        "topic": "Pandas",
+        "question": "What is a DataFrame? (Advanced concept 126)",
+        "options": [
+            "A Flask request object",
+            "A compiled regex",
+            "A two-dimensional labeled table",
+            "A Python set"
+        ],
+        "correctAnswer": "A two-dimensional labeled table",
+        "explanation": "A DataFrame stores rows and columns with labels."
+    },
+    {
+        "id": 927,
+        "topic": "Pandas",
+        "question": "Which method selects rows by label? (Advanced concept 127)",
+        "options": [
+            "label",
+            "loc",
+            "iloc",
+            "at_index"
+        ],
+        "correctAnswer": "loc",
+        "explanation": "DataFrame.loc selects by labels."
+    },
+    {
+        "id": 928,
+        "topic": "NumPy",
+        "question": "What does broadcasting allow? (Advanced concept 128)",
+        "options": [
+            "Operations on compatible different-shaped arrays",
+            "Automatic web routing",
+            "Database commits",
+            "Thread locking"
+        ],
+        "correctAnswer": "Operations on compatible different-shaped arrays",
+        "explanation": "Broadcasting expands compatible shapes without explicit copies."
+    },
+    {
+        "id": 929,
+        "topic": "NumPy",
+        "question": "What does ndarray.shape describe? (Advanced concept 129)",
+        "options": [
+            "Array data type only",
+            "Array memory address",
+            "Array sorting order",
+            "Array dimensions"
+        ],
+        "correctAnswer": "Array dimensions",
+        "explanation": "shape is a tuple of dimension lengths."
+    },
+    {
+        "id": 930,
+        "topic": "Decorators",
+        "question": "What does a decorator receive first when applied to a function? (Advanced concept 130)",
+        "options": [
+            "Only the function name as text",
+            "The module path",
+            "The function object being decorated",
+            "The function result"
+        ],
+        "correctAnswer": "The function object being decorated",
+        "explanation": "A decorator is called with the original function object and returns a replacement callable."
+    },
+    {
+        "id": 931,
+        "topic": "Closures",
+        "question": "What allows an inner function to remember variables from an outer function? (Advanced concept 131)",
+        "options": [
+            "A module reload",
+            "A closure",
+            "A metaclass",
+            "A static method"
+        ],
+        "correctAnswer": "A closure",
+        "explanation": "A closure retains references to variables from its enclosing scope."
+    },
+    {
+        "id": 932,
+        "topic": "Context Managers",
+        "question": "Which method is called when entering a with block? (Advanced concept 132)",
+        "options": [
+            "__enter__",
+            "__start__",
+            "__call__",
+            "__init__"
+        ],
+        "correctAnswer": "__enter__",
+        "explanation": "The with statement calls __enter__ at the start and __exit__ at the end."
+    },
+    {
+        "id": 933,
+        "topic": "Context Managers",
+        "question": "Which method receives exception details from a with block? (Advanced concept 133)",
+        "options": [
+            "__enter__",
+            "__except__",
+            "__del__",
+            "__exit__"
+        ],
+        "correctAnswer": "__exit__",
+        "explanation": "__exit__ receives exception type, value, and traceback."
+    },
+    {
+        "id": 934,
+        "topic": "OOP",
+        "question": "Which method customizes instance creation before __init__? (Advanced concept 134)",
+        "options": [
+            "__prepare__",
+            "__post_init__",
+            "__new__",
+            "__call__"
+        ],
+        "correctAnswer": "__new__",
+        "explanation": "__new__ creates the object before __init__ initializes it."
+    },
+    {
+        "id": 935,
+        "topic": "OOP",
+        "question": "What does super() usually follow in Python inheritance? (Advanced concept 135)",
+        "options": [
+            "Object memory address order",
+            "The method resolution order",
+            "Alphabetical class order",
+            "File import order"
+        ],
+        "correctAnswer": "The method resolution order",
+        "explanation": "super() delegates according to the MRO."
+    },
+    {
+        "id": 936,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute access? (Advanced concept 136)",
+        "options": [
+            "__get__",
+            "__fetch__",
+            "__attr__",
+            "__read__"
+        ],
+        "correctAnswer": "__get__",
+        "explanation": "Descriptor __get__ is invoked during managed attribute access."
+    },
+    {
+        "id": 937,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute assignment? (Advanced concept 137)",
+        "options": [
+            "__assign__",
+            "__put__",
+            "__write__",
+            "__set__"
+        ],
+        "correctAnswer": "__set__",
+        "explanation": "Descriptor __set__ is invoked when assigning to a managed attribute."
+    },
+    {
+        "id": 938,
+        "topic": "Dataclasses",
+        "question": "Which decorator generates init and repr methods for simple classes? (Advanced concept 138)",
+        "options": [
+            "@property",
+            "@staticmethod",
+            "@dataclass",
+            "@classmethod"
+        ],
+        "correctAnswer": "@dataclass",
+        "explanation": "dataclasses.dataclass generates common methods from type annotations."
+    },
+    {
+        "id": 939,
+        "topic": "Typing",
+        "question": "What does list[int] describe? (Advanced concept 139)",
+        "options": [
+            "A list index",
+            "A list containing integers",
+            "A tuple of integers",
+            "An integer list constructor"
+        ],
+        "correctAnswer": "A list containing integers",
+        "explanation": "Modern Python supports built-in generic type hints such as list[int]."
+    },
+    {
+        "id": 940,
+        "topic": "Iterators",
+        "question": "Which method returns the next item from an iterator? (Advanced concept 140)",
+        "options": [
+            "__next__",
+            "__iter__",
+            "__yield__",
+            "__call__"
+        ],
+        "correctAnswer": "__next__",
+        "explanation": "next(iterator) calls iterator.__next__()."
+    },
+    {
+        "id": 941,
+        "topic": "Generators",
+        "question": "What exception is raised when a generator is exhausted? (Advanced concept 141)",
+        "options": [
+            "GeneratorExit",
+            "StopAsyncIteration",
+            "EOFError",
+            "StopIteration"
+        ],
+        "correctAnswer": "StopIteration",
+        "explanation": "Synchronous iterators signal exhaustion with StopIteration."
+    },
+    {
+        "id": 942,
+        "topic": "Asyncio",
+        "question": "Which keyword pauses a coroutine until an awaitable completes? (Advanced concept 142)",
+        "options": [
+            "pause",
+            "async",
+            "await",
+            "yield"
+        ],
+        "correctAnswer": "await",
+        "explanation": "await waits for an awaitable inside async code."
+    },
+    {
+        "id": 943,
+        "topic": "Asyncio",
+        "question": "Which keyword defines a coroutine function? (Advanced concept 143)",
+        "options": [
+            "defer def",
+            "async def",
+            "coroutine def",
+            "await def"
+        ],
+        "correctAnswer": "async def",
+        "explanation": "async def defines a coroutine function."
+    },
+    {
+        "id": 944,
+        "topic": "Concurrency",
+        "question": "What is best for CPU-bound parallelism in CPython? (Advanced concept 144)",
+        "options": [
+            "multiprocessing",
+            "threading only",
+            "asyncio only",
+            "recursion"
+        ],
+        "correctAnswer": "multiprocessing",
+        "explanation": "Separate processes can run on multiple CPU cores."
+    },
+    {
+        "id": 945,
+        "topic": "Concurrency",
+        "question": "What does the GIL mainly limit in CPython? (Advanced concept 145)",
+        "options": [
+            "File reading",
+            "Process creation",
+            "List indexing",
+            "Parallel execution of Python bytecode in threads"
+        ],
+        "correctAnswer": "Parallel execution of Python bytecode in threads",
+        "explanation": "The GIL prevents multiple threads from executing Python bytecode simultaneously."
+    },
+    {
+        "id": 946,
+        "topic": "Memory",
+        "question": "Which module can measure current and peak Python memory allocations? (Advanced concept 146)",
+        "options": [
+            "gcview",
+            "memcache",
+            "tracemalloc",
+            "timeit"
+        ],
+        "correctAnswer": "tracemalloc",
+        "explanation": "tracemalloc tracks Python memory allocations."
+    },
+    {
+        "id": 947,
+        "topic": "Performance",
+        "question": "Which module benchmarks small code snippets? (Advanced concept 147)",
+        "options": [
+            "benchmarkit",
+            "timeit",
+            "profiled",
+            "clock"
+        ],
+        "correctAnswer": "timeit",
+        "explanation": "timeit is designed for timing small snippets reliably."
+    },
+    {
+        "id": 948,
+        "topic": "Flask",
+        "question": "Which Flask helper builds URLs by endpoint name? (Advanced concept 148)",
+        "options": [
+            "url_for",
+            "redirect_for",
+            "make_url",
+            "route_to"
+        ],
+        "correctAnswer": "url_for",
+        "explanation": "url_for creates URLs from endpoint names and arguments."
+    },
+    {
+        "id": 949,
+        "topic": "Flask",
+        "question": "Where are query string values stored in Flask request? (Advanced concept 149)",
+        "options": [
+            "request.form",
+            "request.json",
+            "request.files",
+            "request.args"
+        ],
+        "correctAnswer": "request.args",
+        "explanation": "request.args contains URL query parameters."
+    },
+    {
+        "id": 950,
+        "topic": "SQLAlchemy",
+        "question": "What does db.session.commit() do? (Advanced concept 150)",
+        "options": [
+            "Creates a model class",
+            "Starts Flask",
+            "Persists pending database changes",
+            "Rolls back changes"
+        ],
+        "correctAnswer": "Persists pending database changes",
+        "explanation": "commit writes pending session changes to the database."
+    },
+    {
+        "id": 951,
+        "topic": "SQLAlchemy",
+        "question": "What does a one-to-many relationship usually connect? (Advanced concept 151)",
+        "options": [
+            "One function to many decorators",
+            "One parent row to many child rows",
+            "One column to one type hint",
+            "Many apps to one route"
+        ],
+        "correctAnswer": "One parent row to many child rows",
+        "explanation": "One-to-many relationships model parent-child records."
+    },
+    {
+        "id": 952,
+        "topic": "Pandas",
+        "question": "What is a DataFrame? (Advanced concept 152)",
+        "options": [
+            "A two-dimensional labeled table",
+            "A Python set",
+            "A Flask request object",
+            "A compiled regex"
+        ],
+        "correctAnswer": "A two-dimensional labeled table",
+        "explanation": "A DataFrame stores rows and columns with labels."
+    },
+    {
+        "id": 953,
+        "topic": "Pandas",
+        "question": "Which method selects rows by label? (Advanced concept 153)",
+        "options": [
+            "iloc",
+            "at_index",
+            "label",
+            "loc"
+        ],
+        "correctAnswer": "loc",
+        "explanation": "DataFrame.loc selects by labels."
+    },
+    {
+        "id": 954,
+        "topic": "NumPy",
+        "question": "What does broadcasting allow? (Advanced concept 154)",
+        "options": [
+            "Database commits",
+            "Thread locking",
+            "Operations on compatible different-shaped arrays",
+            "Automatic web routing"
+        ],
+        "correctAnswer": "Operations on compatible different-shaped arrays",
+        "explanation": "Broadcasting expands compatible shapes without explicit copies."
+    },
+    {
+        "id": 955,
+        "topic": "NumPy",
+        "question": "What does ndarray.shape describe? (Advanced concept 155)",
+        "options": [
+            "Array sorting order",
+            "Array dimensions",
+            "Array data type only",
+            "Array memory address"
+        ],
+        "correctAnswer": "Array dimensions",
+        "explanation": "shape is a tuple of dimension lengths."
+    },
+    {
+        "id": 956,
+        "topic": "Decorators",
+        "question": "What does a decorator receive first when applied to a function? (Advanced concept 156)",
+        "options": [
+            "The function object being decorated",
+            "The function result",
+            "Only the function name as text",
+            "The module path"
+        ],
+        "correctAnswer": "The function object being decorated",
+        "explanation": "A decorator is called with the original function object and returns a replacement callable."
+    },
+    {
+        "id": 957,
+        "topic": "Closures",
+        "question": "What allows an inner function to remember variables from an outer function? (Advanced concept 157)",
+        "options": [
+            "A metaclass",
+            "A static method",
+            "A module reload",
+            "A closure"
+        ],
+        "correctAnswer": "A closure",
+        "explanation": "A closure retains references to variables from its enclosing scope."
+    },
+    {
+        "id": 958,
+        "topic": "Context Managers",
+        "question": "Which method is called when entering a with block? (Advanced concept 158)",
+        "options": [
+            "__call__",
+            "__init__",
+            "__enter__",
+            "__start__"
+        ],
+        "correctAnswer": "__enter__",
+        "explanation": "The with statement calls __enter__ at the start and __exit__ at the end."
+    },
+    {
+        "id": 959,
+        "topic": "Context Managers",
+        "question": "Which method receives exception details from a with block? (Advanced concept 159)",
+        "options": [
+            "__del__",
+            "__exit__",
+            "__enter__",
+            "__except__"
+        ],
+        "correctAnswer": "__exit__",
+        "explanation": "__exit__ receives exception type, value, and traceback."
+    },
+    {
+        "id": 960,
+        "topic": "OOP",
+        "question": "Which method customizes instance creation before __init__? (Advanced concept 160)",
+        "options": [
+            "__new__",
+            "__call__",
+            "__prepare__",
+            "__post_init__"
+        ],
+        "correctAnswer": "__new__",
+        "explanation": "__new__ creates the object before __init__ initializes it."
+    },
+    {
+        "id": 961,
+        "topic": "OOP",
+        "question": "What does super() usually follow in Python inheritance? (Advanced concept 161)",
+        "options": [
+            "Alphabetical class order",
+            "File import order",
+            "Object memory address order",
+            "The method resolution order"
+        ],
+        "correctAnswer": "The method resolution order",
+        "explanation": "super() delegates according to the MRO."
+    },
+    {
+        "id": 962,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute access? (Advanced concept 162)",
+        "options": [
+            "__attr__",
+            "__read__",
+            "__get__",
+            "__fetch__"
+        ],
+        "correctAnswer": "__get__",
+        "explanation": "Descriptor __get__ is invoked during managed attribute access."
+    },
+    {
+        "id": 963,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute assignment? (Advanced concept 163)",
+        "options": [
+            "__write__",
+            "__set__",
+            "__assign__",
+            "__put__"
+        ],
+        "correctAnswer": "__set__",
+        "explanation": "Descriptor __set__ is invoked when assigning to a managed attribute."
+    },
+    {
+        "id": 964,
+        "topic": "Dataclasses",
+        "question": "Which decorator generates init and repr methods for simple classes? (Advanced concept 164)",
+        "options": [
+            "@dataclass",
+            "@classmethod",
+            "@property",
+            "@staticmethod"
+        ],
+        "correctAnswer": "@dataclass",
+        "explanation": "dataclasses.dataclass generates common methods from type annotations."
+    },
+    {
+        "id": 965,
+        "topic": "Typing",
+        "question": "What does list[int] describe? (Advanced concept 165)",
+        "options": [
+            "A tuple of integers",
+            "An integer list constructor",
+            "A list index",
+            "A list containing integers"
+        ],
+        "correctAnswer": "A list containing integers",
+        "explanation": "Modern Python supports built-in generic type hints such as list[int]."
+    },
+    {
+        "id": 966,
+        "topic": "Iterators",
+        "question": "Which method returns the next item from an iterator? (Advanced concept 166)",
+        "options": [
+            "__yield__",
+            "__call__",
+            "__next__",
+            "__iter__"
+        ],
+        "correctAnswer": "__next__",
+        "explanation": "next(iterator) calls iterator.__next__()."
+    },
+    {
+        "id": 967,
+        "topic": "Generators",
+        "question": "What exception is raised when a generator is exhausted? (Advanced concept 167)",
+        "options": [
+            "EOFError",
+            "StopIteration",
+            "GeneratorExit",
+            "StopAsyncIteration"
+        ],
+        "correctAnswer": "StopIteration",
+        "explanation": "Synchronous iterators signal exhaustion with StopIteration."
+    },
+    {
+        "id": 968,
+        "topic": "Asyncio",
+        "question": "Which keyword pauses a coroutine until an awaitable completes? (Advanced concept 168)",
+        "options": [
+            "await",
+            "yield",
+            "pause",
+            "async"
+        ],
+        "correctAnswer": "await",
+        "explanation": "await waits for an awaitable inside async code."
+    },
+    {
+        "id": 969,
+        "topic": "Asyncio",
+        "question": "Which keyword defines a coroutine function? (Advanced concept 169)",
+        "options": [
+            "coroutine def",
+            "await def",
+            "defer def",
+            "async def"
+        ],
+        "correctAnswer": "async def",
+        "explanation": "async def defines a coroutine function."
+    },
+    {
+        "id": 970,
+        "topic": "Concurrency",
+        "question": "What is best for CPU-bound parallelism in CPython? (Advanced concept 170)",
+        "options": [
+            "asyncio only",
+            "recursion",
+            "multiprocessing",
+            "threading only"
+        ],
+        "correctAnswer": "multiprocessing",
+        "explanation": "Separate processes can run on multiple CPU cores."
+    },
+    {
+        "id": 971,
+        "topic": "Concurrency",
+        "question": "What does the GIL mainly limit in CPython? (Advanced concept 171)",
+        "options": [
+            "List indexing",
+            "Parallel execution of Python bytecode in threads",
+            "File reading",
+            "Process creation"
+        ],
+        "correctAnswer": "Parallel execution of Python bytecode in threads",
+        "explanation": "The GIL prevents multiple threads from executing Python bytecode simultaneously."
+    },
+    {
+        "id": 972,
+        "topic": "Memory",
+        "question": "Which module can measure current and peak Python memory allocations? (Advanced concept 172)",
+        "options": [
+            "tracemalloc",
+            "timeit",
+            "gcview",
+            "memcache"
+        ],
+        "correctAnswer": "tracemalloc",
+        "explanation": "tracemalloc tracks Python memory allocations."
+    },
+    {
+        "id": 973,
+        "topic": "Performance",
+        "question": "Which module benchmarks small code snippets? (Advanced concept 173)",
+        "options": [
+            "profiled",
+            "clock",
+            "benchmarkit",
+            "timeit"
+        ],
+        "correctAnswer": "timeit",
+        "explanation": "timeit is designed for timing small snippets reliably."
+    },
+    {
+        "id": 974,
+        "topic": "Flask",
+        "question": "Which Flask helper builds URLs by endpoint name? (Advanced concept 174)",
+        "options": [
+            "make_url",
+            "route_to",
+            "url_for",
+            "redirect_for"
+        ],
+        "correctAnswer": "url_for",
+        "explanation": "url_for creates URLs from endpoint names and arguments."
+    },
+    {
+        "id": 975,
+        "topic": "Flask",
+        "question": "Where are query string values stored in Flask request? (Advanced concept 175)",
+        "options": [
+            "request.files",
+            "request.args",
+            "request.form",
+            "request.json"
+        ],
+        "correctAnswer": "request.args",
+        "explanation": "request.args contains URL query parameters."
+    },
+    {
+        "id": 976,
+        "topic": "SQLAlchemy",
+        "question": "What does db.session.commit() do? (Advanced concept 176)",
+        "options": [
+            "Persists pending database changes",
+            "Rolls back changes",
+            "Creates a model class",
+            "Starts Flask"
+        ],
+        "correctAnswer": "Persists pending database changes",
+        "explanation": "commit writes pending session changes to the database."
+    },
+    {
+        "id": 977,
+        "topic": "SQLAlchemy",
+        "question": "What does a one-to-many relationship usually connect? (Advanced concept 177)",
+        "options": [
+            "One column to one type hint",
+            "Many apps to one route",
+            "One function to many decorators",
+            "One parent row to many child rows"
+        ],
+        "correctAnswer": "One parent row to many child rows",
+        "explanation": "One-to-many relationships model parent-child records."
+    },
+    {
+        "id": 978,
+        "topic": "Pandas",
+        "question": "What is a DataFrame? (Advanced concept 178)",
+        "options": [
+            "A Flask request object",
+            "A compiled regex",
+            "A two-dimensional labeled table",
+            "A Python set"
+        ],
+        "correctAnswer": "A two-dimensional labeled table",
+        "explanation": "A DataFrame stores rows and columns with labels."
+    },
+    {
+        "id": 979,
+        "topic": "Pandas",
+        "question": "Which method selects rows by label? (Advanced concept 179)",
+        "options": [
+            "label",
+            "loc",
+            "iloc",
+            "at_index"
+        ],
+        "correctAnswer": "loc",
+        "explanation": "DataFrame.loc selects by labels."
+    },
+    {
+        "id": 980,
+        "topic": "NumPy",
+        "question": "What does broadcasting allow? (Advanced concept 180)",
+        "options": [
+            "Operations on compatible different-shaped arrays",
+            "Automatic web routing",
+            "Database commits",
+            "Thread locking"
+        ],
+        "correctAnswer": "Operations on compatible different-shaped arrays",
+        "explanation": "Broadcasting expands compatible shapes without explicit copies."
+    },
+    {
+        "id": 981,
+        "topic": "NumPy",
+        "question": "What does ndarray.shape describe? (Advanced concept 181)",
+        "options": [
+            "Array data type only",
+            "Array memory address",
+            "Array sorting order",
+            "Array dimensions"
+        ],
+        "correctAnswer": "Array dimensions",
+        "explanation": "shape is a tuple of dimension lengths."
+    },
+    {
+        "id": 982,
+        "topic": "Decorators",
+        "question": "What does a decorator receive first when applied to a function? (Advanced concept 182)",
+        "options": [
+            "Only the function name as text",
+            "The module path",
+            "The function object being decorated",
+            "The function result"
+        ],
+        "correctAnswer": "The function object being decorated",
+        "explanation": "A decorator is called with the original function object and returns a replacement callable."
+    },
+    {
+        "id": 983,
+        "topic": "Closures",
+        "question": "What allows an inner function to remember variables from an outer function? (Advanced concept 183)",
+        "options": [
+            "A module reload",
+            "A closure",
+            "A metaclass",
+            "A static method"
+        ],
+        "correctAnswer": "A closure",
+        "explanation": "A closure retains references to variables from its enclosing scope."
+    },
+    {
+        "id": 984,
+        "topic": "Context Managers",
+        "question": "Which method is called when entering a with block? (Advanced concept 184)",
+        "options": [
+            "__enter__",
+            "__start__",
+            "__call__",
+            "__init__"
+        ],
+        "correctAnswer": "__enter__",
+        "explanation": "The with statement calls __enter__ at the start and __exit__ at the end."
+    },
+    {
+        "id": 985,
+        "topic": "Context Managers",
+        "question": "Which method receives exception details from a with block? (Advanced concept 185)",
+        "options": [
+            "__enter__",
+            "__except__",
+            "__del__",
+            "__exit__"
+        ],
+        "correctAnswer": "__exit__",
+        "explanation": "__exit__ receives exception type, value, and traceback."
+    },
+    {
+        "id": 986,
+        "topic": "OOP",
+        "question": "Which method customizes instance creation before __init__? (Advanced concept 186)",
+        "options": [
+            "__prepare__",
+            "__post_init__",
+            "__new__",
+            "__call__"
+        ],
+        "correctAnswer": "__new__",
+        "explanation": "__new__ creates the object before __init__ initializes it."
+    },
+    {
+        "id": 987,
+        "topic": "OOP",
+        "question": "What does super() usually follow in Python inheritance? (Advanced concept 187)",
+        "options": [
+            "Object memory address order",
+            "The method resolution order",
+            "Alphabetical class order",
+            "File import order"
+        ],
+        "correctAnswer": "The method resolution order",
+        "explanation": "super() delegates according to the MRO."
+    },
+    {
+        "id": 988,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute access? (Advanced concept 188)",
+        "options": [
+            "__get__",
+            "__fetch__",
+            "__attr__",
+            "__read__"
+        ],
+        "correctAnswer": "__get__",
+        "explanation": "Descriptor __get__ is invoked during managed attribute access."
+    },
+    {
+        "id": 989,
+        "topic": "Descriptors",
+        "question": "Which descriptor method handles attribute assignment? (Advanced concept 189)",
+        "options": [
+            "__assign__",
+            "__put__",
+            "__write__",
+            "__set__"
+        ],
+        "correctAnswer": "__set__",
+        "explanation": "Descriptor __set__ is invoked when assigning to a managed attribute."
+    },
+    {
+        "id": 990,
+        "topic": "Dataclasses",
+        "question": "Which decorator generates init and repr methods for simple classes? (Advanced concept 190)",
+        "options": [
+            "@property",
+            "@staticmethod",
+            "@dataclass",
+            "@classmethod"
+        ],
+        "correctAnswer": "@dataclass",
+        "explanation": "dataclasses.dataclass generates common methods from type annotations."
+    },
+    {
+        "id": 991,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=2 and later adds 5?",
+        "options": [
+            "10",
+            "7",
+            "2",
+            "5"
+        ],
+        "correctAnswer": "7",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 992,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=3 and later adds 5?",
+        "options": [
+            "8",
+            "3",
+            "5",
+            "15"
+        ],
+        "correctAnswer": "8",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 993,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=4 and later adds 5?",
+        "options": [
+            "4",
+            "5",
+            "20",
+            "9"
+        ],
+        "correctAnswer": "9",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 994,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=5 and later adds 5?",
+        "options": [
+            "25",
+            "Raises an error",
+            "10",
+            "5"
+        ],
+        "correctAnswer": "10",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 995,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=6 and later adds 5?",
+        "options": [
+            "30",
+            "11",
+            "6",
+            "5"
+        ],
+        "correctAnswer": "11",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 996,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=7 and later adds 5?",
+        "options": [
+            "12",
+            "7",
+            "5",
+            "35"
+        ],
+        "correctAnswer": "12",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 997,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=8 and later adds 5?",
+        "options": [
+            "8",
+            "5",
+            "40",
+            "13"
+        ],
+        "correctAnswer": "13",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 998,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=9 and later adds 5?",
+        "options": [
+            "5",
+            "45",
+            "14",
+            "9"
+        ],
+        "correctAnswer": "14",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 999,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=10 and later adds 5?",
+        "options": [
+            "50",
+            "15",
+            "10",
+            "5"
+        ],
+        "correctAnswer": "15",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1000,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=11 and later adds 5?",
+        "options": [
+            "16",
+            "11",
+            "5",
+            "55"
+        ],
+        "correctAnswer": "16",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1001,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=12 and later adds 5?",
+        "options": [
+            "12",
+            "5",
+            "60",
+            "17"
+        ],
+        "correctAnswer": "17",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1002,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=13 and later adds 5?",
+        "options": [
+            "5",
+            "65",
+            "18",
+            "13"
+        ],
+        "correctAnswer": "18",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1003,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=14 and later adds 5?",
+        "options": [
+            "70",
+            "19",
+            "14",
+            "5"
+        ],
+        "correctAnswer": "19",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1004,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=15 and later adds 5?",
+        "options": [
+            "20",
+            "15",
+            "5",
+            "75"
+        ],
+        "correctAnswer": "20",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1005,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=16 and later adds 5?",
+        "options": [
+            "16",
+            "5",
+            "80",
+            "21"
+        ],
+        "correctAnswer": "21",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1006,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=17 and later adds 5?",
+        "options": [
+            "5",
+            "85",
+            "22",
+            "17"
+        ],
+        "correctAnswer": "22",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1007,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=18 and later adds 5?",
+        "options": [
+            "90",
+            "23",
+            "18",
+            "5"
+        ],
+        "correctAnswer": "23",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1008,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=19 and later adds 5?",
+        "options": [
+            "24",
+            "19",
+            "5",
+            "95"
+        ],
+        "correctAnswer": "24",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1009,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=20 and later adds 5?",
+        "options": [
+            "20",
+            "5",
+            "100",
+            "25"
+        ],
+        "correctAnswer": "25",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1010,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=21 and later adds 5?",
+        "options": [
+            "5",
+            "105",
+            "26",
+            "21"
+        ],
+        "correctAnswer": "26",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1011,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=22 and later adds 5?",
+        "options": [
+            "110",
+            "27",
+            "22",
+            "5"
+        ],
+        "correctAnswer": "27",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1012,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=23 and later adds 5?",
+        "options": [
+            "28",
+            "23",
+            "5",
+            "115"
+        ],
+        "correctAnswer": "28",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1013,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=24 and later adds 5?",
+        "options": [
+            "24",
+            "5",
+            "120",
+            "29"
+        ],
+        "correctAnswer": "29",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1014,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=25 and later adds 5?",
+        "options": [
+            "5",
+            "125",
+            "30",
+            "25"
+        ],
+        "correctAnswer": "30",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1015,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=26 and later adds 5?",
+        "options": [
+            "130",
+            "31",
+            "26",
+            "5"
+        ],
+        "correctAnswer": "31",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1016,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=27 and later adds 5?",
+        "options": [
+            "32",
+            "27",
+            "5",
+            "135"
+        ],
+        "correctAnswer": "32",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1017,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=28 and later adds 5?",
+        "options": [
+            "28",
+            "5",
+            "140",
+            "33"
+        ],
+        "correctAnswer": "33",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1018,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=29 and later adds 5?",
+        "options": [
+            "5",
+            "145",
+            "34",
+            "29"
+        ],
+        "correctAnswer": "34",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1019,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=30 and later adds 5?",
+        "options": [
+            "150",
+            "35",
+            "30",
+            "5"
+        ],
+        "correctAnswer": "35",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1020,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=31 and later adds 5?",
+        "options": [
+            "36",
+            "31",
+            "5",
+            "155"
+        ],
+        "correctAnswer": "36",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1021,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=32 and later adds 5?",
+        "options": [
+            "32",
+            "5",
+            "160",
+            "37"
+        ],
+        "correctAnswer": "37",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1022,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=33 and later adds 5?",
+        "options": [
+            "5",
+            "165",
+            "38",
+            "33"
+        ],
+        "correctAnswer": "38",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1023,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=34 and later adds 5?",
+        "options": [
+            "170",
+            "39",
+            "34",
+            "5"
+        ],
+        "correctAnswer": "39",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1024,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=35 and later adds 5?",
+        "options": [
+            "40",
+            "35",
+            "5",
+            "175"
+        ],
+        "correctAnswer": "40",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1025,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=36 and later adds 5?",
+        "options": [
+            "36",
+            "5",
+            "180",
+            "41"
+        ],
+        "correctAnswer": "41",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1026,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=37 and later adds 5?",
+        "options": [
+            "5",
+            "185",
+            "42",
+            "37"
+        ],
+        "correctAnswer": "42",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1027,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=38 and later adds 5?",
+        "options": [
+            "190",
+            "43",
+            "38",
+            "5"
+        ],
+        "correctAnswer": "43",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1028,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=39 and later adds 5?",
+        "options": [
+            "44",
+            "39",
+            "5",
+            "195"
+        ],
+        "correctAnswer": "44",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1029,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=40 and later adds 5?",
+        "options": [
+            "40",
+            "5",
+            "200",
+            "45"
+        ],
+        "correctAnswer": "45",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1030,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=41 and later adds 5?",
+        "options": [
+            "5",
+            "205",
+            "46",
+            "41"
+        ],
+        "correctAnswer": "46",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1031,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=42 and later adds 5?",
+        "options": [
+            "210",
+            "47",
+            "42",
+            "5"
+        ],
+        "correctAnswer": "47",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1032,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=43 and later adds 5?",
+        "options": [
+            "48",
+            "43",
+            "5",
+            "215"
+        ],
+        "correctAnswer": "48",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1033,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=44 and later adds 5?",
+        "options": [
+            "44",
+            "5",
+            "220",
+            "49"
+        ],
+        "correctAnswer": "49",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1034,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=45 and later adds 5?",
+        "options": [
+            "5",
+            "225",
+            "50",
+            "45"
+        ],
+        "correctAnswer": "50",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1035,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=46 and later adds 5?",
+        "options": [
+            "230",
+            "51",
+            "46",
+            "5"
+        ],
+        "correctAnswer": "51",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1036,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=47 and later adds 5?",
+        "options": [
+            "52",
+            "47",
+            "5",
+            "235"
+        ],
+        "correctAnswer": "52",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1037,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=48 and later adds 5?",
+        "options": [
+            "48",
+            "5",
+            "240",
+            "53"
+        ],
+        "correctAnswer": "53",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1038,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=49 and later adds 5?",
+        "options": [
+            "5",
+            "245",
+            "54",
+            "49"
+        ],
+        "correctAnswer": "54",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1039,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=50 and later adds 5?",
+        "options": [
+            "250",
+            "55",
+            "50",
+            "5"
+        ],
+        "correctAnswer": "55",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1040,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=51 and later adds 5?",
+        "options": [
+            "56",
+            "51",
+            "5",
+            "255"
+        ],
+        "correctAnswer": "56",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1041,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=52 and later adds 5?",
+        "options": [
+            "52",
+            "5",
+            "260",
+            "57"
+        ],
+        "correctAnswer": "57",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1042,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=53 and later adds 5?",
+        "options": [
+            "5",
+            "265",
+            "58",
+            "53"
+        ],
+        "correctAnswer": "58",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1043,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=54 and later adds 5?",
+        "options": [
+            "270",
+            "59",
+            "54",
+            "5"
+        ],
+        "correctAnswer": "59",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1044,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=55 and later adds 5?",
+        "options": [
+            "60",
+            "55",
+            "5",
+            "275"
+        ],
+        "correctAnswer": "60",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1045,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=56 and later adds 5?",
+        "options": [
+            "56",
+            "5",
+            "280",
+            "61"
+        ],
+        "correctAnswer": "61",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1046,
+        "topic": "Closures",
+        "question": "What is returned by a closure that captures base=57 and later adds 5?",
+        "options": [
+            "5",
+            "285",
+            "62",
+            "57"
+        ],
+        "correctAnswer": "62",
+        "explanation": "The inner function remembers base and adds the later argument."
+    },
+    {
+        "id": 1047,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [3, 4, 5, 6, 7] if x % 2)?",
+        "options": [
+            "5",
+            "83",
+            "25",
+            "135"
+        ],
+        "correctAnswer": "83",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1048,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [4, 5, 6, 7, 8] if x % 2)?",
+        "options": [
+            "74",
+            "30",
+            "190",
+            "5"
+        ],
+        "correctAnswer": "74",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1049,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [5, 6, 7, 8, 9] if x % 2)?",
+        "options": [
+            "35",
+            "255",
+            "5",
+            "155"
+        ],
+        "correctAnswer": "155",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1050,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [6, 7, 8, 9, 10] if x % 2)?",
+        "options": [
+            "330",
+            "5",
+            "130",
+            "40"
+        ],
+        "correctAnswer": "130",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1051,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [7, 8, 9, 10, 11] if x % 2)?",
+        "options": [
+            "5",
+            "251",
+            "45",
+            "415"
+        ],
+        "correctAnswer": "251",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1052,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [8, 9, 10, 11, 12] if x % 2)?",
+        "options": [
+            "202",
+            "50",
+            "510",
+            "5"
+        ],
+        "correctAnswer": "202",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1053,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [9, 10, 11, 12, 13] if x % 2)?",
+        "options": [
+            "55",
+            "615",
+            "5",
+            "371"
+        ],
+        "correctAnswer": "371",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1054,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [10, 11, 12, 13, 14] if x % 2)?",
+        "options": [
+            "730",
+            "5",
+            "290",
+            "60"
+        ],
+        "correctAnswer": "290",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1055,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [11, 12, 13, 14, 15] if x % 2)?",
+        "options": [
+            "5",
+            "515",
+            "65",
+            "855"
+        ],
+        "correctAnswer": "515",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1056,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [12, 13, 14, 15, 16] if x % 2)?",
+        "options": [
+            "394",
+            "70",
+            "990",
+            "5"
+        ],
+        "correctAnswer": "394",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1057,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [13, 14, 15, 16, 17] if x % 2)?",
+        "options": [
+            "75",
+            "1135",
+            "5",
+            "683"
+        ],
+        "correctAnswer": "683",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1058,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [14, 15, 16, 17, 18] if x % 2)?",
+        "options": [
+            "1290",
+            "5",
+            "514",
+            "80"
+        ],
+        "correctAnswer": "514",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1059,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [15, 16, 17, 18, 19] if x % 2)?",
+        "options": [
+            "5",
+            "875",
+            "85",
+            "1455"
+        ],
+        "correctAnswer": "875",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1060,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [16, 17, 18, 19, 20] if x % 2)?",
+        "options": [
+            "650",
+            "90",
+            "1630",
+            "5"
+        ],
+        "correctAnswer": "650",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1061,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [17, 18, 19, 20, 21] if x % 2)?",
+        "options": [
+            "95",
+            "1815",
+            "5",
+            "1091"
+        ],
+        "correctAnswer": "1091",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1062,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [18, 19, 20, 21, 22] if x % 2)?",
+        "options": [
+            "2010",
+            "5",
+            "802",
+            "100"
+        ],
+        "correctAnswer": "802",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1063,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [19, 20, 21, 22, 23] if x % 2)?",
+        "options": [
+            "5",
+            "1331",
+            "105",
+            "2215"
+        ],
+        "correctAnswer": "1331",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1064,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [20, 21, 22, 23, 24] if x % 2)?",
+        "options": [
+            "970",
+            "110",
+            "2430",
+            "5"
+        ],
+        "correctAnswer": "970",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1065,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [21, 22, 23, 24, 25] if x % 2)?",
+        "options": [
+            "115",
+            "2655",
+            "5",
+            "1595"
+        ],
+        "correctAnswer": "1595",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1066,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [22, 23, 24, 25, 26] if x % 2)?",
+        "options": [
+            "2890",
+            "5",
+            "1154",
+            "120"
+        ],
+        "correctAnswer": "1154",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1067,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [23, 24, 25, 26, 27] if x % 2)?",
+        "options": [
+            "5",
+            "1883",
+            "125",
+            "3135"
+        ],
+        "correctAnswer": "1883",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1068,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [24, 25, 26, 27, 28] if x % 2)?",
+        "options": [
+            "1354",
+            "130",
+            "3390",
+            "5"
+        ],
+        "correctAnswer": "1354",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1069,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [25, 26, 27, 28, 29] if x % 2)?",
+        "options": [
+            "135",
+            "3655",
+            "5",
+            "2195"
+        ],
+        "correctAnswer": "2195",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1070,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [26, 27, 28, 29, 30] if x % 2)?",
+        "options": [
+            "3930",
+            "5",
+            "1570",
+            "140"
+        ],
+        "correctAnswer": "1570",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1071,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [27, 28, 29, 30, 31] if x % 2)?",
+        "options": [
+            "5",
+            "2531",
+            "145",
+            "4215"
+        ],
+        "correctAnswer": "2531",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1072,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [28, 29, 30, 31, 32] if x % 2)?",
+        "options": [
+            "1802",
+            "150",
+            "4510",
+            "5"
+        ],
+        "correctAnswer": "1802",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1073,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [29, 30, 31, 32, 33] if x % 2)?",
+        "options": [
+            "155",
+            "4815",
+            "5",
+            "2891"
+        ],
+        "correctAnswer": "2891",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1074,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [30, 31, 32, 33, 34] if x % 2)?",
+        "options": [
+            "5130",
+            "5",
+            "2050",
+            "160"
+        ],
+        "correctAnswer": "2050",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1075,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [31, 32, 33, 34, 35] if x % 2)?",
+        "options": [
+            "5",
+            "3275",
+            "165",
+            "5455"
+        ],
+        "correctAnswer": "3275",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1076,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [32, 33, 34, 35, 36] if x % 2)?",
+        "options": [
+            "2314",
+            "170",
+            "5790",
+            "5"
+        ],
+        "correctAnswer": "2314",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1077,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [33, 34, 35, 36, 37] if x % 2)?",
+        "options": [
+            "175",
+            "6135",
+            "5",
+            "3683"
+        ],
+        "correctAnswer": "3683",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1078,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [34, 35, 36, 37, 38] if x % 2)?",
+        "options": [
+            "6490",
+            "5",
+            "2594",
+            "180"
+        ],
+        "correctAnswer": "2594",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1079,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [35, 36, 37, 38, 39] if x % 2)?",
+        "options": [
+            "5",
+            "4115",
+            "185",
+            "6855"
+        ],
+        "correctAnswer": "4115",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1080,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [36, 37, 38, 39, 40] if x % 2)?",
+        "options": [
+            "2890",
+            "190",
+            "7230",
+            "5"
+        ],
+        "correctAnswer": "2890",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1081,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [37, 38, 39, 40, 41] if x % 2)?",
+        "options": [
+            "195",
+            "7615",
+            "5",
+            "4571"
+        ],
+        "correctAnswer": "4571",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1082,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [38, 39, 40, 41, 42] if x % 2)?",
+        "options": [
+            "8010",
+            "5",
+            "3202",
+            "200"
+        ],
+        "correctAnswer": "3202",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1083,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [39, 40, 41, 42, 43] if x % 2)?",
+        "options": [
+            "5",
+            "5051",
+            "205",
+            "8415"
+        ],
+        "correctAnswer": "5051",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1084,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [40, 41, 42, 43, 44] if x % 2)?",
+        "options": [
+            "3530",
+            "210",
+            "8830",
+            "5"
+        ],
+        "correctAnswer": "3530",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1085,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [41, 42, 43, 44, 45] if x % 2)?",
+        "options": [
+            "215",
+            "9255",
+            "5",
+            "5555"
+        ],
+        "correctAnswer": "5555",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1086,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [42, 43, 44, 45, 46] if x % 2)?",
+        "options": [
+            "9690",
+            "5",
+            "3874",
+            "220"
+        ],
+        "correctAnswer": "3874",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1087,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [43, 44, 45, 46, 47] if x % 2)?",
+        "options": [
+            "5",
+            "6083",
+            "225",
+            "10135"
+        ],
+        "correctAnswer": "6083",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1088,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [44, 45, 46, 47, 48] if x % 2)?",
+        "options": [
+            "4234",
+            "230",
+            "10590",
+            "5"
+        ],
+        "correctAnswer": "4234",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1089,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [45, 46, 47, 48, 49] if x % 2)?",
+        "options": [
+            "235",
+            "11055",
+            "5",
+            "6635"
+        ],
+        "correctAnswer": "6635",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1090,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [46, 47, 48, 49, 50] if x % 2)?",
+        "options": [
+            "11530",
+            "5",
+            "4610",
+            "240"
+        ],
+        "correctAnswer": "4610",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1091,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [47, 48, 49, 50, 51] if x % 2)?",
+        "options": [
+            "5",
+            "7211",
+            "245",
+            "12015"
+        ],
+        "correctAnswer": "7211",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1092,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [48, 49, 50, 51, 52] if x % 2)?",
+        "options": [
+            "5002",
+            "250",
+            "12510",
+            "5"
+        ],
+        "correctAnswer": "5002",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1093,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [49, 50, 51, 52, 53] if x % 2)?",
+        "options": [
+            "255",
+            "13015",
+            "5",
+            "7811"
+        ],
+        "correctAnswer": "7811",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1094,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [50, 51, 52, 53, 54] if x % 2)?",
+        "options": [
+            "13530",
+            "5",
+            "5410",
+            "260"
+        ],
+        "correctAnswer": "5410",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1095,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [51, 52, 53, 54, 55] if x % 2)?",
+        "options": [
+            "5",
+            "8435",
+            "265",
+            "14055"
+        ],
+        "correctAnswer": "8435",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1096,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [52, 53, 54, 55, 56] if x % 2)?",
+        "options": [
+            "5834",
+            "270",
+            "14590",
+            "5"
+        ],
+        "correctAnswer": "5834",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1097,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [53, 54, 55, 56, 57] if x % 2)?",
+        "options": [
+            "275",
+            "15135",
+            "5",
+            "9083"
+        ],
+        "correctAnswer": "9083",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1098,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [54, 55, 56, 57, 58] if x % 2)?",
+        "options": [
+            "15690",
+            "5",
+            "6274",
+            "280"
+        ],
+        "correctAnswer": "6274",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1099,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [55, 56, 57, 58, 59] if x % 2)?",
+        "options": [
+            "5",
+            "9755",
+            "285",
+            "16255"
+        ],
+        "correctAnswer": "9755",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1100,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [56, 57, 58, 59, 60] if x % 2)?",
+        "options": [
+            "6730",
+            "290",
+            "16830",
+            "5"
+        ],
+        "correctAnswer": "6730",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1101,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [57, 58, 59, 60, 61] if x % 2)?",
+        "options": [
+            "295",
+            "17415",
+            "5",
+            "10451"
+        ],
+        "correctAnswer": "10451",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1102,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [58, 59, 60, 61, 62] if x % 2)?",
+        "options": [
+            "18010",
+            "5",
+            "7202",
+            "300"
+        ],
+        "correctAnswer": "7202",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1103,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [59, 60, 61, 62, 63] if x % 2)?",
+        "options": [
+            "5",
+            "11171",
+            "305",
+            "18615"
+        ],
+        "correctAnswer": "11171",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1104,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [60, 61, 62, 63, 64] if x % 2)?",
+        "options": [
+            "7690",
+            "310",
+            "19230",
+            "5"
+        ],
+        "correctAnswer": "7690",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1105,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [61, 62, 63, 64, 65] if x % 2)?",
+        "options": [
+            "315",
+            "19855",
+            "5",
+            "11915"
+        ],
+        "correctAnswer": "11915",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1106,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [62, 63, 64, 65, 66] if x % 2)?",
+        "options": [
+            "20490",
+            "5",
+            "8194",
+            "320"
+        ],
+        "correctAnswer": "8194",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1107,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [63, 64, 65, 66, 67] if x % 2)?",
+        "options": [
+            "5",
+            "12683",
+            "325",
+            "21135"
+        ],
+        "correctAnswer": "12683",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1108,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [64, 65, 66, 67, 68] if x % 2)?",
+        "options": [
+            "8714",
+            "330",
+            "21790",
+            "5"
+        ],
+        "correctAnswer": "8714",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1109,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [65, 66, 67, 68, 69] if x % 2)?",
+        "options": [
+            "335",
+            "22455",
+            "5",
+            "13475"
+        ],
+        "correctAnswer": "13475",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1110,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [66, 67, 68, 69, 70] if x % 2)?",
+        "options": [
+            "23130",
+            "5",
+            "9250",
+            "340"
+        ],
+        "correctAnswer": "9250",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1111,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [67, 68, 69, 70, 71] if x % 2)?",
+        "options": [
+            "5",
+            "14291",
+            "345",
+            "23815"
+        ],
+        "correctAnswer": "14291",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1112,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [68, 69, 70, 71, 72] if x % 2)?",
+        "options": [
+            "9802",
+            "350",
+            "24510",
+            "5"
+        ],
+        "correctAnswer": "9802",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1113,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [69, 70, 71, 72, 73] if x % 2)?",
+        "options": [
+            "355",
+            "25215",
+            "5",
+            "15131"
+        ],
+        "correctAnswer": "15131",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1114,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [70, 71, 72, 73, 74] if x % 2)?",
+        "options": [
+            "25930",
+            "5",
+            "10370",
+            "360"
+        ],
+        "correctAnswer": "10370",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1115,
+        "topic": "Generator Expressions",
+        "question": "What is sum(x*x for x in [71, 72, 73, 74, 75] if x % 2)?",
+        "options": [
+            "5",
+            "15995",
+            "365",
+            "26655"
+        ],
+        "correctAnswer": "15995",
+        "explanation": "The generator squares only odd values, then sum() adds them."
+    },
+    {
+        "id": 1116,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-1', what does obj.name evaluate to?",
+        "options": [
+            "value-1",
+            "name-1",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-1",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1117,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-2', what does obj.name evaluate to?",
+        "options": [
+            "name-2",
+            "property object",
+            "None",
+            "value-2"
+        ],
+        "correctAnswer": "value-2",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1118,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-3', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-3",
+            "name-3"
+        ],
+        "correctAnswer": "value-3",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1119,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-4', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-4",
+            "name-4",
+            "property object"
+        ],
+        "correctAnswer": "value-4",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1120,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-5', what does obj.name evaluate to?",
+        "options": [
+            "value-5",
+            "name-5",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-5",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1121,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-6', what does obj.name evaluate to?",
+        "options": [
+            "name-6",
+            "property object",
+            "None",
+            "value-6"
+        ],
+        "correctAnswer": "value-6",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1122,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-7', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-7",
+            "name-7"
+        ],
+        "correctAnswer": "value-7",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1123,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-8', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-8",
+            "name-8",
+            "property object"
+        ],
+        "correctAnswer": "value-8",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1124,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-9', what does obj.name evaluate to?",
+        "options": [
+            "value-9",
+            "name-9",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-9",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1125,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-10', what does obj.name evaluate to?",
+        "options": [
+            "name-10",
+            "property object",
+            "None",
+            "value-10"
+        ],
+        "correctAnswer": "value-10",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1126,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-11', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-11",
+            "name-11"
+        ],
+        "correctAnswer": "value-11",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1127,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-12', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-12",
+            "name-12",
+            "property object"
+        ],
+        "correctAnswer": "value-12",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1128,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-13', what does obj.name evaluate to?",
+        "options": [
+            "value-13",
+            "name-13",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-13",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1129,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-14', what does obj.name evaluate to?",
+        "options": [
+            "name-14",
+            "property object",
+            "None",
+            "value-14"
+        ],
+        "correctAnswer": "value-14",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1130,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-15', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-15",
+            "name-15"
+        ],
+        "correctAnswer": "value-15",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1131,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-16', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-16",
+            "name-16",
+            "property object"
+        ],
+        "correctAnswer": "value-16",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1132,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-17', what does obj.name evaluate to?",
+        "options": [
+            "value-17",
+            "name-17",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-17",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1133,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-18', what does obj.name evaluate to?",
+        "options": [
+            "name-18",
+            "property object",
+            "None",
+            "value-18"
+        ],
+        "correctAnswer": "value-18",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1134,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-19', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-19",
+            "name-19"
+        ],
+        "correctAnswer": "value-19",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1135,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-20', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-20",
+            "name-20",
+            "property object"
+        ],
+        "correctAnswer": "value-20",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1136,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-21', what does obj.name evaluate to?",
+        "options": [
+            "value-21",
+            "name-21",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-21",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1137,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-22', what does obj.name evaluate to?",
+        "options": [
+            "name-22",
+            "property object",
+            "None",
+            "value-22"
+        ],
+        "correctAnswer": "value-22",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1138,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-23', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-23",
+            "name-23"
+        ],
+        "correctAnswer": "value-23",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1139,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-24', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-24",
+            "name-24",
+            "property object"
+        ],
+        "correctAnswer": "value-24",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1140,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-25', what does obj.name evaluate to?",
+        "options": [
+            "value-25",
+            "name-25",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-25",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1141,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-26', what does obj.name evaluate to?",
+        "options": [
+            "name-26",
+            "property object",
+            "None",
+            "value-26"
+        ],
+        "correctAnswer": "value-26",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1142,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-27', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-27",
+            "name-27"
+        ],
+        "correctAnswer": "value-27",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1143,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-28', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-28",
+            "name-28",
+            "property object"
+        ],
+        "correctAnswer": "value-28",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1144,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-29', what does obj.name evaluate to?",
+        "options": [
+            "value-29",
+            "name-29",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-29",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1145,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-30', what does obj.name evaluate to?",
+        "options": [
+            "name-30",
+            "property object",
+            "None",
+            "value-30"
+        ],
+        "correctAnswer": "value-30",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1146,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-31', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-31",
+            "name-31"
+        ],
+        "correctAnswer": "value-31",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1147,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-32', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-32",
+            "name-32",
+            "property object"
+        ],
+        "correctAnswer": "value-32",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1148,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-33', what does obj.name evaluate to?",
+        "options": [
+            "value-33",
+            "name-33",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-33",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1149,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-34', what does obj.name evaluate to?",
+        "options": [
+            "name-34",
+            "property object",
+            "None",
+            "value-34"
+        ],
+        "correctAnswer": "value-34",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1150,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-35', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-35",
+            "name-35"
+        ],
+        "correctAnswer": "value-35",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1151,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-36', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-36",
+            "name-36",
+            "property object"
+        ],
+        "correctAnswer": "value-36",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1152,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-37', what does obj.name evaluate to?",
+        "options": [
+            "value-37",
+            "name-37",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-37",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1153,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-38', what does obj.name evaluate to?",
+        "options": [
+            "name-38",
+            "property object",
+            "None",
+            "value-38"
+        ],
+        "correctAnswer": "value-38",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1154,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-39', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-39",
+            "name-39"
+        ],
+        "correctAnswer": "value-39",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1155,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-40', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-40",
+            "name-40",
+            "property object"
+        ],
+        "correctAnswer": "value-40",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1156,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-41', what does obj.name evaluate to?",
+        "options": [
+            "value-41",
+            "name-41",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-41",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1157,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-42', what does obj.name evaluate to?",
+        "options": [
+            "name-42",
+            "property object",
+            "None",
+            "value-42"
+        ],
+        "correctAnswer": "value-42",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1158,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-43', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-43",
+            "name-43"
+        ],
+        "correctAnswer": "value-43",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1159,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-44', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-44",
+            "name-44",
+            "property object"
+        ],
+        "correctAnswer": "value-44",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1160,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-45', what does obj.name evaluate to?",
+        "options": [
+            "value-45",
+            "name-45",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-45",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1161,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-46', what does obj.name evaluate to?",
+        "options": [
+            "name-46",
+            "property object",
+            "None",
+            "value-46"
+        ],
+        "correctAnswer": "value-46",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1162,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-47', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-47",
+            "name-47"
+        ],
+        "correctAnswer": "value-47",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1163,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-48', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-48",
+            "name-48",
+            "property object"
+        ],
+        "correctAnswer": "value-48",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1164,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-49', what does obj.name evaluate to?",
+        "options": [
+            "value-49",
+            "name-49",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-49",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1165,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-50', what does obj.name evaluate to?",
+        "options": [
+            "name-50",
+            "property object",
+            "None",
+            "value-50"
+        ],
+        "correctAnswer": "value-50",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1166,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-51', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-51",
+            "name-51"
+        ],
+        "correctAnswer": "value-51",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1167,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-52', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-52",
+            "name-52",
+            "property object"
+        ],
+        "correctAnswer": "value-52",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1168,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-53', what does obj.name evaluate to?",
+        "options": [
+            "value-53",
+            "name-53",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-53",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1169,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-54', what does obj.name evaluate to?",
+        "options": [
+            "name-54",
+            "property object",
+            "None",
+            "value-54"
+        ],
+        "correctAnswer": "value-54",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1170,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-55', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-55",
+            "name-55"
+        ],
+        "correctAnswer": "value-55",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1171,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-56', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-56",
+            "name-56",
+            "property object"
+        ],
+        "correctAnswer": "value-56",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1172,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-57', what does obj.name evaluate to?",
+        "options": [
+            "value-57",
+            "name-57",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-57",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1173,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-58', what does obj.name evaluate to?",
+        "options": [
+            "name-58",
+            "property object",
+            "None",
+            "value-58"
+        ],
+        "correctAnswer": "value-58",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1174,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-59', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-59",
+            "name-59"
+        ],
+        "correctAnswer": "value-59",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1175,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-60', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-60",
+            "name-60",
+            "property object"
+        ],
+        "correctAnswer": "value-60",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1176,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-61', what does obj.name evaluate to?",
+        "options": [
+            "value-61",
+            "name-61",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-61",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1177,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-62', what does obj.name evaluate to?",
+        "options": [
+            "name-62",
+            "property object",
+            "None",
+            "value-62"
+        ],
+        "correctAnswer": "value-62",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1178,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-63', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-63",
+            "name-63"
+        ],
+        "correctAnswer": "value-63",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1179,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-64', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-64",
+            "name-64",
+            "property object"
+        ],
+        "correctAnswer": "value-64",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1180,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-65', what does obj.name evaluate to?",
+        "options": [
+            "value-65",
+            "name-65",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-65",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1181,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-66', what does obj.name evaluate to?",
+        "options": [
+            "name-66",
+            "property object",
+            "None",
+            "value-66"
+        ],
+        "correctAnswer": "value-66",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1182,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-67', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-67",
+            "name-67"
+        ],
+        "correctAnswer": "value-67",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1183,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-68', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-68",
+            "name-68",
+            "property object"
+        ],
+        "correctAnswer": "value-68",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1184,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-69', what does obj.name evaluate to?",
+        "options": [
+            "value-69",
+            "name-69",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-69",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1185,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-70', what does obj.name evaluate to?",
+        "options": [
+            "name-70",
+            "property object",
+            "None",
+            "value-70"
+        ],
+        "correctAnswer": "value-70",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1186,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-71', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-71",
+            "name-71"
+        ],
+        "correctAnswer": "value-71",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1187,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-72', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-72",
+            "name-72",
+            "property object"
+        ],
+        "correctAnswer": "value-72",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1188,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-73', what does obj.name evaluate to?",
+        "options": [
+            "value-73",
+            "name-73",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-73",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1189,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-74', what does obj.name evaluate to?",
+        "options": [
+            "name-74",
+            "property object",
+            "None",
+            "value-74"
+        ],
+        "correctAnswer": "value-74",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1190,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-75', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-75",
+            "name-75"
+        ],
+        "correctAnswer": "value-75",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1191,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-76', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-76",
+            "name-76",
+            "property object"
+        ],
+        "correctAnswer": "value-76",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1192,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-77', what does obj.name evaluate to?",
+        "options": [
+            "value-77",
+            "name-77",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-77",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1193,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-78', what does obj.name evaluate to?",
+        "options": [
+            "name-78",
+            "property object",
+            "None",
+            "value-78"
+        ],
+        "correctAnswer": "value-78",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1194,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-79', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-79",
+            "name-79"
+        ],
+        "correctAnswer": "value-79",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1195,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-80', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-80",
+            "name-80",
+            "property object"
+        ],
+        "correctAnswer": "value-80",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1196,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-81', what does obj.name evaluate to?",
+        "options": [
+            "value-81",
+            "name-81",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-81",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1197,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-82', what does obj.name evaluate to?",
+        "options": [
+            "name-82",
+            "property object",
+            "None",
+            "value-82"
+        ],
+        "correctAnswer": "value-82",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1198,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-83', what does obj.name evaluate to?",
+        "options": [
+            "property object",
+            "None",
+            "value-83",
+            "name-83"
+        ],
+        "correctAnswer": "value-83",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1199,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-84', what does obj.name evaluate to?",
+        "options": [
+            "None",
+            "value-84",
+            "name-84",
+            "property object"
+        ],
+        "correctAnswer": "value-84",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    },
+    {
+        "id": 1200,
+        "topic": "Properties",
+        "question": "If a @property returns 'value-85', what does obj.name evaluate to?",
+        "options": [
+            "value-85",
+            "name-85",
+            "property object",
+            "None"
+        ],
+        "correctAnswer": "value-85",
+        "explanation": "A @property lets method logic be accessed like an attribute."
+    }
+]

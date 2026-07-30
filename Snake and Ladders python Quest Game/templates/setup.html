@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Setup - Python Quest</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f7f1df;
+            --surface-color: #fffaf0;
+            --text-color: #2b2118;
+            --muted-color: #6f6254;
+            --border-color: #b98b49;
+            --accent-color: #b87924;
+            --accent-hover: #9d6419;
+            --button-text: #fff8e7;
+            --shadow-color: rgba(76, 48, 18, 0.22);
+            --option-bg: #fffdf7;
+        }
+        [data-theme="dark"] {
+            --bg-color: #101820;
+            --surface-color: #18232d;
+            --text-color: #f3ead7;
+            --muted-color: #c7b998;
+            --border-color: #d0a34f;
+            --accent-color: #f0b84f;
+            --accent-hover: #ffd27a;
+            --button-text: #1a1208;
+            --shadow-color: rgba(0, 0, 0, 0.45);
+            --option-bg: #22303d;
+        }
+        body {
+            background:
+                linear-gradient(135deg, rgba(184,121,36,0.12), transparent 36%),
+                linear-gradient(315deg, rgba(16,24,32,0.12), transparent 40%),
+                var(--bg-color);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            overflow-x: hidden;
+            position: relative;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .animated-bg {
+            position: fixed;
+            inset: 0;
+            overflow: hidden;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .bg-piece {
+            position: absolute;
+            opacity: 0.36;
+            filter: saturate(1.35) brightness(1.12) drop-shadow(0 10px 14px var(--shadow-color));
+            user-select: none;
+        }
+        [data-theme="dark"] .bg-piece {
+            opacity: 0.16;
+            filter: drop-shadow(0 10px 14px var(--shadow-color));
+        }
+        .bg-piece.snake {
+            font-size: clamp(2.8rem, 7vw, 6rem);
+            animation: snake-drift 14s ease-in-out infinite;
+        }
+        .bg-piece.ladder {
+            font-size: clamp(3rem, 7vw, 6.6rem);
+            animation: ladder-float 12s ease-in-out infinite;
+        }
+        .bg-piece:nth-child(1) { left: 5%; top: 8%; animation-delay: -3s; }
+        .bg-piece:nth-child(2) { right: 8%; top: 14%; animation-delay: -1s; }
+        .bg-piece:nth-child(3) { left: 9%; bottom: 12%; animation-delay: -6s; }
+        .bg-piece:nth-child(4) { right: 12%; bottom: 8%; animation-delay: -8s; }
+        .bg-piece:nth-child(5) { left: 46%; top: 2%; animation-delay: -4s; }
+        .bg-piece:nth-child(6) { left: 62%; bottom: 15%; animation-delay: -10s; }
+        @keyframes snake-drift {
+            0%, 100% { transform: translate3d(0, 0, 0) rotate(-10deg) scale(1); }
+            35% { transform: translate3d(18px, -26px, 0) rotate(8deg) scale(1.06); }
+            70% { transform: translate3d(-16px, 18px, 0) rotate(-4deg) scale(0.96); }
+        }
+        @keyframes ladder-float {
+            0%, 100% { transform: translateY(0) rotate(18deg); }
+            50% { transform: translateY(-34px) rotate(25deg); }
+        }
+        .theme-toggle {
+            position: fixed;
+            top: 18px;
+            right: 18px;
+            z-index: 3;
+            background: var(--accent-color);
+            border: 1px solid var(--border-color);
+            color: var(--button-text);
+            border-radius: 8px;
+            padding: 8px 14px;
+            font-weight: 700;
+            transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+        }
+        .theme-toggle:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 18px var(--shadow-color);
+        }
+        .setup-card {
+            background: var(--surface-color);
+            color: var(--text-color);
+            padding: 40px;
+            border-radius: 10px;
+            border: 2px solid var(--border-color);
+            box-shadow: 0 10px 30px var(--shadow-color);
+            width: 100%;
+            max-width: 560px;
+            margin: auto;
+            position: relative;
+            z-index: 1;
+        }
+        .setting-group {
+            margin-bottom: 24px;
+            text-align: left;
+        }
+        .form-label {
+            color: var(--muted-color);
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        .switch-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+            gap: 10px;
+        }
+        .radio-switch input {
+            position: absolute;
+            opacity: 0;
+            pointer-events: none;
+        }
+        .radio-switch span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 48px;
+            padding: 10px 12px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            background: var(--option-bg);
+            color: var(--text-color);
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.2s, color 0.2s, box-shadow 0.2s;
+            user-select: none;
+        }
+        .radio-switch span::before {
+            content: "";
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            border: 2px solid var(--border-color);
+            margin-right: 8px;
+            box-shadow: inset 0 0 0 3px var(--option-bg);
+        }
+        .radio-switch input:checked + span {
+            background: var(--accent-color);
+            color: var(--button-text);
+            box-shadow: 0 8px 18px var(--shadow-color);
+            transform: translateY(-2px);
+        }
+        .radio-switch input:checked + span::before {
+            background: var(--button-text);
+            border-color: var(--button-text);
+        }
+        .radio-switch input:focus-visible + span {
+            outline: 3px solid rgba(184, 121, 36, 0.35);
+            outline-offset: 2px;
+        }
+        .player-count-wrap {
+            display: none;
+        }
+        .player-count-wrap.show {
+            display: block;
+        }
+        .btn-warning {
+            background: var(--accent-color);
+            border-color: var(--accent-color);
+            color: var(--button-text);
+            transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+        }
+        .btn-warning:hover {
+            background: var(--accent-hover);
+            border-color: var(--accent-hover);
+            color: var(--button-text);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 22px var(--shadow-color);
+        }
+    </style>
+</head>
+<body data-theme="light">
+    <div class="animated-bg" aria-hidden="true">
+        <span class="bg-piece snake">&#128013;</span>
+        <span class="bg-piece ladder">&#129692;</span>
+        <span class="bg-piece ladder">&#129692;</span>
+        <span class="bg-piece snake">&#128013;</span>
+        <span class="bg-piece snake">&#128013;</span>
+        <span class="bg-piece ladder">&#129692;</span>
+    </div>
+    <button id="theme-toggle" class="theme-toggle" type="button" onclick="toggleTheme()">&#127769; Dark</button>
+    <div class="setup-card text-center">
+        <h2 class="mb-4">Game Settings</h2>
+        <form action="/game" method="get">
+            <div class="setting-group">
+                <div class="form-label">Difficulty</div>
+                <div class="switch-grid">
+                    <label class="radio-switch">
+                        <input type="radio" name="difficulty" value="Beginner" checked>
+                        <span>Beginner</span>
+                    </label>
+                    <label class="radio-switch">
+                        <input type="radio" name="difficulty" value="Intermediate">
+                        <span>Intermediate</span>
+                    </label>
+                    <label class="radio-switch">
+                        <input type="radio" name="difficulty" value="Advanced">
+                        <span>Advanced</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="setting-group">
+                <div class="form-label">Game Mode</div>
+                <div class="switch-grid">
+                    <label class="radio-switch">
+                        <input type="radio" name="mode" value="vs_ai" checked>
+                        <span>Human vs AI</span>
+                    </label>
+                    <label class="radio-switch">
+                        <input type="radio" name="mode" value="multi">
+                        <span>Multiplayer</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="setting-group player-count-wrap" id="player-count-wrap">
+                <div class="form-label">Number of Players</div>
+                <div class="switch-grid">
+                    <label class="radio-switch">
+                        <input type="radio" name="player_count" value="2" checked>
+                        <span>2 Players</span>
+                    </label>
+                    <label class="radio-switch">
+                        <input type="radio" name="player_count" value="3">
+                        <span>3 Players</span>
+                    </label>
+                    <label class="radio-switch">
+                        <input type="radio" name="player_count" value="4">
+                        <span>4 Players</span>
+                    </label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-warning btn-lg w-100 fw-bold">ENTER THE QUEST</button>
+        </form>
+    </div>
+    <script>
+        const modeInputs = document.querySelectorAll('input[name="mode"]');
+        const playerCountWrap = document.getElementById('player-count-wrap');
+        const playerCountInputs = document.querySelectorAll('input[name="player_count"]');
+
+        function selectedMode() {
+            return document.querySelector('input[name="mode"]:checked').value;
+        }
+
+        function syncPlayerCountVisibility() {
+            const isMultiplayer = selectedMode() === 'multi';
+            playerCountWrap.classList.toggle('show', isMultiplayer);
+            playerCountInputs.forEach(input => {
+                input.disabled = !isMultiplayer;
+            });
+        }
+
+        modeInputs.forEach(input => {
+            input.addEventListener('change', syncPlayerCountVisibility);
+        });
+        syncPlayerCountVisibility();
+
+        function updateThemeButton() {
+            const button = document.getElementById('theme-toggle');
+            const isDark = document.body.getAttribute('data-theme') === 'dark';
+            button.innerHTML = isDark ? '&#9728;&#65039; Light' : '&#127769; Dark';
+        }
+
+        function toggleTheme() {
+            const nextTheme = document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            document.body.setAttribute('data-theme', nextTheme);
+            localStorage.setItem('pythonQuestTheme', nextTheme);
+            updateThemeButton();
+        }
+
+        document.body.setAttribute('data-theme', localStorage.getItem('pythonQuestTheme') || 'light');
+        updateThemeButton();
+    </script>
+</body>
+</html>

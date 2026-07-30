@@ -1,0 +1,5202 @@
+[
+    {
+        "id": 1,
+        "topic": "Operators",
+        "question": "What is the output of print(4 + 2)?",
+        "options": [
+            "7",
+            "5",
+            "42",
+            "6"
+        ],
+        "correctAnswer": "6",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 2,
+        "topic": "Operators",
+        "question": "What is the output of print(4 - 2)?",
+        "options": [
+            "1",
+            "42",
+            "2",
+            "3"
+        ],
+        "correctAnswer": "2",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 3,
+        "topic": "Operators",
+        "question": "What is the output of print(4 * 2)?",
+        "options": [
+            "42",
+            "8",
+            "9",
+            "7"
+        ],
+        "correctAnswer": "8",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 4,
+        "topic": "Operators",
+        "question": "What is the output of print(4 // 2)?",
+        "options": [
+            "2",
+            "3",
+            "1",
+            "42"
+        ],
+        "correctAnswer": "2",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 5,
+        "topic": "Operators",
+        "question": "What is the output of print(4 % 2)?",
+        "options": [
+            "1",
+            "-1",
+            "42",
+            "0"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 6,
+        "topic": "Operators",
+        "question": "What is the output of print(4 + 3)?",
+        "options": [
+            "6",
+            "43",
+            "7",
+            "8"
+        ],
+        "correctAnswer": "7",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 7,
+        "topic": "Operators",
+        "question": "What is the output of print(4 - 3)?",
+        "options": [
+            "43",
+            "1",
+            "2",
+            "0"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 8,
+        "topic": "Operators",
+        "question": "What is the output of print(4 * 3)?",
+        "options": [
+            "12",
+            "13",
+            "11",
+            "43"
+        ],
+        "correctAnswer": "12",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 9,
+        "topic": "Operators",
+        "question": "What is the output of print(4 // 3)?",
+        "options": [
+            "2",
+            "0",
+            "43",
+            "1"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 10,
+        "topic": "Operators",
+        "question": "What is the output of print(4 % 3)?",
+        "options": [
+            "0",
+            "43",
+            "1",
+            "2"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 11,
+        "topic": "Operators",
+        "question": "What is the output of print(4 + 4)?",
+        "options": [
+            "44",
+            "8",
+            "9",
+            "7"
+        ],
+        "correctAnswer": "8",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 12,
+        "topic": "Operators",
+        "question": "What is the output of print(4 - 4)?",
+        "options": [
+            "0",
+            "1",
+            "-1",
+            "44"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 13,
+        "topic": "Operators",
+        "question": "What is the output of print(4 * 4)?",
+        "options": [
+            "17",
+            "15",
+            "44",
+            "16"
+        ],
+        "correctAnswer": "16",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 14,
+        "topic": "Operators",
+        "question": "What is the output of print(4 // 4)?",
+        "options": [
+            "0",
+            "44",
+            "1",
+            "2"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 15,
+        "topic": "Operators",
+        "question": "What is the output of print(4 % 4)?",
+        "options": [
+            "44",
+            "0",
+            "1",
+            "-1"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 16,
+        "topic": "Operators",
+        "question": "What is the output of print(4 + 5)?",
+        "options": [
+            "9",
+            "10",
+            "8",
+            "45"
+        ],
+        "correctAnswer": "9",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 17,
+        "topic": "Operators",
+        "question": "What is the output of print(4 - 5)?",
+        "options": [
+            "0",
+            "-2",
+            "45",
+            "-1"
+        ],
+        "correctAnswer": "-1",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 18,
+        "topic": "Operators",
+        "question": "What is the output of print(4 * 5)?",
+        "options": [
+            "19",
+            "45",
+            "20",
+            "21"
+        ],
+        "correctAnswer": "20",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 19,
+        "topic": "Operators",
+        "question": "What is the output of print(4 // 5)?",
+        "options": [
+            "45",
+            "0",
+            "1",
+            "-1"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 20,
+        "topic": "Operators",
+        "question": "What is the output of print(4 % 5)?",
+        "options": [
+            "4",
+            "5",
+            "3",
+            "45"
+        ],
+        "correctAnswer": "4",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 21,
+        "topic": "Operators",
+        "question": "What is the output of print(4 + 6)?",
+        "options": [
+            "11",
+            "9",
+            "46",
+            "10"
+        ],
+        "correctAnswer": "10",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 22,
+        "topic": "Operators",
+        "question": "What is the output of print(4 - 6)?",
+        "options": [
+            "-3",
+            "46",
+            "-2",
+            "-1"
+        ],
+        "correctAnswer": "-2",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 23,
+        "topic": "Operators",
+        "question": "What is the output of print(4 * 6)?",
+        "options": [
+            "46",
+            "24",
+            "25",
+            "23"
+        ],
+        "correctAnswer": "24",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 24,
+        "topic": "Operators",
+        "question": "What is the output of print(4 // 6)?",
+        "options": [
+            "0",
+            "1",
+            "-1",
+            "46"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 25,
+        "topic": "Operators",
+        "question": "What is the output of print(4 % 6)?",
+        "options": [
+            "5",
+            "3",
+            "46",
+            "4"
+        ],
+        "correctAnswer": "4",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 26,
+        "topic": "Operators",
+        "question": "What is the output of print(4 + 7)?",
+        "options": [
+            "10",
+            "47",
+            "11",
+            "12"
+        ],
+        "correctAnswer": "11",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 27,
+        "topic": "Operators",
+        "question": "What is the output of print(4 - 7)?",
+        "options": [
+            "47",
+            "-3",
+            "-2",
+            "-4"
+        ],
+        "correctAnswer": "-3",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 28,
+        "topic": "Operators",
+        "question": "What is the output of print(4 * 7)?",
+        "options": [
+            "28",
+            "29",
+            "27",
+            "47"
+        ],
+        "correctAnswer": "28",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 29,
+        "topic": "Operators",
+        "question": "What is the output of print(4 // 7)?",
+        "options": [
+            "1",
+            "-1",
+            "47",
+            "0"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 30,
+        "topic": "Operators",
+        "question": "What is the output of print(4 % 7)?",
+        "options": [
+            "3",
+            "47",
+            "4",
+            "5"
+        ],
+        "correctAnswer": "4",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 31,
+        "topic": "Operators",
+        "question": "What is the output of print(4 + 8)?",
+        "options": [
+            "48",
+            "12",
+            "13",
+            "11"
+        ],
+        "correctAnswer": "12",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 32,
+        "topic": "Operators",
+        "question": "What is the output of print(4 - 8)?",
+        "options": [
+            "-4",
+            "-3",
+            "-5",
+            "48"
+        ],
+        "correctAnswer": "-4",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 33,
+        "topic": "Operators",
+        "question": "What is the output of print(4 * 8)?",
+        "options": [
+            "33",
+            "31",
+            "48",
+            "32"
+        ],
+        "correctAnswer": "32",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 34,
+        "topic": "Operators",
+        "question": "What is the output of print(4 // 8)?",
+        "options": [
+            "-1",
+            "48",
+            "0",
+            "1"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 35,
+        "topic": "Operators",
+        "question": "What is the output of print(4 % 8)?",
+        "options": [
+            "48",
+            "4",
+            "5",
+            "3"
+        ],
+        "correctAnswer": "4",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 36,
+        "topic": "Operators",
+        "question": "What is the output of print(4 + 9)?",
+        "options": [
+            "13",
+            "14",
+            "12",
+            "49"
+        ],
+        "correctAnswer": "13",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 37,
+        "topic": "Operators",
+        "question": "What is the output of print(4 - 9)?",
+        "options": [
+            "-4",
+            "-6",
+            "49",
+            "-5"
+        ],
+        "correctAnswer": "-5",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 38,
+        "topic": "Operators",
+        "question": "What is the output of print(4 * 9)?",
+        "options": [
+            "35",
+            "49",
+            "36",
+            "37"
+        ],
+        "correctAnswer": "36",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 39,
+        "topic": "Operators",
+        "question": "What is the output of print(4 // 9)?",
+        "options": [
+            "49",
+            "0",
+            "1",
+            "-1"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 40,
+        "topic": "Operators",
+        "question": "What is the output of print(4 % 9)?",
+        "options": [
+            "4",
+            "5",
+            "3",
+            "49"
+        ],
+        "correctAnswer": "4",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 41,
+        "topic": "Operators",
+        "question": "What is the output of print(5 + 2)?",
+        "options": [
+            "8",
+            "6",
+            "52",
+            "7"
+        ],
+        "correctAnswer": "7",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 42,
+        "topic": "Operators",
+        "question": "What is the output of print(5 - 2)?",
+        "options": [
+            "2",
+            "52",
+            "3",
+            "4"
+        ],
+        "correctAnswer": "3",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 43,
+        "topic": "Operators",
+        "question": "What is the output of print(5 * 2)?",
+        "options": [
+            "52",
+            "10",
+            "11",
+            "9"
+        ],
+        "correctAnswer": "10",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 44,
+        "topic": "Operators",
+        "question": "What is the output of print(5 // 2)?",
+        "options": [
+            "2",
+            "3",
+            "1",
+            "52"
+        ],
+        "correctAnswer": "2",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 45,
+        "topic": "Operators",
+        "question": "What is the output of print(5 % 2)?",
+        "options": [
+            "2",
+            "0",
+            "52",
+            "1"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 46,
+        "topic": "Operators",
+        "question": "What is the output of print(5 + 3)?",
+        "options": [
+            "7",
+            "53",
+            "8",
+            "9"
+        ],
+        "correctAnswer": "8",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 47,
+        "topic": "Operators",
+        "question": "What is the output of print(5 - 3)?",
+        "options": [
+            "53",
+            "2",
+            "3",
+            "1"
+        ],
+        "correctAnswer": "2",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 48,
+        "topic": "Operators",
+        "question": "What is the output of print(5 * 3)?",
+        "options": [
+            "15",
+            "16",
+            "14",
+            "53"
+        ],
+        "correctAnswer": "15",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 49,
+        "topic": "Operators",
+        "question": "What is the output of print(5 // 3)?",
+        "options": [
+            "2",
+            "0",
+            "53",
+            "1"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 50,
+        "topic": "Operators",
+        "question": "What is the output of print(5 % 3)?",
+        "options": [
+            "1",
+            "53",
+            "2",
+            "3"
+        ],
+        "correctAnswer": "2",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 51,
+        "topic": "Operators",
+        "question": "What is the output of print(5 + 4)?",
+        "options": [
+            "54",
+            "9",
+            "10",
+            "8"
+        ],
+        "correctAnswer": "9",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 52,
+        "topic": "Operators",
+        "question": "What is the output of print(5 - 4)?",
+        "options": [
+            "1",
+            "2",
+            "0",
+            "54"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 53,
+        "topic": "Operators",
+        "question": "What is the output of print(5 * 4)?",
+        "options": [
+            "21",
+            "19",
+            "54",
+            "20"
+        ],
+        "correctAnswer": "20",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 54,
+        "topic": "Operators",
+        "question": "What is the output of print(5 // 4)?",
+        "options": [
+            "0",
+            "54",
+            "1",
+            "2"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 55,
+        "topic": "Operators",
+        "question": "What is the output of print(5 % 4)?",
+        "options": [
+            "54",
+            "1",
+            "2",
+            "0"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 56,
+        "topic": "Operators",
+        "question": "What is the output of print(5 + 5)?",
+        "options": [
+            "10",
+            "11",
+            "9",
+            "55"
+        ],
+        "correctAnswer": "10",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 57,
+        "topic": "Operators",
+        "question": "What is the output of print(5 - 5)?",
+        "options": [
+            "1",
+            "-1",
+            "55",
+            "0"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 58,
+        "topic": "Operators",
+        "question": "What is the output of print(5 * 5)?",
+        "options": [
+            "24",
+            "55",
+            "25",
+            "26"
+        ],
+        "correctAnswer": "25",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 59,
+        "topic": "Operators",
+        "question": "What is the output of print(5 // 5)?",
+        "options": [
+            "55",
+            "1",
+            "2",
+            "0"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 60,
+        "topic": "Operators",
+        "question": "What is the output of print(5 % 5)?",
+        "options": [
+            "0",
+            "1",
+            "-1",
+            "55"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 61,
+        "topic": "Operators",
+        "question": "What is the output of print(5 + 6)?",
+        "options": [
+            "12",
+            "10",
+            "56",
+            "11"
+        ],
+        "correctAnswer": "11",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 62,
+        "topic": "Operators",
+        "question": "What is the output of print(5 - 6)?",
+        "options": [
+            "-2",
+            "56",
+            "-1",
+            "0"
+        ],
+        "correctAnswer": "-1",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 63,
+        "topic": "Operators",
+        "question": "What is the output of print(5 * 6)?",
+        "options": [
+            "56",
+            "30",
+            "31",
+            "29"
+        ],
+        "correctAnswer": "30",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 64,
+        "topic": "Operators",
+        "question": "What is the output of print(5 // 6)?",
+        "options": [
+            "0",
+            "1",
+            "-1",
+            "56"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 65,
+        "topic": "Operators",
+        "question": "What is the output of print(5 % 6)?",
+        "options": [
+            "6",
+            "4",
+            "56",
+            "5"
+        ],
+        "correctAnswer": "5",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 66,
+        "topic": "Operators",
+        "question": "What is the output of print(5 + 7)?",
+        "options": [
+            "11",
+            "57",
+            "12",
+            "13"
+        ],
+        "correctAnswer": "12",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 67,
+        "topic": "Operators",
+        "question": "What is the output of print(5 - 7)?",
+        "options": [
+            "57",
+            "-2",
+            "-1",
+            "-3"
+        ],
+        "correctAnswer": "-2",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 68,
+        "topic": "Operators",
+        "question": "What is the output of print(5 * 7)?",
+        "options": [
+            "35",
+            "36",
+            "34",
+            "57"
+        ],
+        "correctAnswer": "35",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 69,
+        "topic": "Operators",
+        "question": "What is the output of print(5 // 7)?",
+        "options": [
+            "1",
+            "-1",
+            "57",
+            "0"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 70,
+        "topic": "Operators",
+        "question": "What is the output of print(5 % 7)?",
+        "options": [
+            "4",
+            "57",
+            "5",
+            "6"
+        ],
+        "correctAnswer": "5",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 71,
+        "topic": "Operators",
+        "question": "What is the output of print(5 + 8)?",
+        "options": [
+            "58",
+            "13",
+            "14",
+            "12"
+        ],
+        "correctAnswer": "13",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 72,
+        "topic": "Operators",
+        "question": "What is the output of print(5 - 8)?",
+        "options": [
+            "-3",
+            "-2",
+            "-4",
+            "58"
+        ],
+        "correctAnswer": "-3",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 73,
+        "topic": "Operators",
+        "question": "What is the output of print(5 * 8)?",
+        "options": [
+            "41",
+            "39",
+            "58",
+            "40"
+        ],
+        "correctAnswer": "40",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 74,
+        "topic": "Operators",
+        "question": "What is the output of print(5 // 8)?",
+        "options": [
+            "-1",
+            "58",
+            "0",
+            "1"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 75,
+        "topic": "Operators",
+        "question": "What is the output of print(5 % 8)?",
+        "options": [
+            "58",
+            "5",
+            "6",
+            "4"
+        ],
+        "correctAnswer": "5",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 76,
+        "topic": "Operators",
+        "question": "What is the output of print(5 + 9)?",
+        "options": [
+            "14",
+            "15",
+            "13",
+            "59"
+        ],
+        "correctAnswer": "14",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 77,
+        "topic": "Operators",
+        "question": "What is the output of print(5 - 9)?",
+        "options": [
+            "-3",
+            "-5",
+            "59",
+            "-4"
+        ],
+        "correctAnswer": "-4",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 78,
+        "topic": "Operators",
+        "question": "What is the output of print(5 * 9)?",
+        "options": [
+            "44",
+            "59",
+            "45",
+            "46"
+        ],
+        "correctAnswer": "45",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 79,
+        "topic": "Operators",
+        "question": "What is the output of print(5 // 9)?",
+        "options": [
+            "59",
+            "0",
+            "1",
+            "-1"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 80,
+        "topic": "Operators",
+        "question": "What is the output of print(5 % 9)?",
+        "options": [
+            "5",
+            "6",
+            "4",
+            "59"
+        ],
+        "correctAnswer": "5",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 81,
+        "topic": "Operators",
+        "question": "What is the output of print(6 + 2)?",
+        "options": [
+            "9",
+            "7",
+            "62",
+            "8"
+        ],
+        "correctAnswer": "8",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 82,
+        "topic": "Operators",
+        "question": "What is the output of print(6 - 2)?",
+        "options": [
+            "3",
+            "62",
+            "4",
+            "5"
+        ],
+        "correctAnswer": "4",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 83,
+        "topic": "Operators",
+        "question": "What is the output of print(6 * 2)?",
+        "options": [
+            "62",
+            "12",
+            "13",
+            "11"
+        ],
+        "correctAnswer": "12",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 84,
+        "topic": "Operators",
+        "question": "What is the output of print(6 // 2)?",
+        "options": [
+            "3",
+            "4",
+            "2",
+            "62"
+        ],
+        "correctAnswer": "3",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 85,
+        "topic": "Operators",
+        "question": "What is the output of print(6 % 2)?",
+        "options": [
+            "1",
+            "-1",
+            "62",
+            "0"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 86,
+        "topic": "Operators",
+        "question": "What is the output of print(6 + 3)?",
+        "options": [
+            "8",
+            "63",
+            "9",
+            "10"
+        ],
+        "correctAnswer": "9",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 87,
+        "topic": "Operators",
+        "question": "What is the output of print(6 - 3)?",
+        "options": [
+            "63",
+            "3",
+            "4",
+            "2"
+        ],
+        "correctAnswer": "3",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 88,
+        "topic": "Operators",
+        "question": "What is the output of print(6 * 3)?",
+        "options": [
+            "18",
+            "19",
+            "17",
+            "63"
+        ],
+        "correctAnswer": "18",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 89,
+        "topic": "Operators",
+        "question": "What is the output of print(6 // 3)?",
+        "options": [
+            "3",
+            "1",
+            "63",
+            "2"
+        ],
+        "correctAnswer": "2",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 90,
+        "topic": "Operators",
+        "question": "What is the output of print(6 % 3)?",
+        "options": [
+            "-1",
+            "63",
+            "0",
+            "1"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 91,
+        "topic": "Operators",
+        "question": "What is the output of print(6 + 4)?",
+        "options": [
+            "64",
+            "10",
+            "11",
+            "9"
+        ],
+        "correctAnswer": "10",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 92,
+        "topic": "Operators",
+        "question": "What is the output of print(6 - 4)?",
+        "options": [
+            "2",
+            "3",
+            "1",
+            "64"
+        ],
+        "correctAnswer": "2",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 93,
+        "topic": "Operators",
+        "question": "What is the output of print(6 * 4)?",
+        "options": [
+            "25",
+            "23",
+            "64",
+            "24"
+        ],
+        "correctAnswer": "24",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 94,
+        "topic": "Operators",
+        "question": "What is the output of print(6 // 4)?",
+        "options": [
+            "0",
+            "64",
+            "1",
+            "2"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 95,
+        "topic": "Operators",
+        "question": "What is the output of print(6 % 4)?",
+        "options": [
+            "64",
+            "2",
+            "3",
+            "1"
+        ],
+        "correctAnswer": "2",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 96,
+        "topic": "Operators",
+        "question": "What is the output of print(6 + 5)?",
+        "options": [
+            "11",
+            "12",
+            "10",
+            "65"
+        ],
+        "correctAnswer": "11",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 97,
+        "topic": "Operators",
+        "question": "What is the output of print(6 - 5)?",
+        "options": [
+            "2",
+            "0",
+            "65",
+            "1"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 98,
+        "topic": "Operators",
+        "question": "What is the output of print(6 * 5)?",
+        "options": [
+            "29",
+            "65",
+            "30",
+            "31"
+        ],
+        "correctAnswer": "30",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 99,
+        "topic": "Operators",
+        "question": "What is the output of print(6 // 5)?",
+        "options": [
+            "65",
+            "1",
+            "2",
+            "0"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 100,
+        "topic": "Operators",
+        "question": "What is the output of print(6 % 5)?",
+        "options": [
+            "1",
+            "2",
+            "0",
+            "65"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 101,
+        "topic": "Operators",
+        "question": "What is the output of print(6 + 6)?",
+        "options": [
+            "13",
+            "11",
+            "66",
+            "12"
+        ],
+        "correctAnswer": "12",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 102,
+        "topic": "Operators",
+        "question": "What is the output of print(6 - 6)?",
+        "options": [
+            "-1",
+            "66",
+            "0",
+            "1"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 103,
+        "topic": "Operators",
+        "question": "What is the output of print(6 * 6)?",
+        "options": [
+            "66",
+            "36",
+            "37",
+            "35"
+        ],
+        "correctAnswer": "36",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 104,
+        "topic": "Operators",
+        "question": "What is the output of print(6 // 6)?",
+        "options": [
+            "1",
+            "2",
+            "0",
+            "66"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 105,
+        "topic": "Operators",
+        "question": "What is the output of print(6 % 6)?",
+        "options": [
+            "1",
+            "-1",
+            "66",
+            "0"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 106,
+        "topic": "Operators",
+        "question": "What is the output of print(6 + 7)?",
+        "options": [
+            "12",
+            "67",
+            "13",
+            "14"
+        ],
+        "correctAnswer": "13",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 107,
+        "topic": "Operators",
+        "question": "What is the output of print(6 - 7)?",
+        "options": [
+            "67",
+            "-1",
+            "0",
+            "-2"
+        ],
+        "correctAnswer": "-1",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 108,
+        "topic": "Operators",
+        "question": "What is the output of print(6 * 7)?",
+        "options": [
+            "42",
+            "43",
+            "41",
+            "67"
+        ],
+        "correctAnswer": "42",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 109,
+        "topic": "Operators",
+        "question": "What is the output of print(6 // 7)?",
+        "options": [
+            "1",
+            "-1",
+            "67",
+            "0"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 110,
+        "topic": "Operators",
+        "question": "What is the output of print(6 % 7)?",
+        "options": [
+            "5",
+            "67",
+            "6",
+            "7"
+        ],
+        "correctAnswer": "6",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 111,
+        "topic": "Operators",
+        "question": "What is the output of print(6 + 8)?",
+        "options": [
+            "68",
+            "14",
+            "15",
+            "13"
+        ],
+        "correctAnswer": "14",
+        "explanation": "The + operator performs addition in Python."
+    },
+    {
+        "id": 112,
+        "topic": "Operators",
+        "question": "What is the output of print(6 - 8)?",
+        "options": [
+            "-2",
+            "-1",
+            "-3",
+            "68"
+        ],
+        "correctAnswer": "-2",
+        "explanation": "The - operator performs subtraction in Python."
+    },
+    {
+        "id": 113,
+        "topic": "Operators",
+        "question": "What is the output of print(6 * 8)?",
+        "options": [
+            "49",
+            "47",
+            "68",
+            "48"
+        ],
+        "correctAnswer": "48",
+        "explanation": "The * operator performs multiplication in Python."
+    },
+    {
+        "id": 114,
+        "topic": "Operators",
+        "question": "What is the output of print(6 // 8)?",
+        "options": [
+            "-1",
+            "68",
+            "0",
+            "1"
+        ],
+        "correctAnswer": "0",
+        "explanation": "The // operator performs floor division in Python."
+    },
+    {
+        "id": 115,
+        "topic": "Operators",
+        "question": "What is the output of print(6 % 8)?",
+        "options": [
+            "68",
+            "6",
+            "7",
+            "5"
+        ],
+        "correctAnswer": "6",
+        "explanation": "The % operator performs modulo division in Python."
+    },
+    {
+        "id": 116,
+        "topic": "Strings",
+        "question": "What is the output of print('python'[0])?",
+        "options": [
+            "p",
+            "n",
+            "0",
+            "Raises an error"
+        ],
+        "correctAnswer": "p",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 117,
+        "topic": "Strings",
+        "question": "What is the output of print('python'[1])?",
+        "options": [
+            "n",
+            "1",
+            "py",
+            "y"
+        ],
+        "correctAnswer": "y",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 118,
+        "topic": "Strings",
+        "question": "What is the output of print('python'[2])?",
+        "options": [
+            "2",
+            "pyt",
+            "t",
+            "n"
+        ],
+        "correctAnswer": "t",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 119,
+        "topic": "Strings",
+        "question": "What is the output of print('python'[3])?",
+        "options": [
+            "pyth",
+            "h",
+            "n",
+            "3"
+        ],
+        "correctAnswer": "h",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 120,
+        "topic": "Strings",
+        "question": "What is the output of print('python'[4])?",
+        "options": [
+            "o",
+            "n",
+            "4",
+            "pytho"
+        ],
+        "correctAnswer": "o",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 121,
+        "topic": "Strings",
+        "question": "What is the output of print('python'[5])?",
+        "options": [
+            "5",
+            "python",
+            "Raises an error",
+            "n"
+        ],
+        "correctAnswer": "n",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 122,
+        "topic": "Strings",
+        "question": "What is the output of print('variable'[0])?",
+        "options": [
+            "0",
+            "Raises an error",
+            "v",
+            "e"
+        ],
+        "correctAnswer": "v",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 123,
+        "topic": "Strings",
+        "question": "What is the output of print('variable'[1])?",
+        "options": [
+            "va",
+            "a",
+            "e",
+            "1"
+        ],
+        "correctAnswer": "a",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 124,
+        "topic": "Strings",
+        "question": "What is the output of print('variable'[2])?",
+        "options": [
+            "r",
+            "e",
+            "2",
+            "var"
+        ],
+        "correctAnswer": "r",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 125,
+        "topic": "Strings",
+        "question": "What is the output of print('variable'[3])?",
+        "options": [
+            "e",
+            "3",
+            "vari",
+            "i"
+        ],
+        "correctAnswer": "i",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 126,
+        "topic": "Strings",
+        "question": "What is the output of print('variable'[4])?",
+        "options": [
+            "4",
+            "varia",
+            "a",
+            "e"
+        ],
+        "correctAnswer": "a",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 127,
+        "topic": "Strings",
+        "question": "What is the output of print('variable'[5])?",
+        "options": [
+            "variab",
+            "b",
+            "e",
+            "5"
+        ],
+        "correctAnswer": "b",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 128,
+        "topic": "Strings",
+        "question": "What is the output of print('variable'[6])?",
+        "options": [
+            "l",
+            "e",
+            "6",
+            "variabl"
+        ],
+        "correctAnswer": "l",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 129,
+        "topic": "Strings",
+        "question": "What is the output of print('variable'[7])?",
+        "options": [
+            "7",
+            "variable",
+            "Raises an error",
+            "e"
+        ],
+        "correctAnswer": "e",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 130,
+        "topic": "Strings",
+        "question": "What is the output of print('function'[0])?",
+        "options": [
+            "0",
+            "Raises an error",
+            "f",
+            "n"
+        ],
+        "correctAnswer": "f",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 131,
+        "topic": "Strings",
+        "question": "What is the output of print('function'[1])?",
+        "options": [
+            "fu",
+            "u",
+            "n",
+            "1"
+        ],
+        "correctAnswer": "u",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 132,
+        "topic": "Strings",
+        "question": "What is the output of print('function'[2])?",
+        "options": [
+            "n",
+            "2",
+            "fun",
+            "Raises an error"
+        ],
+        "correctAnswer": "n",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 133,
+        "topic": "Strings",
+        "question": "What is the output of print('function'[3])?",
+        "options": [
+            "n",
+            "3",
+            "func",
+            "c"
+        ],
+        "correctAnswer": "c",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 134,
+        "topic": "Strings",
+        "question": "What is the output of print('function'[4])?",
+        "options": [
+            "4",
+            "funct",
+            "t",
+            "n"
+        ],
+        "correctAnswer": "t",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 135,
+        "topic": "Strings",
+        "question": "What is the output of print('function'[5])?",
+        "options": [
+            "functi",
+            "i",
+            "n",
+            "5"
+        ],
+        "correctAnswer": "i",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 136,
+        "topic": "Strings",
+        "question": "What is the output of print('function'[6])?",
+        "options": [
+            "o",
+            "n",
+            "6",
+            "functio"
+        ],
+        "correctAnswer": "o",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 137,
+        "topic": "Strings",
+        "question": "What is the output of print('function'[7])?",
+        "options": [
+            "7",
+            "function",
+            "Raises an error",
+            "n"
+        ],
+        "correctAnswer": "n",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 138,
+        "topic": "Strings",
+        "question": "What is the output of print('loop'[0])?",
+        "options": [
+            "0",
+            "Raises an error",
+            "l",
+            "p"
+        ],
+        "correctAnswer": "l",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 139,
+        "topic": "Strings",
+        "question": "What is the output of print('loop'[1])?",
+        "options": [
+            "lo",
+            "o",
+            "p",
+            "1"
+        ],
+        "correctAnswer": "o",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 140,
+        "topic": "Strings",
+        "question": "What is the output of print('loop'[2])?",
+        "options": [
+            "o",
+            "p",
+            "2",
+            "loo"
+        ],
+        "correctAnswer": "o",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 141,
+        "topic": "Strings",
+        "question": "What is the output of print('loop'[3])?",
+        "options": [
+            "3",
+            "loop",
+            "Raises an error",
+            "p"
+        ],
+        "correctAnswer": "p",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 142,
+        "topic": "Strings",
+        "question": "What is the output of print('string'[0])?",
+        "options": [
+            "0",
+            "Raises an error",
+            "s",
+            "g"
+        ],
+        "correctAnswer": "s",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 143,
+        "topic": "Strings",
+        "question": "What is the output of print('string'[1])?",
+        "options": [
+            "st",
+            "t",
+            "g",
+            "1"
+        ],
+        "correctAnswer": "t",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 144,
+        "topic": "Strings",
+        "question": "What is the output of print('string'[2])?",
+        "options": [
+            "r",
+            "g",
+            "2",
+            "str"
+        ],
+        "correctAnswer": "r",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 145,
+        "topic": "Strings",
+        "question": "What is the output of print('string'[3])?",
+        "options": [
+            "g",
+            "3",
+            "stri",
+            "i"
+        ],
+        "correctAnswer": "i",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 146,
+        "topic": "Strings",
+        "question": "What is the output of print('string'[4])?",
+        "options": [
+            "4",
+            "strin",
+            "n",
+            "g"
+        ],
+        "correctAnswer": "n",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 147,
+        "topic": "Strings",
+        "question": "What is the output of print('string'[5])?",
+        "options": [
+            "Raises an error",
+            "g",
+            "5",
+            "string"
+        ],
+        "correctAnswer": "g",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 148,
+        "topic": "Strings",
+        "question": "What is the output of print('dictionary'[0])?",
+        "options": [
+            "d",
+            "y",
+            "0",
+            "Raises an error"
+        ],
+        "correctAnswer": "d",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 149,
+        "topic": "Strings",
+        "question": "What is the output of print('dictionary'[1])?",
+        "options": [
+            "y",
+            "1",
+            "di",
+            "i"
+        ],
+        "correctAnswer": "i",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 150,
+        "topic": "Strings",
+        "question": "What is the output of print('dictionary'[2])?",
+        "options": [
+            "2",
+            "dic",
+            "c",
+            "y"
+        ],
+        "correctAnswer": "c",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 151,
+        "topic": "Strings",
+        "question": "What is the output of print('dictionary'[3])?",
+        "options": [
+            "dict",
+            "t",
+            "y",
+            "3"
+        ],
+        "correctAnswer": "t",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 152,
+        "topic": "Strings",
+        "question": "What is the output of print('dictionary'[4])?",
+        "options": [
+            "i",
+            "y",
+            "4",
+            "dicti"
+        ],
+        "correctAnswer": "i",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 153,
+        "topic": "Strings",
+        "question": "What is the output of print('dictionary'[5])?",
+        "options": [
+            "y",
+            "5",
+            "dictio",
+            "o"
+        ],
+        "correctAnswer": "o",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 154,
+        "topic": "Strings",
+        "question": "What is the output of print('dictionary'[6])?",
+        "options": [
+            "6",
+            "diction",
+            "n",
+            "y"
+        ],
+        "correctAnswer": "n",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 155,
+        "topic": "Strings",
+        "question": "What is the output of print('dictionary'[7])?",
+        "options": [
+            "dictiona",
+            "a",
+            "y",
+            "7"
+        ],
+        "correctAnswer": "a",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 156,
+        "topic": "Strings",
+        "question": "What is the output of print('dictionary'[8])?",
+        "options": [
+            "r",
+            "y",
+            "8",
+            "dictionar"
+        ],
+        "correctAnswer": "r",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 157,
+        "topic": "Strings",
+        "question": "What is the output of print('dictionary'[9])?",
+        "options": [
+            "9",
+            "dictionary",
+            "Raises an error",
+            "y"
+        ],
+        "correctAnswer": "y",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 158,
+        "topic": "Strings",
+        "question": "What is the output of print('integer'[0])?",
+        "options": [
+            "0",
+            "Raises an error",
+            "i",
+            "r"
+        ],
+        "correctAnswer": "i",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 159,
+        "topic": "Strings",
+        "question": "What is the output of print('integer'[1])?",
+        "options": [
+            "in",
+            "n",
+            "r",
+            "1"
+        ],
+        "correctAnswer": "n",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 160,
+        "topic": "Strings",
+        "question": "What is the output of print('integer'[2])?",
+        "options": [
+            "t",
+            "r",
+            "2",
+            "int"
+        ],
+        "correctAnswer": "t",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 161,
+        "topic": "Strings",
+        "question": "What is the output of print('integer'[3])?",
+        "options": [
+            "r",
+            "3",
+            "inte",
+            "e"
+        ],
+        "correctAnswer": "e",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 162,
+        "topic": "Strings",
+        "question": "What is the output of print('integer'[4])?",
+        "options": [
+            "4",
+            "integ",
+            "g",
+            "r"
+        ],
+        "correctAnswer": "g",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 163,
+        "topic": "Strings",
+        "question": "What is the output of print('integer'[5])?",
+        "options": [
+            "intege",
+            "e",
+            "r",
+            "5"
+        ],
+        "correctAnswer": "e",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 164,
+        "topic": "Strings",
+        "question": "What is the output of print('integer'[6])?",
+        "options": [
+            "r",
+            "6",
+            "integer",
+            "Raises an error"
+        ],
+        "correctAnswer": "r",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 165,
+        "topic": "Strings",
+        "question": "What is the output of print('module'[0])?",
+        "options": [
+            "e",
+            "0",
+            "Raises an error",
+            "m"
+        ],
+        "correctAnswer": "m",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 166,
+        "topic": "Strings",
+        "question": "What is the output of print('module'[1])?",
+        "options": [
+            "1",
+            "mo",
+            "o",
+            "e"
+        ],
+        "correctAnswer": "o",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 167,
+        "topic": "Strings",
+        "question": "What is the output of print('module'[2])?",
+        "options": [
+            "mod",
+            "d",
+            "e",
+            "2"
+        ],
+        "correctAnswer": "d",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 168,
+        "topic": "Strings",
+        "question": "What is the output of print('module'[3])?",
+        "options": [
+            "u",
+            "e",
+            "3",
+            "modu"
+        ],
+        "correctAnswer": "u",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 169,
+        "topic": "Strings",
+        "question": "What is the output of print('module'[4])?",
+        "options": [
+            "e",
+            "4",
+            "modul",
+            "l"
+        ],
+        "correctAnswer": "l",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 170,
+        "topic": "Strings",
+        "question": "What is the output of print('module'[5])?",
+        "options": [
+            "module",
+            "Raises an error",
+            "e",
+            "5"
+        ],
+        "correctAnswer": "e",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 171,
+        "topic": "Strings",
+        "question": "What is the output of print('syntax'[0])?",
+        "options": [
+            "Raises an error",
+            "s",
+            "x",
+            "0"
+        ],
+        "correctAnswer": "s",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 172,
+        "topic": "Strings",
+        "question": "What is the output of print('syntax'[1])?",
+        "options": [
+            "y",
+            "x",
+            "1",
+            "sy"
+        ],
+        "correctAnswer": "y",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 173,
+        "topic": "Strings",
+        "question": "What is the output of print('syntax'[2])?",
+        "options": [
+            "x",
+            "2",
+            "syn",
+            "n"
+        ],
+        "correctAnswer": "n",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 174,
+        "topic": "Strings",
+        "question": "What is the output of print('syntax'[3])?",
+        "options": [
+            "3",
+            "synt",
+            "t",
+            "x"
+        ],
+        "correctAnswer": "t",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 175,
+        "topic": "Strings",
+        "question": "What is the output of print('syntax'[4])?",
+        "options": [
+            "synta",
+            "a",
+            "x",
+            "4"
+        ],
+        "correctAnswer": "a",
+        "explanation": "String indexing starts at 0, so the index selects one character."
+    },
+    {
+        "id": 176,
+        "topic": "String Methods",
+        "question": "What is the output of print('python'.upper())?",
+        "options": [
+            "PYTHON",
+            "python",
+            "Python",
+            "6"
+        ],
+        "correctAnswer": "PYTHON",
+        "explanation": "The string method upper() returns a new string value."
+    },
+    {
+        "id": 177,
+        "topic": "String Methods",
+        "question": "What is the output of print('python'.lower())?",
+        "options": [
+            "PYTHON",
+            "Python",
+            "6",
+            "python"
+        ],
+        "correctAnswer": "python",
+        "explanation": "The string method lower() returns a new string value."
+    },
+    {
+        "id": 178,
+        "topic": "String Methods",
+        "question": "What is the output of print('python'.capitalize())?",
+        "options": [
+            "python",
+            "nohtyp",
+            "Python",
+            "PYTHON"
+        ],
+        "correctAnswer": "Python",
+        "explanation": "The string method capitalize() returns a new string value."
+    },
+    {
+        "id": 179,
+        "topic": "String Methods",
+        "question": "What is the output of print('python'.replace('o', '0'))?",
+        "options": [
+            "PYTHON",
+            "pyth0n",
+            "python",
+            "pythn"
+        ],
+        "correctAnswer": "pyth0n",
+        "explanation": "The string method replace('o', '0') returns a new string value."
+    },
+    {
+        "id": 180,
+        "topic": "String Methods",
+        "question": "What is the output of print('variable'.upper())?",
+        "options": [
+            "VARIABLE",
+            "variable",
+            "Variable",
+            "8"
+        ],
+        "correctAnswer": "VARIABLE",
+        "explanation": "The string method upper() returns a new string value."
+    },
+    {
+        "id": 181,
+        "topic": "String Methods",
+        "question": "What is the output of print('variable'.lower())?",
+        "options": [
+            "VARIABLE",
+            "Variable",
+            "8",
+            "variable"
+        ],
+        "correctAnswer": "variable",
+        "explanation": "The string method lower() returns a new string value."
+    },
+    {
+        "id": 182,
+        "topic": "String Methods",
+        "question": "What is the output of print('variable'.capitalize())?",
+        "options": [
+            "variable",
+            "elbairav",
+            "Variable",
+            "VARIABLE"
+        ],
+        "correctAnswer": "Variable",
+        "explanation": "The string method capitalize() returns a new string value."
+    },
+    {
+        "id": 183,
+        "topic": "String Methods",
+        "question": "What is the output of print('variable'.replace('o', '0'))?",
+        "options": [
+            "None",
+            "variable",
+            "VARIABLE",
+            "Raises an error"
+        ],
+        "correctAnswer": "variable",
+        "explanation": "The string method replace('o', '0') returns a new string value."
+    },
+    {
+        "id": 184,
+        "topic": "String Methods",
+        "question": "What is the output of print('function'.upper())?",
+        "options": [
+            "FUNCTION",
+            "function",
+            "Function",
+            "8"
+        ],
+        "correctAnswer": "FUNCTION",
+        "explanation": "The string method upper() returns a new string value."
+    },
+    {
+        "id": 185,
+        "topic": "String Methods",
+        "question": "What is the output of print('function'.lower())?",
+        "options": [
+            "FUNCTION",
+            "Function",
+            "8",
+            "function"
+        ],
+        "correctAnswer": "function",
+        "explanation": "The string method lower() returns a new string value."
+    },
+    {
+        "id": 186,
+        "topic": "String Methods",
+        "question": "What is the output of print('function'.capitalize())?",
+        "options": [
+            "function",
+            "noitcnuf",
+            "Function",
+            "FUNCTION"
+        ],
+        "correctAnswer": "Function",
+        "explanation": "The string method capitalize() returns a new string value."
+    },
+    {
+        "id": 187,
+        "topic": "String Methods",
+        "question": "What is the output of print('function'.replace('o', '0'))?",
+        "options": [
+            "FUNCTION",
+            "functi0n",
+            "function",
+            "functin"
+        ],
+        "correctAnswer": "functi0n",
+        "explanation": "The string method replace('o', '0') returns a new string value."
+    },
+    {
+        "id": 188,
+        "topic": "String Methods",
+        "question": "What is the output of print('loop'.upper())?",
+        "options": [
+            "LOOP",
+            "loop",
+            "Loop",
+            "4"
+        ],
+        "correctAnswer": "LOOP",
+        "explanation": "The string method upper() returns a new string value."
+    },
+    {
+        "id": 189,
+        "topic": "String Methods",
+        "question": "What is the output of print('loop'.lower())?",
+        "options": [
+            "LOOP",
+            "Loop",
+            "4",
+            "loop"
+        ],
+        "correctAnswer": "loop",
+        "explanation": "The string method lower() returns a new string value."
+    },
+    {
+        "id": 190,
+        "topic": "String Methods",
+        "question": "What is the output of print('loop'.capitalize())?",
+        "options": [
+            "loop",
+            "pool",
+            "Loop",
+            "LOOP"
+        ],
+        "correctAnswer": "Loop",
+        "explanation": "The string method capitalize() returns a new string value."
+    },
+    {
+        "id": 191,
+        "topic": "String Methods",
+        "question": "What is the output of print('loop'.replace('o', '0'))?",
+        "options": [
+            "LOOP",
+            "l00p",
+            "loop",
+            "lp"
+        ],
+        "correctAnswer": "l00p",
+        "explanation": "The string method replace('o', '0') returns a new string value."
+    },
+    {
+        "id": 192,
+        "topic": "String Methods",
+        "question": "What is the output of print('string'.upper())?",
+        "options": [
+            "STRING",
+            "string",
+            "String",
+            "6"
+        ],
+        "correctAnswer": "STRING",
+        "explanation": "The string method upper() returns a new string value."
+    },
+    {
+        "id": 193,
+        "topic": "String Methods",
+        "question": "What is the output of print('string'.lower())?",
+        "options": [
+            "STRING",
+            "String",
+            "6",
+            "string"
+        ],
+        "correctAnswer": "string",
+        "explanation": "The string method lower() returns a new string value."
+    },
+    {
+        "id": 194,
+        "topic": "String Methods",
+        "question": "What is the output of print('string'.capitalize())?",
+        "options": [
+            "string",
+            "gnirts",
+            "String",
+            "STRING"
+        ],
+        "correctAnswer": "String",
+        "explanation": "The string method capitalize() returns a new string value."
+    },
+    {
+        "id": 195,
+        "topic": "String Methods",
+        "question": "What is the output of print('string'.replace('o', '0'))?",
+        "options": [
+            "None",
+            "string",
+            "STRING",
+            "Raises an error"
+        ],
+        "correctAnswer": "string",
+        "explanation": "The string method replace('o', '0') returns a new string value."
+    },
+    {
+        "id": 196,
+        "topic": "String Methods",
+        "question": "What is the output of print('dictionary'.upper())?",
+        "options": [
+            "DICTIONARY",
+            "dictionary",
+            "Dictionary",
+            "10"
+        ],
+        "correctAnswer": "DICTIONARY",
+        "explanation": "The string method upper() returns a new string value."
+    },
+    {
+        "id": 197,
+        "topic": "String Methods",
+        "question": "What is the output of print('dictionary'.lower())?",
+        "options": [
+            "DICTIONARY",
+            "Dictionary",
+            "10",
+            "dictionary"
+        ],
+        "correctAnswer": "dictionary",
+        "explanation": "The string method lower() returns a new string value."
+    },
+    {
+        "id": 198,
+        "topic": "String Methods",
+        "question": "What is the output of print('dictionary'.capitalize())?",
+        "options": [
+            "dictionary",
+            "yranoitcid",
+            "Dictionary",
+            "DICTIONARY"
+        ],
+        "correctAnswer": "Dictionary",
+        "explanation": "The string method capitalize() returns a new string value."
+    },
+    {
+        "id": 199,
+        "topic": "String Methods",
+        "question": "What is the output of print('dictionary'.replace('o', '0'))?",
+        "options": [
+            "DICTIONARY",
+            "dicti0nary",
+            "dictionary",
+            "dictinary"
+        ],
+        "correctAnswer": "dicti0nary",
+        "explanation": "The string method replace('o', '0') returns a new string value."
+    },
+    {
+        "id": 200,
+        "topic": "String Methods",
+        "question": "What is the output of print('integer'.upper())?",
+        "options": [
+            "INTEGER",
+            "integer",
+            "Integer",
+            "7"
+        ],
+        "correctAnswer": "INTEGER",
+        "explanation": "The string method upper() returns a new string value."
+    },
+    {
+        "id": 201,
+        "topic": "String Methods",
+        "question": "What is the output of print('integer'.lower())?",
+        "options": [
+            "INTEGER",
+            "Integer",
+            "7",
+            "integer"
+        ],
+        "correctAnswer": "integer",
+        "explanation": "The string method lower() returns a new string value."
+    },
+    {
+        "id": 202,
+        "topic": "String Methods",
+        "question": "What is the output of print('integer'.capitalize())?",
+        "options": [
+            "integer",
+            "regetni",
+            "Integer",
+            "INTEGER"
+        ],
+        "correctAnswer": "Integer",
+        "explanation": "The string method capitalize() returns a new string value."
+    },
+    {
+        "id": 203,
+        "topic": "String Methods",
+        "question": "What is the output of print('integer'.replace('o', '0'))?",
+        "options": [
+            "None",
+            "integer",
+            "INTEGER",
+            "Raises an error"
+        ],
+        "correctAnswer": "integer",
+        "explanation": "The string method replace('o', '0') returns a new string value."
+    },
+    {
+        "id": 204,
+        "topic": "String Methods",
+        "question": "What is the output of print('module'.upper())?",
+        "options": [
+            "MODULE",
+            "module",
+            "Module",
+            "6"
+        ],
+        "correctAnswer": "MODULE",
+        "explanation": "The string method upper() returns a new string value."
+    },
+    {
+        "id": 205,
+        "topic": "String Methods",
+        "question": "What is the output of print('module'.lower())?",
+        "options": [
+            "MODULE",
+            "Module",
+            "6",
+            "module"
+        ],
+        "correctAnswer": "module",
+        "explanation": "The string method lower() returns a new string value."
+    },
+    {
+        "id": 206,
+        "topic": "String Methods",
+        "question": "What is the output of print('module'.capitalize())?",
+        "options": [
+            "module",
+            "eludom",
+            "Module",
+            "MODULE"
+        ],
+        "correctAnswer": "Module",
+        "explanation": "The string method capitalize() returns a new string value."
+    },
+    {
+        "id": 207,
+        "topic": "String Methods",
+        "question": "What is the output of print('module'.replace('o', '0'))?",
+        "options": [
+            "MODULE",
+            "m0dule",
+            "module",
+            "mdule"
+        ],
+        "correctAnswer": "m0dule",
+        "explanation": "The string method replace('o', '0') returns a new string value."
+    },
+    {
+        "id": 208,
+        "topic": "String Methods",
+        "question": "What is the output of print('syntax'.upper())?",
+        "options": [
+            "SYNTAX",
+            "syntax",
+            "Syntax",
+            "6"
+        ],
+        "correctAnswer": "SYNTAX",
+        "explanation": "The string method upper() returns a new string value."
+    },
+    {
+        "id": 209,
+        "topic": "String Methods",
+        "question": "What is the output of print('syntax'.lower())?",
+        "options": [
+            "SYNTAX",
+            "Syntax",
+            "6",
+            "syntax"
+        ],
+        "correctAnswer": "syntax",
+        "explanation": "The string method lower() returns a new string value."
+    },
+    {
+        "id": 210,
+        "topic": "String Methods",
+        "question": "What is the output of print('syntax'.capitalize())?",
+        "options": [
+            "syntax",
+            "xatnys",
+            "Syntax",
+            "SYNTAX"
+        ],
+        "correctAnswer": "Syntax",
+        "explanation": "The string method capitalize() returns a new string value."
+    },
+    {
+        "id": 211,
+        "topic": "String Methods",
+        "question": "What is the output of print('syntax'.replace('o', '0'))?",
+        "options": [
+            "None",
+            "syntax",
+            "SYNTAX",
+            "Raises an error"
+        ],
+        "correctAnswer": "syntax",
+        "explanation": "The string method replace('o', '0') returns a new string value."
+    },
+    {
+        "id": 212,
+        "topic": "String Methods",
+        "question": "What is the output of print('boolean'.upper())?",
+        "options": [
+            "BOOLEAN",
+            "boolean",
+            "Boolean",
+            "7"
+        ],
+        "correctAnswer": "BOOLEAN",
+        "explanation": "The string method upper() returns a new string value."
+    },
+    {
+        "id": 213,
+        "topic": "String Methods",
+        "question": "What is the output of print('boolean'.lower())?",
+        "options": [
+            "BOOLEAN",
+            "Boolean",
+            "7",
+            "boolean"
+        ],
+        "correctAnswer": "boolean",
+        "explanation": "The string method lower() returns a new string value."
+    },
+    {
+        "id": 214,
+        "topic": "String Methods",
+        "question": "What is the output of print('boolean'.capitalize())?",
+        "options": [
+            "boolean",
+            "naeloob",
+            "Boolean",
+            "BOOLEAN"
+        ],
+        "correctAnswer": "Boolean",
+        "explanation": "The string method capitalize() returns a new string value."
+    },
+    {
+        "id": 215,
+        "topic": "String Methods",
+        "question": "What is the output of print('boolean'.replace('o', '0'))?",
+        "options": [
+            "BOOLEAN",
+            "b00lean",
+            "boolean",
+            "blean"
+        ],
+        "correctAnswer": "b00lean",
+        "explanation": "The string method replace('o', '0') returns a new string value."
+    },
+    {
+        "id": 216,
+        "topic": "Lists",
+        "question": "What is the output of print(len([1, 2, 3, 4, 5]))?",
+        "options": [
+            "5",
+            "4",
+            "6",
+            "Raises an error"
+        ],
+        "correctAnswer": "5",
+        "explanation": "len() returns the number of items in a list."
+    },
+    {
+        "id": 217,
+        "topic": "Lists",
+        "question": "What is the output of print([1, 2, 3, 4, 5][0])?",
+        "options": [
+            "5",
+            "0",
+            "Raises an error",
+            "1"
+        ],
+        "correctAnswer": "1",
+        "explanation": "Index 0 refers to the first item in a list."
+    },
+    {
+        "id": 218,
+        "topic": "Lists",
+        "question": "What is the output of print(len([1, 2, 3, 4, 5, 6]))?",
+        "options": [
+            "7",
+            "Raises an error",
+            "6",
+            "5"
+        ],
+        "correctAnswer": "6",
+        "explanation": "len() returns the number of items in a list."
+    },
+    {
+        "id": 219,
+        "topic": "Lists",
+        "question": "What is the output of print([1, 2, 3, 4, 5, 6][0])?",
+        "options": [
+            "Raises an error",
+            "1",
+            "6",
+            "0"
+        ],
+        "correctAnswer": "1",
+        "explanation": "Index 0 refers to the first item in a list."
+    },
+    {
+        "id": 220,
+        "topic": "Lists",
+        "question": "What is the output of print(len([1, 2, 3, 4, 5, 6, 7]))?",
+        "options": [
+            "7",
+            "6",
+            "8",
+            "Raises an error"
+        ],
+        "correctAnswer": "7",
+        "explanation": "len() returns the number of items in a list."
+    },
+    {
+        "id": 221,
+        "topic": "Lists",
+        "question": "What is the output of print([1, 2, 3, 4, 5, 6, 7][0])?",
+        "options": [
+            "7",
+            "0",
+            "Raises an error",
+            "1"
+        ],
+        "correctAnswer": "1",
+        "explanation": "Index 0 refers to the first item in a list."
+    },
+    {
+        "id": 222,
+        "topic": "Lists",
+        "question": "What is the output of print(len([1, 2, 3, 4, 5, 6, 7, 8]))?",
+        "options": [
+            "9",
+            "Raises an error",
+            "8",
+            "7"
+        ],
+        "correctAnswer": "8",
+        "explanation": "len() returns the number of items in a list."
+    },
+    {
+        "id": 223,
+        "topic": "Lists",
+        "question": "What is the output of print([1, 2, 3, 4, 5, 6, 7, 8][0])?",
+        "options": [
+            "Raises an error",
+            "1",
+            "8",
+            "0"
+        ],
+        "correctAnswer": "1",
+        "explanation": "Index 0 refers to the first item in a list."
+    },
+    {
+        "id": 224,
+        "topic": "Lists",
+        "question": "What is the output of print(len([1, 2, 3, 4, 5, 6, 7, 8, 9]))?",
+        "options": [
+            "9",
+            "8",
+            "10",
+            "Raises an error"
+        ],
+        "correctAnswer": "9",
+        "explanation": "len() returns the number of items in a list."
+    },
+    {
+        "id": 225,
+        "topic": "Lists",
+        "question": "What is the output of print([1, 2, 3, 4, 5, 6, 7, 8, 9][0])?",
+        "options": [
+            "9",
+            "0",
+            "Raises an error",
+            "1"
+        ],
+        "correctAnswer": "1",
+        "explanation": "Index 0 refers to the first item in a list."
+    },
+    {
+        "id": 226,
+        "topic": "Lists",
+        "question": "What is the output of print(len([1, 2, 3]))?",
+        "options": [
+            "4",
+            "Raises an error",
+            "3",
+            "2"
+        ],
+        "correctAnswer": "3",
+        "explanation": "len() returns the number of items in a list."
+    },
+    {
+        "id": 227,
+        "topic": "Lists",
+        "question": "What is the output of print([1, 2, 3][0])?",
+        "options": [
+            "Raises an error",
+            "1",
+            "3",
+            "0"
+        ],
+        "correctAnswer": "1",
+        "explanation": "Index 0 refers to the first item in a list."
+    },
+    {
+        "id": 228,
+        "topic": "Lists",
+        "question": "What is the output of print(len([1, 2, 3, 4]))?",
+        "options": [
+            "4",
+            "3",
+            "5",
+            "Raises an error"
+        ],
+        "correctAnswer": "4",
+        "explanation": "len() returns the number of items in a list."
+    },
+    {
+        "id": 229,
+        "topic": "Lists",
+        "question": "What is the output of print([1, 2, 3, 4][0])?",
+        "options": [
+            "4",
+            "0",
+            "Raises an error",
+            "1"
+        ],
+        "correctAnswer": "1",
+        "explanation": "Index 0 refers to the first item in a list."
+    },
+    {
+        "id": 230,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(0, 2)))?",
+        "options": [
+            "[1]",
+            "2",
+            "[0, 1]",
+            "[0, 1, 2]"
+        ],
+        "correctAnswer": "[0, 1]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 231,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(0, 3)))?",
+        "options": [
+            "3",
+            "[0, 1, 2]",
+            "[0, 1, 2, 3]",
+            "[1, 2]"
+        ],
+        "correctAnswer": "[0, 1, 2]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 232,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(0, 4)))?",
+        "options": [
+            "[0, 1, 2, 3]",
+            "[0, 1, 2, 3, 4]",
+            "[1, 2, 3]",
+            "4"
+        ],
+        "correctAnswer": "[0, 1, 2, 3]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 233,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(0, 5)))?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5]",
+            "[1, 2, 3, 4]",
+            "5",
+            "[0, 1, 2, 3, 4]"
+        ],
+        "correctAnswer": "[0, 1, 2, 3, 4]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 234,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(0, 6)))?",
+        "options": [
+            "[1, 2, 3, 4, 5]",
+            "6",
+            "[0, 1, 2, 3, 4, 5]",
+            "[0, 1, 2, 3, 4, 5, 6]"
+        ],
+        "correctAnswer": "[0, 1, 2, 3, 4, 5]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 235,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(0, 7)))?",
+        "options": [
+            "7",
+            "[0, 1, 2, 3, 4, 5, 6]",
+            "[0, 1, 2, 3, 4, 5, 6, 7]",
+            "[1, 2, 3, 4, 5, 6]"
+        ],
+        "correctAnswer": "[0, 1, 2, 3, 4, 5, 6]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 236,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(0, 8)))?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6, 7]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8]",
+            "[1, 2, 3, 4, 5, 6, 7]",
+            "8"
+        ],
+        "correctAnswer": "[0, 1, 2, 3, 4, 5, 6, 7]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 237,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(1, 3)))?",
+        "options": [
+            "[1, 2, 3]",
+            "[2]",
+            "2",
+            "[1, 2]"
+        ],
+        "correctAnswer": "[1, 2]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 238,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(1, 4)))?",
+        "options": [
+            "[2, 3]",
+            "3",
+            "[1, 2, 3]",
+            "[1, 2, 3, 4]"
+        ],
+        "correctAnswer": "[1, 2, 3]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 239,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(1, 5)))?",
+        "options": [
+            "4",
+            "[1, 2, 3, 4]",
+            "[1, 2, 3, 4, 5]",
+            "[2, 3, 4]"
+        ],
+        "correctAnswer": "[1, 2, 3, 4]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 240,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(1, 6)))?",
+        "options": [
+            "[1, 2, 3, 4, 5]",
+            "[1, 2, 3, 4, 5, 6]",
+            "[2, 3, 4, 5]",
+            "5"
+        ],
+        "correctAnswer": "[1, 2, 3, 4, 5]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 241,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(1, 7)))?",
+        "options": [
+            "[1, 2, 3, 4, 5, 6, 7]",
+            "[2, 3, 4, 5, 6]",
+            "6",
+            "[1, 2, 3, 4, 5, 6]"
+        ],
+        "correctAnswer": "[1, 2, 3, 4, 5, 6]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 242,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(1, 8)))?",
+        "options": [
+            "[2, 3, 4, 5, 6, 7]",
+            "7",
+            "[1, 2, 3, 4, 5, 6, 7]",
+            "[1, 2, 3, 4, 5, 6, 7, 8]"
+        ],
+        "correctAnswer": "[1, 2, 3, 4, 5, 6, 7]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 243,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(1, 9)))?",
+        "options": [
+            "8",
+            "[1, 2, 3, 4, 5, 6, 7, 8]",
+            "[1, 2, 3, 4, 5, 6, 7, 8, 9]",
+            "[2, 3, 4, 5, 6, 7, 8]"
+        ],
+        "correctAnswer": "[1, 2, 3, 4, 5, 6, 7, 8]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 244,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(2, 4)))?",
+        "options": [
+            "[2, 3]",
+            "[2, 3, 4]",
+            "[3]",
+            "2"
+        ],
+        "correctAnswer": "[2, 3]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 245,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(2, 5)))?",
+        "options": [
+            "[2, 3, 4, 5]",
+            "[3, 4]",
+            "3",
+            "[2, 3, 4]"
+        ],
+        "correctAnswer": "[2, 3, 4]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 246,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(2, 6)))?",
+        "options": [
+            "[3, 4, 5]",
+            "4",
+            "[2, 3, 4, 5]",
+            "[2, 3, 4, 5, 6]"
+        ],
+        "correctAnswer": "[2, 3, 4, 5]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 247,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(2, 7)))?",
+        "options": [
+            "5",
+            "[2, 3, 4, 5, 6]",
+            "[2, 3, 4, 5, 6, 7]",
+            "[3, 4, 5, 6]"
+        ],
+        "correctAnswer": "[2, 3, 4, 5, 6]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 248,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(2, 8)))?",
+        "options": [
+            "[2, 3, 4, 5, 6, 7]",
+            "[2, 3, 4, 5, 6, 7, 8]",
+            "[3, 4, 5, 6, 7]",
+            "6"
+        ],
+        "correctAnswer": "[2, 3, 4, 5, 6, 7]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 249,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(2, 9)))?",
+        "options": [
+            "[2, 3, 4, 5, 6, 7, 8, 9]",
+            "[3, 4, 5, 6, 7, 8]",
+            "7",
+            "[2, 3, 4, 5, 6, 7, 8]"
+        ],
+        "correctAnswer": "[2, 3, 4, 5, 6, 7, 8]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 250,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(2, 10)))?",
+        "options": [
+            "[3, 4, 5, 6, 7, 8, 9]",
+            "8",
+            "[2, 3, 4, 5, 6, 7, 8, 9]",
+            "[2, 3, 4, 5, 6, 7, 8, 9, 10]"
+        ],
+        "correctAnswer": "[2, 3, 4, 5, 6, 7, 8, 9]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 251,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(3, 5)))?",
+        "options": [
+            "2",
+            "[3, 4]",
+            "[3, 4, 5]",
+            "[4]"
+        ],
+        "correctAnswer": "[3, 4]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 252,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(3, 6)))?",
+        "options": [
+            "[3, 4, 5]",
+            "[3, 4, 5, 6]",
+            "[4, 5]",
+            "3"
+        ],
+        "correctAnswer": "[3, 4, 5]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 253,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(3, 7)))?",
+        "options": [
+            "[3, 4, 5, 6, 7]",
+            "[4, 5, 6]",
+            "4",
+            "[3, 4, 5, 6]"
+        ],
+        "correctAnswer": "[3, 4, 5, 6]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 254,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(3, 8)))?",
+        "options": [
+            "[4, 5, 6, 7]",
+            "5",
+            "[3, 4, 5, 6, 7]",
+            "[3, 4, 5, 6, 7, 8]"
+        ],
+        "correctAnswer": "[3, 4, 5, 6, 7]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 255,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(3, 9)))?",
+        "options": [
+            "6",
+            "[3, 4, 5, 6, 7, 8]",
+            "[3, 4, 5, 6, 7, 8, 9]",
+            "[4, 5, 6, 7, 8]"
+        ],
+        "correctAnswer": "[3, 4, 5, 6, 7, 8]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 256,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(3, 10)))?",
+        "options": [
+            "[3, 4, 5, 6, 7, 8, 9]",
+            "[3, 4, 5, 6, 7, 8, 9, 10]",
+            "[4, 5, 6, 7, 8, 9]",
+            "7"
+        ],
+        "correctAnswer": "[3, 4, 5, 6, 7, 8, 9]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 257,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(3, 11)))?",
+        "options": [
+            "[3, 4, 5, 6, 7, 8, 9, 10, 11]",
+            "[4, 5, 6, 7, 8, 9, 10]",
+            "8",
+            "[3, 4, 5, 6, 7, 8, 9, 10]"
+        ],
+        "correctAnswer": "[3, 4, 5, 6, 7, 8, 9, 10]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 258,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(4, 6)))?",
+        "options": [
+            "[5]",
+            "2",
+            "[4, 5]",
+            "[4, 5, 6]"
+        ],
+        "correctAnswer": "[4, 5]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 259,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(4, 7)))?",
+        "options": [
+            "3",
+            "[4, 5, 6]",
+            "[4, 5, 6, 7]",
+            "[5, 6]"
+        ],
+        "correctAnswer": "[4, 5, 6]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 260,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(4, 8)))?",
+        "options": [
+            "[4, 5, 6, 7]",
+            "[4, 5, 6, 7, 8]",
+            "[5, 6, 7]",
+            "4"
+        ],
+        "correctAnswer": "[4, 5, 6, 7]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 261,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(4, 9)))?",
+        "options": [
+            "[4, 5, 6, 7, 8, 9]",
+            "[5, 6, 7, 8]",
+            "5",
+            "[4, 5, 6, 7, 8]"
+        ],
+        "correctAnswer": "[4, 5, 6, 7, 8]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 262,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(4, 10)))?",
+        "options": [
+            "[5, 6, 7, 8, 9]",
+            "6",
+            "[4, 5, 6, 7, 8, 9]",
+            "[4, 5, 6, 7, 8, 9, 10]"
+        ],
+        "correctAnswer": "[4, 5, 6, 7, 8, 9]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 263,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(4, 11)))?",
+        "options": [
+            "7",
+            "[4, 5, 6, 7, 8, 9, 10]",
+            "[4, 5, 6, 7, 8, 9, 10, 11]",
+            "[5, 6, 7, 8, 9, 10]"
+        ],
+        "correctAnswer": "[4, 5, 6, 7, 8, 9, 10]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 264,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(4, 12)))?",
+        "options": [
+            "[4, 5, 6, 7, 8, 9, 10, 11]",
+            "[4, 5, 6, 7, 8, 9, 10, 11, 12]",
+            "[5, 6, 7, 8, 9, 10, 11]",
+            "8"
+        ],
+        "correctAnswer": "[4, 5, 6, 7, 8, 9, 10, 11]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 265,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(5, 7)))?",
+        "options": [
+            "[5, 6, 7]",
+            "[6]",
+            "2",
+            "[5, 6]"
+        ],
+        "correctAnswer": "[5, 6]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 266,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(5, 8)))?",
+        "options": [
+            "[6, 7]",
+            "3",
+            "[5, 6, 7]",
+            "[5, 6, 7, 8]"
+        ],
+        "correctAnswer": "[5, 6, 7]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 267,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(5, 9)))?",
+        "options": [
+            "4",
+            "[5, 6, 7, 8]",
+            "[5, 6, 7, 8, 9]",
+            "[6, 7, 8]"
+        ],
+        "correctAnswer": "[5, 6, 7, 8]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 268,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(5, 10)))?",
+        "options": [
+            "[5, 6, 7, 8, 9]",
+            "[5, 6, 7, 8, 9, 10]",
+            "[6, 7, 8, 9]",
+            "5"
+        ],
+        "correctAnswer": "[5, 6, 7, 8, 9]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 269,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(5, 11)))?",
+        "options": [
+            "[5, 6, 7, 8, 9, 10, 11]",
+            "[6, 7, 8, 9, 10]",
+            "6",
+            "[5, 6, 7, 8, 9, 10]"
+        ],
+        "correctAnswer": "[5, 6, 7, 8, 9, 10]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 270,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(5, 12)))?",
+        "options": [
+            "[6, 7, 8, 9, 10, 11]",
+            "7",
+            "[5, 6, 7, 8, 9, 10, 11]",
+            "[5, 6, 7, 8, 9, 10, 11, 12]"
+        ],
+        "correctAnswer": "[5, 6, 7, 8, 9, 10, 11]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 271,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(5, 13)))?",
+        "options": [
+            "8",
+            "[5, 6, 7, 8, 9, 10, 11, 12]",
+            "[5, 6, 7, 8, 9, 10, 11, 12, 13]",
+            "[6, 7, 8, 9, 10, 11, 12]"
+        ],
+        "correctAnswer": "[5, 6, 7, 8, 9, 10, 11, 12]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 272,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(6, 8)))?",
+        "options": [
+            "[6, 7]",
+            "[6, 7, 8]",
+            "[7]",
+            "2"
+        ],
+        "correctAnswer": "[6, 7]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 273,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(6, 9)))?",
+        "options": [
+            "[6, 7, 8, 9]",
+            "[7, 8]",
+            "3",
+            "[6, 7, 8]"
+        ],
+        "correctAnswer": "[6, 7, 8]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 274,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(6, 10)))?",
+        "options": [
+            "[7, 8, 9]",
+            "4",
+            "[6, 7, 8, 9]",
+            "[6, 7, 8, 9, 10]"
+        ],
+        "correctAnswer": "[6, 7, 8, 9]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 275,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(6, 11)))?",
+        "options": [
+            "5",
+            "[6, 7, 8, 9, 10]",
+            "[6, 7, 8, 9, 10, 11]",
+            "[7, 8, 9, 10]"
+        ],
+        "correctAnswer": "[6, 7, 8, 9, 10]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 276,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(6, 12)))?",
+        "options": [
+            "[6, 7, 8, 9, 10, 11]",
+            "[6, 7, 8, 9, 10, 11, 12]",
+            "[7, 8, 9, 10, 11]",
+            "6"
+        ],
+        "correctAnswer": "[6, 7, 8, 9, 10, 11]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 277,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(6, 13)))?",
+        "options": [
+            "[6, 7, 8, 9, 10, 11, 12, 13]",
+            "[7, 8, 9, 10, 11, 12]",
+            "7",
+            "[6, 7, 8, 9, 10, 11, 12]"
+        ],
+        "correctAnswer": "[6, 7, 8, 9, 10, 11, 12]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 278,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(6, 14)))?",
+        "options": [
+            "[7, 8, 9, 10, 11, 12, 13]",
+            "8",
+            "[6, 7, 8, 9, 10, 11, 12, 13]",
+            "[6, 7, 8, 9, 10, 11, 12, 13, 14]"
+        ],
+        "correctAnswer": "[6, 7, 8, 9, 10, 11, 12, 13]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 279,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(7, 9)))?",
+        "options": [
+            "2",
+            "[7, 8]",
+            "[7, 8, 9]",
+            "[8]"
+        ],
+        "correctAnswer": "[7, 8]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 280,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(7, 10)))?",
+        "options": [
+            "[7, 8, 9]",
+            "[7, 8, 9, 10]",
+            "[8, 9]",
+            "3"
+        ],
+        "correctAnswer": "[7, 8, 9]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 281,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(7, 11)))?",
+        "options": [
+            "[7, 8, 9, 10, 11]",
+            "[8, 9, 10]",
+            "4",
+            "[7, 8, 9, 10]"
+        ],
+        "correctAnswer": "[7, 8, 9, 10]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 282,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(7, 12)))?",
+        "options": [
+            "[8, 9, 10, 11]",
+            "5",
+            "[7, 8, 9, 10, 11]",
+            "[7, 8, 9, 10, 11, 12]"
+        ],
+        "correctAnswer": "[7, 8, 9, 10, 11]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 283,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(7, 13)))?",
+        "options": [
+            "6",
+            "[7, 8, 9, 10, 11, 12]",
+            "[7, 8, 9, 10, 11, 12, 13]",
+            "[8, 9, 10, 11, 12]"
+        ],
+        "correctAnswer": "[7, 8, 9, 10, 11, 12]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 284,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(7, 14)))?",
+        "options": [
+            "[7, 8, 9, 10, 11, 12, 13]",
+            "[7, 8, 9, 10, 11, 12, 13, 14]",
+            "[8, 9, 10, 11, 12, 13]",
+            "7"
+        ],
+        "correctAnswer": "[7, 8, 9, 10, 11, 12, 13]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 285,
+        "topic": "Loops and Range",
+        "question": "What is the output of print(list(range(7, 15)))?",
+        "options": [
+            "[7, 8, 9, 10, 11, 12, 13, 14, 15]",
+            "[8, 9, 10, 11, 12, 13, 14]",
+            "8",
+            "[7, 8, 9, 10, 11, 12, 13, 14]"
+        ],
+        "correctAnswer": "[7, 8, 9, 10, 11, 12, 13, 14]",
+        "explanation": "range(start, stop) includes start and excludes stop."
+    },
+    {
+        "id": 286,
+        "topic": "Comments",
+        "question": "Which symbol starts a single-line Python comment? (Beginner practice 286)",
+        "options": [
+            "<!--",
+            "--",
+            "#",
+            "//"
+        ],
+        "correctAnswer": "#",
+        "explanation": "The # symbol starts a single-line Python comment."
+    },
+    {
+        "id": 287,
+        "topic": "Booleans",
+        "question": "Which value represents true in Python? (Beginner practice 287)",
+        "options": [
+            "1 only",
+            "True",
+            "true",
+            "TRUE"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Boolean literals in Python are True and False."
+    },
+    {
+        "id": 288,
+        "topic": "None",
+        "question": "Which value represents no value in Python? (Beginner practice 288)",
+        "options": [
+            "None",
+            "null",
+            "nil",
+            "undefined"
+        ],
+        "correctAnswer": "None",
+        "explanation": "Python uses None to represent absence of a value."
+    },
+    {
+        "id": 289,
+        "topic": "Input",
+        "question": "What type does input() return? (Beginner practice 289)",
+        "options": [
+            "int",
+            "float",
+            "bool",
+            "str"
+        ],
+        "correctAnswer": "str",
+        "explanation": "input() always returns text unless you convert it."
+    },
+    {
+        "id": 290,
+        "topic": "Imports",
+        "question": "Which keyword imports a module? (Beginner practice 290)",
+        "options": [
+            "using",
+            "require",
+            "import",
+            "include"
+        ],
+        "correctAnswer": "import",
+        "explanation": "The import keyword loads a module."
+    },
+    {
+        "id": 291,
+        "topic": "Variables",
+        "question": "Which variable name is valid in Python? (Beginner practice 291)",
+        "options": [
+            "student name",
+            "student_name",
+            "2student",
+            "student-name"
+        ],
+        "correctAnswer": "student_name",
+        "explanation": "Names can contain letters, numbers, and underscores, but cannot start with a number."
+    },
+    {
+        "id": 292,
+        "topic": "Data Types",
+        "question": "Which literal creates a dictionary? (Beginner practice 292)",
+        "options": [
+            "{'name': 'Ada'}",
+            "['name', 'Ada']",
+            "('name', 'Ada')",
+            "{'Ada'}"
+        ],
+        "correctAnswer": "{'name': 'Ada'}",
+        "explanation": "Dictionaries store key-value pairs inside curly braces."
+    },
+    {
+        "id": 293,
+        "topic": "Functions",
+        "question": "Which keyword defines a function? (Beginner practice 293)",
+        "options": [
+            "func",
+            "function",
+            "lambda def",
+            "def"
+        ],
+        "correctAnswer": "def",
+        "explanation": "Python uses def to define named functions."
+    },
+    {
+        "id": 294,
+        "topic": "Conditionals",
+        "question": "Which keyword checks another condition after if? (Beginner practice 294)",
+        "options": [
+            "else if",
+            "when",
+            "elif",
+            "elseif"
+        ],
+        "correctAnswer": "elif",
+        "explanation": "Python uses elif for additional conditional branches."
+    },
+    {
+        "id": 295,
+        "topic": "Loops",
+        "question": "Which statement skips to the next loop iteration? (Beginner practice 295)",
+        "options": [
+            "pass loop",
+            "continue",
+            "break",
+            "skip"
+        ],
+        "correctAnswer": "continue",
+        "explanation": "continue jumps to the next iteration of the nearest loop."
+    },
+    {
+        "id": 296,
+        "topic": "Comments",
+        "question": "Which symbol starts a single-line Python comment? (Beginner practice 296)",
+        "options": [
+            "#",
+            "//",
+            "<!--",
+            "--"
+        ],
+        "correctAnswer": "#",
+        "explanation": "The # symbol starts a single-line Python comment."
+    },
+    {
+        "id": 297,
+        "topic": "Booleans",
+        "question": "Which value represents true in Python? (Beginner practice 297)",
+        "options": [
+            "true",
+            "TRUE",
+            "1 only",
+            "True"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Boolean literals in Python are True and False."
+    },
+    {
+        "id": 298,
+        "topic": "None",
+        "question": "Which value represents no value in Python? (Beginner practice 298)",
+        "options": [
+            "nil",
+            "undefined",
+            "None",
+            "null"
+        ],
+        "correctAnswer": "None",
+        "explanation": "Python uses None to represent absence of a value."
+    },
+    {
+        "id": 299,
+        "topic": "Input",
+        "question": "What type does input() return? (Beginner practice 299)",
+        "options": [
+            "bool",
+            "str",
+            "int",
+            "float"
+        ],
+        "correctAnswer": "str",
+        "explanation": "input() always returns text unless you convert it."
+    },
+    {
+        "id": 300,
+        "topic": "Imports",
+        "question": "Which keyword imports a module? (Beginner practice 300)",
+        "options": [
+            "import",
+            "include",
+            "using",
+            "require"
+        ],
+        "correctAnswer": "import",
+        "explanation": "The import keyword loads a module."
+    },
+    {
+        "id": 301,
+        "topic": "Variables",
+        "question": "Which variable name is valid in Python? (Beginner practice 301)",
+        "options": [
+            "2student",
+            "student-name",
+            "student name",
+            "student_name"
+        ],
+        "correctAnswer": "student_name",
+        "explanation": "Names can contain letters, numbers, and underscores, but cannot start with a number."
+    },
+    {
+        "id": 302,
+        "topic": "Data Types",
+        "question": "Which literal creates a dictionary? (Beginner practice 302)",
+        "options": [
+            "('name', 'Ada')",
+            "{'Ada'}",
+            "{'name': 'Ada'}",
+            "['name', 'Ada']"
+        ],
+        "correctAnswer": "{'name': 'Ada'}",
+        "explanation": "Dictionaries store key-value pairs inside curly braces."
+    },
+    {
+        "id": 303,
+        "topic": "Functions",
+        "question": "Which keyword defines a function? (Beginner practice 303)",
+        "options": [
+            "lambda def",
+            "def",
+            "func",
+            "function"
+        ],
+        "correctAnswer": "def",
+        "explanation": "Python uses def to define named functions."
+    },
+    {
+        "id": 304,
+        "topic": "Conditionals",
+        "question": "Which keyword checks another condition after if? (Beginner practice 304)",
+        "options": [
+            "elif",
+            "elseif",
+            "else if",
+            "when"
+        ],
+        "correctAnswer": "elif",
+        "explanation": "Python uses elif for additional conditional branches."
+    },
+    {
+        "id": 305,
+        "topic": "Loops",
+        "question": "Which statement skips to the next loop iteration? (Beginner practice 305)",
+        "options": [
+            "break",
+            "skip",
+            "pass loop",
+            "continue"
+        ],
+        "correctAnswer": "continue",
+        "explanation": "continue jumps to the next iteration of the nearest loop."
+    },
+    {
+        "id": 306,
+        "topic": "Comments",
+        "question": "Which symbol starts a single-line Python comment? (Beginner practice 306)",
+        "options": [
+            "<!--",
+            "--",
+            "#",
+            "//"
+        ],
+        "correctAnswer": "#",
+        "explanation": "The # symbol starts a single-line Python comment."
+    },
+    {
+        "id": 307,
+        "topic": "Booleans",
+        "question": "Which value represents true in Python? (Beginner practice 307)",
+        "options": [
+            "1 only",
+            "True",
+            "true",
+            "TRUE"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Boolean literals in Python are True and False."
+    },
+    {
+        "id": 308,
+        "topic": "None",
+        "question": "Which value represents no value in Python? (Beginner practice 308)",
+        "options": [
+            "None",
+            "null",
+            "nil",
+            "undefined"
+        ],
+        "correctAnswer": "None",
+        "explanation": "Python uses None to represent absence of a value."
+    },
+    {
+        "id": 309,
+        "topic": "Input",
+        "question": "What type does input() return? (Beginner practice 309)",
+        "options": [
+            "int",
+            "float",
+            "bool",
+            "str"
+        ],
+        "correctAnswer": "str",
+        "explanation": "input() always returns text unless you convert it."
+    },
+    {
+        "id": 310,
+        "topic": "Imports",
+        "question": "Which keyword imports a module? (Beginner practice 310)",
+        "options": [
+            "using",
+            "require",
+            "import",
+            "include"
+        ],
+        "correctAnswer": "import",
+        "explanation": "The import keyword loads a module."
+    },
+    {
+        "id": 311,
+        "topic": "Variables",
+        "question": "Which variable name is valid in Python? (Beginner practice 311)",
+        "options": [
+            "student name",
+            "student_name",
+            "2student",
+            "student-name"
+        ],
+        "correctAnswer": "student_name",
+        "explanation": "Names can contain letters, numbers, and underscores, but cannot start with a number."
+    },
+    {
+        "id": 312,
+        "topic": "Data Types",
+        "question": "Which literal creates a dictionary? (Beginner practice 312)",
+        "options": [
+            "{'name': 'Ada'}",
+            "['name', 'Ada']",
+            "('name', 'Ada')",
+            "{'Ada'}"
+        ],
+        "correctAnswer": "{'name': 'Ada'}",
+        "explanation": "Dictionaries store key-value pairs inside curly braces."
+    },
+    {
+        "id": 313,
+        "topic": "Functions",
+        "question": "Which keyword defines a function? (Beginner practice 313)",
+        "options": [
+            "func",
+            "function",
+            "lambda def",
+            "def"
+        ],
+        "correctAnswer": "def",
+        "explanation": "Python uses def to define named functions."
+    },
+    {
+        "id": 314,
+        "topic": "Conditionals",
+        "question": "Which keyword checks another condition after if? (Beginner practice 314)",
+        "options": [
+            "else if",
+            "when",
+            "elif",
+            "elseif"
+        ],
+        "correctAnswer": "elif",
+        "explanation": "Python uses elif for additional conditional branches."
+    },
+    {
+        "id": 315,
+        "topic": "Loops",
+        "question": "Which statement skips to the next loop iteration? (Beginner practice 315)",
+        "options": [
+            "pass loop",
+            "continue",
+            "break",
+            "skip"
+        ],
+        "correctAnswer": "continue",
+        "explanation": "continue jumps to the next iteration of the nearest loop."
+    },
+    {
+        "id": 316,
+        "topic": "Comments",
+        "question": "Which symbol starts a single-line Python comment? (Beginner practice 316)",
+        "options": [
+            "#",
+            "//",
+            "<!--",
+            "--"
+        ],
+        "correctAnswer": "#",
+        "explanation": "The # symbol starts a single-line Python comment."
+    },
+    {
+        "id": 317,
+        "topic": "Booleans",
+        "question": "Which value represents true in Python? (Beginner practice 317)",
+        "options": [
+            "true",
+            "TRUE",
+            "1 only",
+            "True"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Boolean literals in Python are True and False."
+    },
+    {
+        "id": 318,
+        "topic": "None",
+        "question": "Which value represents no value in Python? (Beginner practice 318)",
+        "options": [
+            "nil",
+            "undefined",
+            "None",
+            "null"
+        ],
+        "correctAnswer": "None",
+        "explanation": "Python uses None to represent absence of a value."
+    },
+    {
+        "id": 319,
+        "topic": "Input",
+        "question": "What type does input() return? (Beginner practice 319)",
+        "options": [
+            "bool",
+            "str",
+            "int",
+            "float"
+        ],
+        "correctAnswer": "str",
+        "explanation": "input() always returns text unless you convert it."
+    },
+    {
+        "id": 320,
+        "topic": "Imports",
+        "question": "Which keyword imports a module? (Beginner practice 320)",
+        "options": [
+            "import",
+            "include",
+            "using",
+            "require"
+        ],
+        "correctAnswer": "import",
+        "explanation": "The import keyword loads a module."
+    },
+    {
+        "id": 321,
+        "topic": "Variables",
+        "question": "Which variable name is valid in Python? (Beginner practice 321)",
+        "options": [
+            "2student",
+            "student-name",
+            "student name",
+            "student_name"
+        ],
+        "correctAnswer": "student_name",
+        "explanation": "Names can contain letters, numbers, and underscores, but cannot start with a number."
+    },
+    {
+        "id": 322,
+        "topic": "Data Types",
+        "question": "Which literal creates a dictionary? (Beginner practice 322)",
+        "options": [
+            "('name', 'Ada')",
+            "{'Ada'}",
+            "{'name': 'Ada'}",
+            "['name', 'Ada']"
+        ],
+        "correctAnswer": "{'name': 'Ada'}",
+        "explanation": "Dictionaries store key-value pairs inside curly braces."
+    },
+    {
+        "id": 323,
+        "topic": "Functions",
+        "question": "Which keyword defines a function? (Beginner practice 323)",
+        "options": [
+            "lambda def",
+            "def",
+            "func",
+            "function"
+        ],
+        "correctAnswer": "def",
+        "explanation": "Python uses def to define named functions."
+    },
+    {
+        "id": 324,
+        "topic": "Conditionals",
+        "question": "Which keyword checks another condition after if? (Beginner practice 324)",
+        "options": [
+            "elif",
+            "elseif",
+            "else if",
+            "when"
+        ],
+        "correctAnswer": "elif",
+        "explanation": "Python uses elif for additional conditional branches."
+    },
+    {
+        "id": 325,
+        "topic": "Loops",
+        "question": "Which statement skips to the next loop iteration? (Beginner practice 325)",
+        "options": [
+            "break",
+            "skip",
+            "pass loop",
+            "continue"
+        ],
+        "correctAnswer": "continue",
+        "explanation": "continue jumps to the next iteration of the nearest loop."
+    },
+    {
+        "id": 326,
+        "topic": "Comments",
+        "question": "Which symbol starts a single-line Python comment? (Beginner practice 326)",
+        "options": [
+            "<!--",
+            "--",
+            "#",
+            "//"
+        ],
+        "correctAnswer": "#",
+        "explanation": "The # symbol starts a single-line Python comment."
+    },
+    {
+        "id": 327,
+        "topic": "Booleans",
+        "question": "Which value represents true in Python? (Beginner practice 327)",
+        "options": [
+            "1 only",
+            "True",
+            "true",
+            "TRUE"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Boolean literals in Python are True and False."
+    },
+    {
+        "id": 328,
+        "topic": "None",
+        "question": "Which value represents no value in Python? (Beginner practice 328)",
+        "options": [
+            "None",
+            "null",
+            "nil",
+            "undefined"
+        ],
+        "correctAnswer": "None",
+        "explanation": "Python uses None to represent absence of a value."
+    },
+    {
+        "id": 329,
+        "topic": "Input",
+        "question": "What type does input() return? (Beginner practice 329)",
+        "options": [
+            "int",
+            "float",
+            "bool",
+            "str"
+        ],
+        "correctAnswer": "str",
+        "explanation": "input() always returns text unless you convert it."
+    },
+    {
+        "id": 330,
+        "topic": "Imports",
+        "question": "Which keyword imports a module? (Beginner practice 330)",
+        "options": [
+            "using",
+            "require",
+            "import",
+            "include"
+        ],
+        "correctAnswer": "import",
+        "explanation": "The import keyword loads a module."
+    },
+    {
+        "id": 331,
+        "topic": "Variables",
+        "question": "Which variable name is valid in Python? (Beginner practice 331)",
+        "options": [
+            "student name",
+            "student_name",
+            "2student",
+            "student-name"
+        ],
+        "correctAnswer": "student_name",
+        "explanation": "Names can contain letters, numbers, and underscores, but cannot start with a number."
+    },
+    {
+        "id": 332,
+        "topic": "Data Types",
+        "question": "Which literal creates a dictionary? (Beginner practice 332)",
+        "options": [
+            "{'name': 'Ada'}",
+            "['name', 'Ada']",
+            "('name', 'Ada')",
+            "{'Ada'}"
+        ],
+        "correctAnswer": "{'name': 'Ada'}",
+        "explanation": "Dictionaries store key-value pairs inside curly braces."
+    },
+    {
+        "id": 333,
+        "topic": "Functions",
+        "question": "Which keyword defines a function? (Beginner practice 333)",
+        "options": [
+            "func",
+            "function",
+            "lambda def",
+            "def"
+        ],
+        "correctAnswer": "def",
+        "explanation": "Python uses def to define named functions."
+    },
+    {
+        "id": 334,
+        "topic": "Conditionals",
+        "question": "Which keyword checks another condition after if? (Beginner practice 334)",
+        "options": [
+            "else if",
+            "when",
+            "elif",
+            "elseif"
+        ],
+        "correctAnswer": "elif",
+        "explanation": "Python uses elif for additional conditional branches."
+    },
+    {
+        "id": 335,
+        "topic": "Loops",
+        "question": "Which statement skips to the next loop iteration? (Beginner practice 335)",
+        "options": [
+            "pass loop",
+            "continue",
+            "break",
+            "skip"
+        ],
+        "correctAnswer": "continue",
+        "explanation": "continue jumps to the next iteration of the nearest loop."
+    },
+    {
+        "id": 336,
+        "topic": "Comments",
+        "question": "Which symbol starts a single-line Python comment? (Beginner practice 336)",
+        "options": [
+            "#",
+            "//",
+            "<!--",
+            "--"
+        ],
+        "correctAnswer": "#",
+        "explanation": "The # symbol starts a single-line Python comment."
+    },
+    {
+        "id": 337,
+        "topic": "Booleans",
+        "question": "Which value represents true in Python? (Beginner practice 337)",
+        "options": [
+            "true",
+            "TRUE",
+            "1 only",
+            "True"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Boolean literals in Python are True and False."
+    },
+    {
+        "id": 338,
+        "topic": "None",
+        "question": "Which value represents no value in Python? (Beginner practice 338)",
+        "options": [
+            "nil",
+            "undefined",
+            "None",
+            "null"
+        ],
+        "correctAnswer": "None",
+        "explanation": "Python uses None to represent absence of a value."
+    },
+    {
+        "id": 339,
+        "topic": "Input",
+        "question": "What type does input() return? (Beginner practice 339)",
+        "options": [
+            "bool",
+            "str",
+            "int",
+            "float"
+        ],
+        "correctAnswer": "str",
+        "explanation": "input() always returns text unless you convert it."
+    },
+    {
+        "id": 340,
+        "topic": "Imports",
+        "question": "Which keyword imports a module? (Beginner practice 340)",
+        "options": [
+            "import",
+            "include",
+            "using",
+            "require"
+        ],
+        "correctAnswer": "import",
+        "explanation": "The import keyword loads a module."
+    },
+    {
+        "id": 341,
+        "topic": "Variables",
+        "question": "Which variable name is valid in Python? (Beginner practice 341)",
+        "options": [
+            "2student",
+            "student-name",
+            "student name",
+            "student_name"
+        ],
+        "correctAnswer": "student_name",
+        "explanation": "Names can contain letters, numbers, and underscores, but cannot start with a number."
+    },
+    {
+        "id": 342,
+        "topic": "Data Types",
+        "question": "Which literal creates a dictionary? (Beginner practice 342)",
+        "options": [
+            "('name', 'Ada')",
+            "{'Ada'}",
+            "{'name': 'Ada'}",
+            "['name', 'Ada']"
+        ],
+        "correctAnswer": "{'name': 'Ada'}",
+        "explanation": "Dictionaries store key-value pairs inside curly braces."
+    },
+    {
+        "id": 343,
+        "topic": "Functions",
+        "question": "Which keyword defines a function? (Beginner practice 343)",
+        "options": [
+            "lambda def",
+            "def",
+            "func",
+            "function"
+        ],
+        "correctAnswer": "def",
+        "explanation": "Python uses def to define named functions."
+    },
+    {
+        "id": 344,
+        "topic": "Conditionals",
+        "question": "Which keyword checks another condition after if? (Beginner practice 344)",
+        "options": [
+            "elif",
+            "elseif",
+            "else if",
+            "when"
+        ],
+        "correctAnswer": "elif",
+        "explanation": "Python uses elif for additional conditional branches."
+    },
+    {
+        "id": 345,
+        "topic": "Loops",
+        "question": "Which statement skips to the next loop iteration? (Beginner practice 345)",
+        "options": [
+            "break",
+            "skip",
+            "pass loop",
+            "continue"
+        ],
+        "correctAnswer": "continue",
+        "explanation": "continue jumps to the next iteration of the nearest loop."
+    },
+    {
+        "id": 346,
+        "topic": "Comments",
+        "question": "Which symbol starts a single-line Python comment? (Beginner practice 346)",
+        "options": [
+            "<!--",
+            "--",
+            "#",
+            "//"
+        ],
+        "correctAnswer": "#",
+        "explanation": "The # symbol starts a single-line Python comment."
+    },
+    {
+        "id": 347,
+        "topic": "Booleans",
+        "question": "Which value represents true in Python? (Beginner practice 347)",
+        "options": [
+            "1 only",
+            "True",
+            "true",
+            "TRUE"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Boolean literals in Python are True and False."
+    },
+    {
+        "id": 348,
+        "topic": "None",
+        "question": "Which value represents no value in Python? (Beginner practice 348)",
+        "options": [
+            "None",
+            "null",
+            "nil",
+            "undefined"
+        ],
+        "correctAnswer": "None",
+        "explanation": "Python uses None to represent absence of a value."
+    },
+    {
+        "id": 349,
+        "topic": "Input",
+        "question": "What type does input() return? (Beginner practice 349)",
+        "options": [
+            "int",
+            "float",
+            "bool",
+            "str"
+        ],
+        "correctAnswer": "str",
+        "explanation": "input() always returns text unless you convert it."
+    },
+    {
+        "id": 350,
+        "topic": "Imports",
+        "question": "Which keyword imports a module? (Beginner practice 350)",
+        "options": [
+            "using",
+            "require",
+            "import",
+            "include"
+        ],
+        "correctAnswer": "import",
+        "explanation": "The import keyword loads a module."
+    },
+    {
+        "id": 351,
+        "topic": "Variables",
+        "question": "Which variable name is valid in Python? (Beginner practice 351)",
+        "options": [
+            "student name",
+            "student_name",
+            "2student",
+            "student-name"
+        ],
+        "correctAnswer": "student_name",
+        "explanation": "Names can contain letters, numbers, and underscores, but cannot start with a number."
+    },
+    {
+        "id": 352,
+        "topic": "Data Types",
+        "question": "Which literal creates a dictionary? (Beginner practice 352)",
+        "options": [
+            "{'name': 'Ada'}",
+            "['name', 'Ada']",
+            "('name', 'Ada')",
+            "{'Ada'}"
+        ],
+        "correctAnswer": "{'name': 'Ada'}",
+        "explanation": "Dictionaries store key-value pairs inside curly braces."
+    },
+    {
+        "id": 353,
+        "topic": "Functions",
+        "question": "Which keyword defines a function? (Beginner practice 353)",
+        "options": [
+            "func",
+            "function",
+            "lambda def",
+            "def"
+        ],
+        "correctAnswer": "def",
+        "explanation": "Python uses def to define named functions."
+    },
+    {
+        "id": 354,
+        "topic": "Conditionals",
+        "question": "Which keyword checks another condition after if? (Beginner practice 354)",
+        "options": [
+            "else if",
+            "when",
+            "elif",
+            "elseif"
+        ],
+        "correctAnswer": "elif",
+        "explanation": "Python uses elif for additional conditional branches."
+    },
+    {
+        "id": 355,
+        "topic": "Loops",
+        "question": "Which statement skips to the next loop iteration? (Beginner practice 355)",
+        "options": [
+            "pass loop",
+            "continue",
+            "break",
+            "skip"
+        ],
+        "correctAnswer": "continue",
+        "explanation": "continue jumps to the next iteration of the nearest loop."
+    },
+    {
+        "id": 356,
+        "topic": "Comments",
+        "question": "Which symbol starts a single-line Python comment? (Beginner practice 356)",
+        "options": [
+            "#",
+            "//",
+            "<!--",
+            "--"
+        ],
+        "correctAnswer": "#",
+        "explanation": "The # symbol starts a single-line Python comment."
+    },
+    {
+        "id": 357,
+        "topic": "Booleans",
+        "question": "Which value represents true in Python? (Beginner practice 357)",
+        "options": [
+            "true",
+            "TRUE",
+            "1 only",
+            "True"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Boolean literals in Python are True and False."
+    },
+    {
+        "id": 358,
+        "topic": "None",
+        "question": "Which value represents no value in Python? (Beginner practice 358)",
+        "options": [
+            "nil",
+            "undefined",
+            "None",
+            "null"
+        ],
+        "correctAnswer": "None",
+        "explanation": "Python uses None to represent absence of a value."
+    },
+    {
+        "id": 359,
+        "topic": "Input",
+        "question": "What type does input() return? (Beginner practice 359)",
+        "options": [
+            "bool",
+            "str",
+            "int",
+            "float"
+        ],
+        "correctAnswer": "str",
+        "explanation": "input() always returns text unless you convert it."
+    },
+    {
+        "id": 360,
+        "topic": "Imports",
+        "question": "Which keyword imports a module? (Beginner practice 360)",
+        "options": [
+            "import",
+            "include",
+            "using",
+            "require"
+        ],
+        "correctAnswer": "import",
+        "explanation": "The import keyword loads a module."
+    },
+    {
+        "id": 361,
+        "topic": "Variables",
+        "question": "Which variable name is valid in Python? (Beginner practice 361)",
+        "options": [
+            "2student",
+            "student-name",
+            "student name",
+            "student_name"
+        ],
+        "correctAnswer": "student_name",
+        "explanation": "Names can contain letters, numbers, and underscores, but cannot start with a number."
+    },
+    {
+        "id": 362,
+        "topic": "Data Types",
+        "question": "Which literal creates a dictionary? (Beginner practice 362)",
+        "options": [
+            "('name', 'Ada')",
+            "{'Ada'}",
+            "{'name': 'Ada'}",
+            "['name', 'Ada']"
+        ],
+        "correctAnswer": "{'name': 'Ada'}",
+        "explanation": "Dictionaries store key-value pairs inside curly braces."
+    },
+    {
+        "id": 363,
+        "topic": "Functions",
+        "question": "Which keyword defines a function? (Beginner practice 363)",
+        "options": [
+            "lambda def",
+            "def",
+            "func",
+            "function"
+        ],
+        "correctAnswer": "def",
+        "explanation": "Python uses def to define named functions."
+    },
+    {
+        "id": 364,
+        "topic": "Conditionals",
+        "question": "Which keyword checks another condition after if? (Beginner practice 364)",
+        "options": [
+            "elif",
+            "elseif",
+            "else if",
+            "when"
+        ],
+        "correctAnswer": "elif",
+        "explanation": "Python uses elif for additional conditional branches."
+    },
+    {
+        "id": 365,
+        "topic": "Loops",
+        "question": "Which statement skips to the next loop iteration? (Beginner practice 365)",
+        "options": [
+            "break",
+            "skip",
+            "pass loop",
+            "continue"
+        ],
+        "correctAnswer": "continue",
+        "explanation": "continue jumps to the next iteration of the nearest loop."
+    },
+    {
+        "id": 366,
+        "topic": "Comments",
+        "question": "Which symbol starts a single-line Python comment? (Beginner practice 366)",
+        "options": [
+            "<!--",
+            "--",
+            "#",
+            "//"
+        ],
+        "correctAnswer": "#",
+        "explanation": "The # symbol starts a single-line Python comment."
+    },
+    {
+        "id": 367,
+        "topic": "Booleans",
+        "question": "Which value represents true in Python? (Beginner practice 367)",
+        "options": [
+            "1 only",
+            "True",
+            "true",
+            "TRUE"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Boolean literals in Python are True and False."
+    },
+    {
+        "id": 368,
+        "topic": "None",
+        "question": "Which value represents no value in Python? (Beginner practice 368)",
+        "options": [
+            "None",
+            "null",
+            "nil",
+            "undefined"
+        ],
+        "correctAnswer": "None",
+        "explanation": "Python uses None to represent absence of a value."
+    },
+    {
+        "id": 369,
+        "topic": "Input",
+        "question": "What type does input() return? (Beginner practice 369)",
+        "options": [
+            "int",
+            "float",
+            "bool",
+            "str"
+        ],
+        "correctAnswer": "str",
+        "explanation": "input() always returns text unless you convert it."
+    },
+    {
+        "id": 370,
+        "topic": "Imports",
+        "question": "Which keyword imports a module? (Beginner practice 370)",
+        "options": [
+            "using",
+            "require",
+            "import",
+            "include"
+        ],
+        "correctAnswer": "import",
+        "explanation": "The import keyword loads a module."
+    },
+    {
+        "id": 371,
+        "topic": "Variables",
+        "question": "Which variable name is valid in Python? (Beginner practice 371)",
+        "options": [
+            "student name",
+            "student_name",
+            "2student",
+            "student-name"
+        ],
+        "correctAnswer": "student_name",
+        "explanation": "Names can contain letters, numbers, and underscores, but cannot start with a number."
+    },
+    {
+        "id": 372,
+        "topic": "Data Types",
+        "question": "Which literal creates a dictionary? (Beginner practice 372)",
+        "options": [
+            "{'name': 'Ada'}",
+            "['name', 'Ada']",
+            "('name', 'Ada')",
+            "{'Ada'}"
+        ],
+        "correctAnswer": "{'name': 'Ada'}",
+        "explanation": "Dictionaries store key-value pairs inside curly braces."
+    },
+    {
+        "id": 373,
+        "topic": "Functions",
+        "question": "Which keyword defines a function? (Beginner practice 373)",
+        "options": [
+            "func",
+            "function",
+            "lambda def",
+            "def"
+        ],
+        "correctAnswer": "def",
+        "explanation": "Python uses def to define named functions."
+    },
+    {
+        "id": 374,
+        "topic": "Conditionals",
+        "question": "Which keyword checks another condition after if? (Beginner practice 374)",
+        "options": [
+            "else if",
+            "when",
+            "elif",
+            "elseif"
+        ],
+        "correctAnswer": "elif",
+        "explanation": "Python uses elif for additional conditional branches."
+    },
+    {
+        "id": 375,
+        "topic": "Loops",
+        "question": "Which statement skips to the next loop iteration? (Beginner practice 375)",
+        "options": [
+            "pass loop",
+            "continue",
+            "break",
+            "skip"
+        ],
+        "correctAnswer": "continue",
+        "explanation": "continue jumps to the next iteration of the nearest loop."
+    },
+    {
+        "id": 376,
+        "topic": "Comments",
+        "question": "Which symbol starts a single-line Python comment? (Beginner practice 376)",
+        "options": [
+            "#",
+            "//",
+            "<!--",
+            "--"
+        ],
+        "correctAnswer": "#",
+        "explanation": "The # symbol starts a single-line Python comment."
+    },
+    {
+        "id": 377,
+        "topic": "Booleans",
+        "question": "Which value represents true in Python? (Beginner practice 377)",
+        "options": [
+            "true",
+            "TRUE",
+            "1 only",
+            "True"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Boolean literals in Python are True and False."
+    },
+    {
+        "id": 378,
+        "topic": "None",
+        "question": "Which value represents no value in Python? (Beginner practice 378)",
+        "options": [
+            "nil",
+            "undefined",
+            "None",
+            "null"
+        ],
+        "correctAnswer": "None",
+        "explanation": "Python uses None to represent absence of a value."
+    },
+    {
+        "id": 379,
+        "topic": "Input",
+        "question": "What type does input() return? (Beginner practice 379)",
+        "options": [
+            "bool",
+            "str",
+            "int",
+            "float"
+        ],
+        "correctAnswer": "str",
+        "explanation": "input() always returns text unless you convert it."
+    },
+    {
+        "id": 380,
+        "topic": "Imports",
+        "question": "Which keyword imports a module? (Beginner practice 380)",
+        "options": [
+            "import",
+            "include",
+            "using",
+            "require"
+        ],
+        "correctAnswer": "import",
+        "explanation": "The import keyword loads a module."
+    },
+    {
+        "id": 381,
+        "topic": "Variables",
+        "question": "Which variable name is valid in Python? (Beginner practice 381)",
+        "options": [
+            "2student",
+            "student-name",
+            "student name",
+            "student_name"
+        ],
+        "correctAnswer": "student_name",
+        "explanation": "Names can contain letters, numbers, and underscores, but cannot start with a number."
+    },
+    {
+        "id": 382,
+        "topic": "Data Types",
+        "question": "Which literal creates a dictionary? (Beginner practice 382)",
+        "options": [
+            "('name', 'Ada')",
+            "{'Ada'}",
+            "{'name': 'Ada'}",
+            "['name', 'Ada']"
+        ],
+        "correctAnswer": "{'name': 'Ada'}",
+        "explanation": "Dictionaries store key-value pairs inside curly braces."
+    },
+    {
+        "id": 383,
+        "topic": "Functions",
+        "question": "Which keyword defines a function? (Beginner practice 383)",
+        "options": [
+            "lambda def",
+            "def",
+            "func",
+            "function"
+        ],
+        "correctAnswer": "def",
+        "explanation": "Python uses def to define named functions."
+    },
+    {
+        "id": 384,
+        "topic": "Conditionals",
+        "question": "Which keyword checks another condition after if? (Beginner practice 384)",
+        "options": [
+            "elif",
+            "elseif",
+            "else if",
+            "when"
+        ],
+        "correctAnswer": "elif",
+        "explanation": "Python uses elif for additional conditional branches."
+    },
+    {
+        "id": 385,
+        "topic": "Loops",
+        "question": "Which statement skips to the next loop iteration? (Beginner practice 385)",
+        "options": [
+            "break",
+            "skip",
+            "pass loop",
+            "continue"
+        ],
+        "correctAnswer": "continue",
+        "explanation": "continue jumps to the next iteration of the nearest loop."
+    },
+    {
+        "id": 386,
+        "topic": "Comments",
+        "question": "Which symbol starts a single-line Python comment? (Beginner practice 386)",
+        "options": [
+            "<!--",
+            "--",
+            "#",
+            "//"
+        ],
+        "correctAnswer": "#",
+        "explanation": "The # symbol starts a single-line Python comment."
+    },
+    {
+        "id": 387,
+        "topic": "Booleans",
+        "question": "Which value represents true in Python? (Beginner practice 387)",
+        "options": [
+            "1 only",
+            "True",
+            "true",
+            "TRUE"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Boolean literals in Python are True and False."
+    },
+    {
+        "id": 388,
+        "topic": "None",
+        "question": "Which value represents no value in Python? (Beginner practice 388)",
+        "options": [
+            "None",
+            "null",
+            "nil",
+            "undefined"
+        ],
+        "correctAnswer": "None",
+        "explanation": "Python uses None to represent absence of a value."
+    },
+    {
+        "id": 389,
+        "topic": "Input",
+        "question": "What type does input() return? (Beginner practice 389)",
+        "options": [
+            "int",
+            "float",
+            "bool",
+            "str"
+        ],
+        "correctAnswer": "str",
+        "explanation": "input() always returns text unless you convert it."
+    },
+    {
+        "id": 390,
+        "topic": "Imports",
+        "question": "Which keyword imports a module? (Beginner practice 390)",
+        "options": [
+            "using",
+            "require",
+            "import",
+            "include"
+        ],
+        "correctAnswer": "import",
+        "explanation": "The import keyword loads a module."
+    },
+    {
+        "id": 391,
+        "topic": "Variables",
+        "question": "Which variable name is valid in Python? (Beginner practice 391)",
+        "options": [
+            "student name",
+            "student_name",
+            "2student",
+            "student-name"
+        ],
+        "correctAnswer": "student_name",
+        "explanation": "Names can contain letters, numbers, and underscores, but cannot start with a number."
+    },
+    {
+        "id": 392,
+        "topic": "Data Types",
+        "question": "Which literal creates a dictionary? (Beginner practice 392)",
+        "options": [
+            "{'name': 'Ada'}",
+            "['name', 'Ada']",
+            "('name', 'Ada')",
+            "{'Ada'}"
+        ],
+        "correctAnswer": "{'name': 'Ada'}",
+        "explanation": "Dictionaries store key-value pairs inside curly braces."
+    },
+    {
+        "id": 393,
+        "topic": "Functions",
+        "question": "Which keyword defines a function? (Beginner practice 393)",
+        "options": [
+            "func",
+            "function",
+            "lambda def",
+            "def"
+        ],
+        "correctAnswer": "def",
+        "explanation": "Python uses def to define named functions."
+    },
+    {
+        "id": 394,
+        "topic": "Conditionals",
+        "question": "Which keyword checks another condition after if? (Beginner practice 394)",
+        "options": [
+            "else if",
+            "when",
+            "elif",
+            "elseif"
+        ],
+        "correctAnswer": "elif",
+        "explanation": "Python uses elif for additional conditional branches."
+    },
+    {
+        "id": 395,
+        "topic": "Loops",
+        "question": "Which statement skips to the next loop iteration? (Beginner practice 395)",
+        "options": [
+            "pass loop",
+            "continue",
+            "break",
+            "skip"
+        ],
+        "correctAnswer": "continue",
+        "explanation": "continue jumps to the next iteration of the nearest loop."
+    },
+    {
+        "id": 396,
+        "topic": "Comments",
+        "question": "Which symbol starts a single-line Python comment? (Beginner practice 396)",
+        "options": [
+            "#",
+            "//",
+            "<!--",
+            "--"
+        ],
+        "correctAnswer": "#",
+        "explanation": "The # symbol starts a single-line Python comment."
+    },
+    {
+        "id": 397,
+        "topic": "Booleans",
+        "question": "Which value represents true in Python? (Beginner practice 397)",
+        "options": [
+            "true",
+            "TRUE",
+            "1 only",
+            "True"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Boolean literals in Python are True and False."
+    },
+    {
+        "id": 398,
+        "topic": "None",
+        "question": "Which value represents no value in Python? (Beginner practice 398)",
+        "options": [
+            "nil",
+            "undefined",
+            "None",
+            "null"
+        ],
+        "correctAnswer": "None",
+        "explanation": "Python uses None to represent absence of a value."
+    },
+    {
+        "id": 399,
+        "topic": "Input",
+        "question": "What type does input() return? (Beginner practice 399)",
+        "options": [
+            "bool",
+            "str",
+            "int",
+            "float"
+        ],
+        "correctAnswer": "str",
+        "explanation": "input() always returns text unless you convert it."
+    },
+    {
+        "id": 400,
+        "topic": "Imports",
+        "question": "Which keyword imports a module? (Beginner practice 400)",
+        "options": [
+            "import",
+            "include",
+            "using",
+            "require"
+        ],
+        "correctAnswer": "import",
+        "explanation": "The import keyword loads a module."
+    }
+]

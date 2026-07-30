@@ -1,0 +1,5202 @@
+[
+    {
+        "id": 401,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(2)])?",
+        "options": [
+            "[2, 3]",
+            "[0, 1]",
+            "[2, 2]",
+            "[0, 2]"
+        ],
+        "correctAnswer": "[0, 2]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 402,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(2)])?",
+        "options": [
+            "[0, 1]",
+            "[3, 3]",
+            "[0, 3]",
+            "[3, 4]"
+        ],
+        "correctAnswer": "[0, 3]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 403,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(2)])?",
+        "options": [
+            "[4, 4]",
+            "[0, 4]",
+            "[4, 5]",
+            "[0, 1]"
+        ],
+        "correctAnswer": "[0, 4]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 404,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(2)])?",
+        "options": [
+            "[0, 5]",
+            "[5, 6]",
+            "[0, 1]",
+            "[5, 5]"
+        ],
+        "correctAnswer": "[0, 5]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 405,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(2)])?",
+        "options": [
+            "[6, 7]",
+            "[0, 1]",
+            "[6, 6]",
+            "[0, 6]"
+        ],
+        "correctAnswer": "[0, 6]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 406,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(3)])?",
+        "options": [
+            "[0, 1, 2]",
+            "[2, 2, 2]",
+            "[0, 2, 4]",
+            "[2, 3, 4]"
+        ],
+        "correctAnswer": "[0, 2, 4]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 407,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(3)])?",
+        "options": [
+            "[3, 3, 3]",
+            "[0, 3, 6]",
+            "[3, 4, 5]",
+            "[0, 1, 2]"
+        ],
+        "correctAnswer": "[0, 3, 6]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 408,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(3)])?",
+        "options": [
+            "[0, 4, 8]",
+            "[4, 5, 6]",
+            "[0, 1, 2]",
+            "[4, 4, 4]"
+        ],
+        "correctAnswer": "[0, 4, 8]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 409,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(3)])?",
+        "options": [
+            "[5, 6, 7]",
+            "[0, 1, 2]",
+            "[5, 5, 5]",
+            "[0, 5, 10]"
+        ],
+        "correctAnswer": "[0, 5, 10]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 410,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(3)])?",
+        "options": [
+            "[0, 1, 2]",
+            "[6, 6, 6]",
+            "[0, 6, 12]",
+            "[6, 7, 8]"
+        ],
+        "correctAnswer": "[0, 6, 12]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 411,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(4)])?",
+        "options": [
+            "[2, 2, 2, 2]",
+            "[0, 2, 4, 6]",
+            "[2, 3, 4, 5]",
+            "[0, 1, 2, 3]"
+        ],
+        "correctAnswer": "[0, 2, 4, 6]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 412,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(4)])?",
+        "options": [
+            "[0, 3, 6, 9]",
+            "[3, 4, 5, 6]",
+            "[0, 1, 2, 3]",
+            "[3, 3, 3, 3]"
+        ],
+        "correctAnswer": "[0, 3, 6, 9]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 413,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(4)])?",
+        "options": [
+            "[4, 5, 6, 7]",
+            "[0, 1, 2, 3]",
+            "[4, 4, 4, 4]",
+            "[0, 4, 8, 12]"
+        ],
+        "correctAnswer": "[0, 4, 8, 12]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 414,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(4)])?",
+        "options": [
+            "[0, 1, 2, 3]",
+            "[5, 5, 5, 5]",
+            "[0, 5, 10, 15]",
+            "[5, 6, 7, 8]"
+        ],
+        "correctAnswer": "[0, 5, 10, 15]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 415,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(4)])?",
+        "options": [
+            "[6, 6, 6, 6]",
+            "[0, 6, 12, 18]",
+            "[6, 7, 8, 9]",
+            "[0, 1, 2, 3]"
+        ],
+        "correctAnswer": "[0, 6, 12, 18]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 416,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(5)])?",
+        "options": [
+            "[0, 2, 4, 6, 8]",
+            "[2, 3, 4, 5, 6]",
+            "[0, 1, 2, 3, 4]",
+            "[2, 2, 2, 2, 2]"
+        ],
+        "correctAnswer": "[0, 2, 4, 6, 8]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 417,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(5)])?",
+        "options": [
+            "[3, 4, 5, 6, 7]",
+            "[0, 1, 2, 3, 4]",
+            "[3, 3, 3, 3, 3]",
+            "[0, 3, 6, 9, 12]"
+        ],
+        "correctAnswer": "[0, 3, 6, 9, 12]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 418,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(5)])?",
+        "options": [
+            "[0, 1, 2, 3, 4]",
+            "[4, 4, 4, 4, 4]",
+            "[0, 4, 8, 12, 16]",
+            "[4, 5, 6, 7, 8]"
+        ],
+        "correctAnswer": "[0, 4, 8, 12, 16]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 419,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(5)])?",
+        "options": [
+            "[5, 5, 5, 5, 5]",
+            "[0, 5, 10, 15, 20]",
+            "[5, 6, 7, 8, 9]",
+            "[0, 1, 2, 3, 4]"
+        ],
+        "correctAnswer": "[0, 5, 10, 15, 20]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 420,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(5)])?",
+        "options": [
+            "[0, 6, 12, 18, 24]",
+            "[6, 7, 8, 9, 10]",
+            "[0, 1, 2, 3, 4]",
+            "[6, 6, 6, 6, 6]"
+        ],
+        "correctAnswer": "[0, 6, 12, 18, 24]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 421,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(6)])?",
+        "options": [
+            "[2, 3, 4, 5, 6, 7]",
+            "[0, 1, 2, 3, 4, 5]",
+            "[2, 2, 2, 2, 2, 2]",
+            "[0, 2, 4, 6, 8, 10]"
+        ],
+        "correctAnswer": "[0, 2, 4, 6, 8, 10]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 422,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(6)])?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5]",
+            "[3, 3, 3, 3, 3, 3]",
+            "[0, 3, 6, 9, 12, 15]",
+            "[3, 4, 5, 6, 7, 8]"
+        ],
+        "correctAnswer": "[0, 3, 6, 9, 12, 15]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 423,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(6)])?",
+        "options": [
+            "[4, 4, 4, 4, 4, 4]",
+            "[0, 4, 8, 12, 16, 20]",
+            "[4, 5, 6, 7, 8, 9]",
+            "[0, 1, 2, 3, 4, 5]"
+        ],
+        "correctAnswer": "[0, 4, 8, 12, 16, 20]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 424,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(6)])?",
+        "options": [
+            "[0, 5, 10, 15, 20, 25]",
+            "[5, 6, 7, 8, 9, 10]",
+            "[0, 1, 2, 3, 4, 5]",
+            "[5, 5, 5, 5, 5, 5]"
+        ],
+        "correctAnswer": "[0, 5, 10, 15, 20, 25]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 425,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(6)])?",
+        "options": [
+            "[6, 7, 8, 9, 10, 11]",
+            "[0, 1, 2, 3, 4, 5]",
+            "[6, 6, 6, 6, 6, 6]",
+            "[0, 6, 12, 18, 24, 30]"
+        ],
+        "correctAnswer": "[0, 6, 12, 18, 24, 30]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 426,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(7)])?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6]",
+            "[2, 2, 2, 2, 2, 2, 2]",
+            "[0, 2, 4, 6, 8, 10, 12]",
+            "[2, 3, 4, 5, 6, 7, 8]"
+        ],
+        "correctAnswer": "[0, 2, 4, 6, 8, 10, 12]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 427,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(7)])?",
+        "options": [
+            "[3, 3, 3, 3, 3, 3, 3]",
+            "[0, 3, 6, 9, 12, 15, 18]",
+            "[3, 4, 5, 6, 7, 8, 9]",
+            "[0, 1, 2, 3, 4, 5, 6]"
+        ],
+        "correctAnswer": "[0, 3, 6, 9, 12, 15, 18]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 428,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(7)])?",
+        "options": [
+            "[0, 4, 8, 12, 16, 20, 24]",
+            "[4, 5, 6, 7, 8, 9, 10]",
+            "[0, 1, 2, 3, 4, 5, 6]",
+            "[4, 4, 4, 4, 4, 4, 4]"
+        ],
+        "correctAnswer": "[0, 4, 8, 12, 16, 20, 24]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 429,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(7)])?",
+        "options": [
+            "[5, 6, 7, 8, 9, 10, 11]",
+            "[0, 1, 2, 3, 4, 5, 6]",
+            "[5, 5, 5, 5, 5, 5, 5]",
+            "[0, 5, 10, 15, 20, 25, 30]"
+        ],
+        "correctAnswer": "[0, 5, 10, 15, 20, 25, 30]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 430,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(7)])?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6]",
+            "[6, 6, 6, 6, 6, 6, 6]",
+            "[0, 6, 12, 18, 24, 30, 36]",
+            "[6, 7, 8, 9, 10, 11, 12]"
+        ],
+        "correctAnswer": "[0, 6, 12, 18, 24, 30, 36]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 431,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(8)])?",
+        "options": [
+            "[2, 2, 2, 2, 2, 2, 2, 2]",
+            "[0, 2, 4, 6, 8, 10, 12, 14]",
+            "[2, 3, 4, 5, 6, 7, 8, 9]",
+            "[0, 1, 2, 3, 4, 5, 6, 7]"
+        ],
+        "correctAnswer": "[0, 2, 4, 6, 8, 10, 12, 14]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 432,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(8)])?",
+        "options": [
+            "[0, 3, 6, 9, 12, 15, 18, 21]",
+            "[3, 4, 5, 6, 7, 8, 9, 10]",
+            "[0, 1, 2, 3, 4, 5, 6, 7]",
+            "[3, 3, 3, 3, 3, 3, 3, 3]"
+        ],
+        "correctAnswer": "[0, 3, 6, 9, 12, 15, 18, 21]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 433,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(8)])?",
+        "options": [
+            "[4, 5, 6, 7, 8, 9, 10, 11]",
+            "[0, 1, 2, 3, 4, 5, 6, 7]",
+            "[4, 4, 4, 4, 4, 4, 4, 4]",
+            "[0, 4, 8, 12, 16, 20, 24, 28]"
+        ],
+        "correctAnswer": "[0, 4, 8, 12, 16, 20, 24, 28]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 434,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(8)])?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6, 7]",
+            "[5, 5, 5, 5, 5, 5, 5, 5]",
+            "[0, 5, 10, 15, 20, 25, 30, 35]",
+            "[5, 6, 7, 8, 9, 10, 11, 12]"
+        ],
+        "correctAnswer": "[0, 5, 10, 15, 20, 25, 30, 35]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 435,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(8)])?",
+        "options": [
+            "[6, 6, 6, 6, 6, 6, 6, 6]",
+            "[0, 6, 12, 18, 24, 30, 36, 42]",
+            "[6, 7, 8, 9, 10, 11, 12, 13]",
+            "[0, 1, 2, 3, 4, 5, 6, 7]"
+        ],
+        "correctAnswer": "[0, 6, 12, 18, 24, 30, 36, 42]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 436,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(9)])?",
+        "options": [
+            "[0, 2, 4, 6, 8, 10, 12, 14, 16]",
+            "[2, 3, 4, 5, 6, 7, 8, 9, 10]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8]",
+            "[2, 2, 2, 2, 2, 2, 2, 2, 2]"
+        ],
+        "correctAnswer": "[0, 2, 4, 6, 8, 10, 12, 14, 16]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 437,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(9)])?",
+        "options": [
+            "[3, 4, 5, 6, 7, 8, 9, 10, 11]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8]",
+            "[3, 3, 3, 3, 3, 3, 3, 3, 3]",
+            "[0, 3, 6, 9, 12, 15, 18, 21, 24]"
+        ],
+        "correctAnswer": "[0, 3, 6, 9, 12, 15, 18, 21, 24]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 438,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(9)])?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8]",
+            "[4, 4, 4, 4, 4, 4, 4, 4, 4]",
+            "[0, 4, 8, 12, 16, 20, 24, 28, 32]",
+            "[4, 5, 6, 7, 8, 9, 10, 11, 12]"
+        ],
+        "correctAnswer": "[0, 4, 8, 12, 16, 20, 24, 28, 32]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 439,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(9)])?",
+        "options": [
+            "[5, 5, 5, 5, 5, 5, 5, 5, 5]",
+            "[0, 5, 10, 15, 20, 25, 30, 35, 40]",
+            "[5, 6, 7, 8, 9, 10, 11, 12, 13]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8]"
+        ],
+        "correctAnswer": "[0, 5, 10, 15, 20, 25, 30, 35, 40]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 440,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(9)])?",
+        "options": [
+            "[0, 6, 12, 18, 24, 30, 36, 42, 48]",
+            "[6, 7, 8, 9, 10, 11, 12, 13, 14]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8]",
+            "[6, 6, 6, 6, 6, 6, 6, 6, 6]"
+        ],
+        "correctAnswer": "[0, 6, 12, 18, 24, 30, 36, 42, 48]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 441,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(10)])?",
+        "options": [
+            "[2, 3, 4, 5, 6, 7, 8, 9, 10, 11]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",
+            "[2, 2, 2, 2, 2, 2, 2, 2, 2, 2]",
+            "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]"
+        ],
+        "correctAnswer": "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 442,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(10)])?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",
+            "[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]",
+            "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27]",
+            "[3, 4, 5, 6, 7, 8, 9, 10, 11, 12]"
+        ],
+        "correctAnswer": "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 443,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(10)])?",
+        "options": [
+            "[4, 4, 4, 4, 4, 4, 4, 4, 4, 4]",
+            "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36]",
+            "[4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]"
+        ],
+        "correctAnswer": "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 444,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(10)])?",
+        "options": [
+            "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45]",
+            "[5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",
+            "[5, 5, 5, 5, 5, 5, 5, 5, 5, 5]"
+        ],
+        "correctAnswer": "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 445,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(10)])?",
+        "options": [
+            "[6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",
+            "[6, 6, 6, 6, 6, 6, 6, 6, 6, 6]",
+            "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54]"
+        ],
+        "correctAnswer": "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 446,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(11)])?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+            "[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]",
+            "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]",
+            "[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]"
+        ],
+        "correctAnswer": "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 447,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(11)])?",
+        "options": [
+            "[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]",
+            "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30]",
+            "[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+        ],
+        "correctAnswer": "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 448,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(11)])?",
+        "options": [
+            "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40]",
+            "[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+            "[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]"
+        ],
+        "correctAnswer": "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 449,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(11)])?",
+        "options": [
+            "[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+            "[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]",
+            "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50]"
+        ],
+        "correctAnswer": "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 450,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(11)])?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+            "[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]",
+            "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60]",
+            "[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]"
+        ],
+        "correctAnswer": "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 451,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(12)])?",
+        "options": [
+            "[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]",
+            "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22]",
+            "[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]"
+        ],
+        "correctAnswer": "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 452,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(12)])?",
+        "options": [
+            "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33]",
+            "[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]",
+            "[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]"
+        ],
+        "correctAnswer": "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 453,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(12)])?",
+        "options": [
+            "[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]",
+            "[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]",
+            "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44]"
+        ],
+        "correctAnswer": "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 454,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(12)])?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]",
+            "[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]",
+            "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55]",
+            "[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]"
+        ],
+        "correctAnswer": "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 455,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(12)])?",
+        "options": [
+            "[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]",
+            "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66]",
+            "[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]"
+        ],
+        "correctAnswer": "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 456,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(13)])?",
+        "options": [
+            "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24]",
+            "[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+            "[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]"
+        ],
+        "correctAnswer": "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 457,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(13)])?",
+        "options": [
+            "[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+            "[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]",
+            "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36]"
+        ],
+        "correctAnswer": "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 458,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(13)])?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+            "[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]",
+            "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48]",
+            "[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]"
+        ],
+        "correctAnswer": "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 459,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(13)])?",
+        "options": [
+            "[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]",
+            "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60]",
+            "[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]"
+        ],
+        "correctAnswer": "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 460,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(13)])?",
+        "options": [
+            "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72]",
+            "[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+            "[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]"
+        ],
+        "correctAnswer": "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 461,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(14)])?",
+        "options": [
+            "[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",
+            "[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]",
+            "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26]"
+        ],
+        "correctAnswer": "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 462,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(14)])?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",
+            "[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]",
+            "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39]",
+            "[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]"
+        ],
+        "correctAnswer": "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 463,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(14)])?",
+        "options": [
+            "[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]",
+            "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52]",
+            "[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]"
+        ],
+        "correctAnswer": "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 464,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(14)])?",
+        "options": [
+            "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65]",
+            "[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",
+            "[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]"
+        ],
+        "correctAnswer": "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 465,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(14)])?",
+        "options": [
+            "[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",
+            "[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]",
+            "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78]"
+        ],
+        "correctAnswer": "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 466,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(15)])?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+            "[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]",
+            "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28]",
+            "[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]"
+        ],
+        "correctAnswer": "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 467,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(15)])?",
+        "options": [
+            "[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]",
+            "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42]",
+            "[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]"
+        ],
+        "correctAnswer": "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 468,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(15)])?",
+        "options": [
+            "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56]",
+            "[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+            "[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]"
+        ],
+        "correctAnswer": "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 469,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(15)])?",
+        "options": [
+            "[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+            "[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]",
+            "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70]"
+        ],
+        "correctAnswer": "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 470,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(15)])?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+            "[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]",
+            "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84]",
+            "[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]"
+        ],
+        "correctAnswer": "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 471,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(16)])?",
+        "options": [
+            "[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]",
+            "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30]",
+            "[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]"
+        ],
+        "correctAnswer": "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 472,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(16)])?",
+        "options": [
+            "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]",
+            "[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",
+            "[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]"
+        ],
+        "correctAnswer": "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 473,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(16)])?",
+        "options": [
+            "[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",
+            "[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]",
+            "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60]"
+        ],
+        "correctAnswer": "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 474,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(16)])?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",
+            "[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]",
+            "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75]",
+            "[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]"
+        ],
+        "correctAnswer": "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 475,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(16)])?",
+        "options": [
+            "[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]",
+            "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90]",
+            "[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]"
+        ],
+        "correctAnswer": "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 476,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 2 for x in range(17)])?",
+        "options": [
+            "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32]",
+            "[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+            "[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]"
+        ],
+        "correctAnswer": "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 477,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 3 for x in range(17)])?",
+        "options": [
+            "[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+            "[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]",
+            "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48]"
+        ],
+        "correctAnswer": "[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 478,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 4 for x in range(17)])?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+            "[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]",
+            "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64]",
+            "[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]"
+        ],
+        "correctAnswer": "[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 479,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 5 for x in range(17)])?",
+        "options": [
+            "[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]",
+            "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80]",
+            "[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]"
+        ],
+        "correctAnswer": "[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 480,
+        "topic": "List Comprehensions",
+        "question": "What is the output of print([x * 6 for x in range(17)])?",
+        "options": [
+            "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96]",
+            "[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+            "[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]"
+        ],
+        "correctAnswer": "[0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96]",
+        "explanation": "The expression runs once for every value produced by range()."
+    },
+    {
+        "id": 481,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[0:2])?",
+        "options": [
+            "int",
+            "tn",
+            "Raises an error",
+            "in"
+        ],
+        "correctAnswer": "in",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 482,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[0:3])?",
+        "options": [
+            "etn",
+            "Raises an error",
+            "int",
+            "inte"
+        ],
+        "correctAnswer": "int",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 483,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[0:4])?",
+        "options": [
+            "Raises an error",
+            "inte",
+            "inter",
+            "retn"
+        ],
+        "correctAnswer": "inte",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 484,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[0:5])?",
+        "options": [
+            "inter",
+            "interm",
+            "mretn",
+            "Raises an error"
+        ],
+        "correctAnswer": "inter",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 485,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[0:6])?",
+        "options": [
+            "interme",
+            "emretn",
+            "Raises an error",
+            "interm"
+        ],
+        "correctAnswer": "interm",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 486,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[1:3])?",
+        "options": [
+            "et",
+            "int",
+            "nt",
+            "nte"
+        ],
+        "correctAnswer": "nt",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 487,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[1:4])?",
+        "options": [
+            "inte",
+            "nte",
+            "nter",
+            "ret"
+        ],
+        "correctAnswer": "nte",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 488,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[1:5])?",
+        "options": [
+            "nter",
+            "nterm",
+            "mret",
+            "inter"
+        ],
+        "correctAnswer": "nter",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 489,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[1:6])?",
+        "options": [
+            "nterme",
+            "emret",
+            "interm",
+            "nterm"
+        ],
+        "correctAnswer": "nterm",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 490,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[1:7])?",
+        "options": [
+            "demret",
+            "interme",
+            "nterme",
+            "ntermed"
+        ],
+        "correctAnswer": "nterme",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 491,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[2:4])?",
+        "options": [
+            "inte",
+            "te",
+            "ter",
+            "re"
+        ],
+        "correctAnswer": "te",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 492,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[2:5])?",
+        "options": [
+            "ter",
+            "term",
+            "mre",
+            "inter"
+        ],
+        "correctAnswer": "ter",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 493,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[2:6])?",
+        "options": [
+            "terme",
+            "emre",
+            "interm",
+            "term"
+        ],
+        "correctAnswer": "term",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 494,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[2:7])?",
+        "options": [
+            "demre",
+            "interme",
+            "terme",
+            "termed"
+        ],
+        "correctAnswer": "terme",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 495,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[2:8])?",
+        "options": [
+            "intermed",
+            "termed",
+            "termedi",
+            "idemre"
+        ],
+        "correctAnswer": "termed",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 496,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[3:5])?",
+        "options": [
+            "er",
+            "erm",
+            "mr",
+            "inter"
+        ],
+        "correctAnswer": "er",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 497,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[3:6])?",
+        "options": [
+            "erme",
+            "emr",
+            "interm",
+            "erm"
+        ],
+        "correctAnswer": "erm",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 498,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[3:7])?",
+        "options": [
+            "demr",
+            "interme",
+            "erme",
+            "ermed"
+        ],
+        "correctAnswer": "erme",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 499,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[3:8])?",
+        "options": [
+            "intermed",
+            "ermed",
+            "ermedi",
+            "idemr"
+        ],
+        "correctAnswer": "ermed",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 500,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[3:9])?",
+        "options": [
+            "ermedi",
+            "ermedia",
+            "aidemr",
+            "intermedi"
+        ],
+        "correctAnswer": "ermedi",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 501,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[4:6])?",
+        "options": [
+            "rme",
+            "em",
+            "interm",
+            "rm"
+        ],
+        "correctAnswer": "rm",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 502,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[4:7])?",
+        "options": [
+            "dem",
+            "interme",
+            "rme",
+            "rmed"
+        ],
+        "correctAnswer": "rme",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 503,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[4:8])?",
+        "options": [
+            "intermed",
+            "rmed",
+            "rmedi",
+            "idem"
+        ],
+        "correctAnswer": "rmed",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 504,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[4:9])?",
+        "options": [
+            "rmedi",
+            "rmedia",
+            "aidem",
+            "intermedi"
+        ],
+        "correctAnswer": "rmedi",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 505,
+        "topic": "Slicing",
+        "question": "What is the output of print('intermediate'[4:10])?",
+        "options": [
+            "rmediat",
+            "taidem",
+            "intermedia",
+            "rmedia"
+        ],
+        "correctAnswer": "rmedia",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 506,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[0:2])?",
+        "options": [
+            "mo",
+            "Raises an error",
+            "co",
+            "com"
+        ],
+        "correctAnswer": "co",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 507,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[0:3])?",
+        "options": [
+            "Raises an error",
+            "com",
+            "comp",
+            "pmo"
+        ],
+        "correctAnswer": "com",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 508,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[0:4])?",
+        "options": [
+            "comp",
+            "compr",
+            "rpmo",
+            "Raises an error"
+        ],
+        "correctAnswer": "comp",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 509,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[0:5])?",
+        "options": [
+            "compre",
+            "erpmo",
+            "Raises an error",
+            "compr"
+        ],
+        "correctAnswer": "compr",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 510,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[0:6])?",
+        "options": [
+            "herpmo",
+            "Raises an error",
+            "compre",
+            "compreh"
+        ],
+        "correctAnswer": "compre",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 511,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[1:3])?",
+        "options": [
+            "com",
+            "om",
+            "omp",
+            "pm"
+        ],
+        "correctAnswer": "om",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 512,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[1:4])?",
+        "options": [
+            "omp",
+            "ompr",
+            "rpm",
+            "comp"
+        ],
+        "correctAnswer": "omp",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 513,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[1:5])?",
+        "options": [
+            "ompre",
+            "erpm",
+            "compr",
+            "ompr"
+        ],
+        "correctAnswer": "ompr",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 514,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[1:6])?",
+        "options": [
+            "herpm",
+            "compre",
+            "ompre",
+            "ompreh"
+        ],
+        "correctAnswer": "ompre",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 515,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[1:7])?",
+        "options": [
+            "compreh",
+            "ompreh",
+            "omprehe",
+            "eherpm"
+        ],
+        "correctAnswer": "ompreh",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 516,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[2:4])?",
+        "options": [
+            "mp",
+            "mpr",
+            "rp",
+            "comp"
+        ],
+        "correctAnswer": "mp",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 517,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[2:5])?",
+        "options": [
+            "mpre",
+            "erp",
+            "compr",
+            "mpr"
+        ],
+        "correctAnswer": "mpr",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 518,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[2:6])?",
+        "options": [
+            "herp",
+            "compre",
+            "mpre",
+            "mpreh"
+        ],
+        "correctAnswer": "mpre",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 519,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[2:7])?",
+        "options": [
+            "compreh",
+            "mpreh",
+            "mprehe",
+            "eherp"
+        ],
+        "correctAnswer": "mpreh",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 520,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[2:8])?",
+        "options": [
+            "mprehe",
+            "mprehen",
+            "neherp",
+            "comprehe"
+        ],
+        "correctAnswer": "mprehe",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 521,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[3:5])?",
+        "options": [
+            "pre",
+            "er",
+            "compr",
+            "pr"
+        ],
+        "correctAnswer": "pr",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 522,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[3:6])?",
+        "options": [
+            "her",
+            "compre",
+            "pre",
+            "preh"
+        ],
+        "correctAnswer": "pre",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 523,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[3:7])?",
+        "options": [
+            "compreh",
+            "preh",
+            "prehe",
+            "eher"
+        ],
+        "correctAnswer": "preh",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 524,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[3:8])?",
+        "options": [
+            "prehe",
+            "prehen",
+            "neher",
+            "comprehe"
+        ],
+        "correctAnswer": "prehe",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 525,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[3:9])?",
+        "options": [
+            "prehens",
+            "sneher",
+            "comprehen",
+            "prehen"
+        ],
+        "correctAnswer": "prehen",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 526,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[4:6])?",
+        "options": [
+            "he",
+            "compre",
+            "re",
+            "reh"
+        ],
+        "correctAnswer": "re",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 527,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[4:7])?",
+        "options": [
+            "compreh",
+            "reh",
+            "rehe",
+            "ehe"
+        ],
+        "correctAnswer": "reh",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 528,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[4:8])?",
+        "options": [
+            "rehe",
+            "rehen",
+            "nehe",
+            "comprehe"
+        ],
+        "correctAnswer": "rehe",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 529,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[4:9])?",
+        "options": [
+            "rehens",
+            "snehe",
+            "comprehen",
+            "rehen"
+        ],
+        "correctAnswer": "rehen",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 530,
+        "topic": "Slicing",
+        "question": "What is the output of print('comprehension'[4:10])?",
+        "options": [
+            "isnehe",
+            "comprehens",
+            "rehens",
+            "rehensi"
+        ],
+        "correctAnswer": "rehens",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 531,
+        "topic": "Slicing",
+        "question": "What is the output of print('generator'[0:2])?",
+        "options": [
+            "Raises an error",
+            "ge",
+            "gen",
+            "ne"
+        ],
+        "correctAnswer": "ge",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 532,
+        "topic": "Slicing",
+        "question": "What is the output of print('generator'[0:3])?",
+        "options": [
+            "gen",
+            "gene",
+            "ene",
+            "Raises an error"
+        ],
+        "correctAnswer": "gen",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 533,
+        "topic": "Slicing",
+        "question": "What is the output of print('generator'[0:4])?",
+        "options": [
+            "gener",
+            "rene",
+            "Raises an error",
+            "gene"
+        ],
+        "correctAnswer": "gene",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 534,
+        "topic": "Slicing",
+        "question": "What is the output of print('generator'[0:5])?",
+        "options": [
+            "arene",
+            "Raises an error",
+            "gener",
+            "genera"
+        ],
+        "correctAnswer": "gener",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 535,
+        "topic": "Slicing",
+        "question": "What is the output of print('generator'[0:6])?",
+        "options": [
+            "Raises an error",
+            "genera",
+            "generat",
+            "tarene"
+        ],
+        "correctAnswer": "genera",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 536,
+        "topic": "Slicing",
+        "question": "What is the output of print('generator'[1:3])?",
+        "options": [
+            "en",
+            "ene",
+            "gen",
+            "Raises an error"
+        ],
+        "correctAnswer": "en",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 537,
+        "topic": "Slicing",
+        "question": "What is the output of print('generator'[1:4])?",
+        "options": [
+            "ener",
+            "ren",
+            "gene",
+            "ene"
+        ],
+        "correctAnswer": "ene",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 538,
+        "topic": "Slicing",
+        "question": "What is the output of print('generator'[1:5])?",
+        "options": [
+            "aren",
+            "gener",
+            "ener",
+            "enera"
+        ],
+        "correctAnswer": "ener",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 539,
+        "topic": "Slicing",
+        "question": "What is the output of print('generator'[1:6])?",
+        "options": [
+            "genera",
+            "enera",
+            "enerat",
+            "taren"
+        ],
+        "correctAnswer": "enera",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 540,
+        "topic": "Slicing",
+        "question": "What is the output of print('generator'[1:7])?",
+        "options": [
+            "enerat",
+            "enerato",
+            "otaren",
+            "generat"
+        ],
+        "correctAnswer": "enerat",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 541,
+        "topic": "Slicing",
+        "question": "What is the output of print('generator'[2:4])?",
+        "options": [
+            "ner",
+            "re",
+            "gene",
+            "ne"
+        ],
+        "correctAnswer": "ne",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 542,
+        "topic": "Slicing",
+        "question": "What is the output of print('generator'[2:5])?",
+        "options": [
+            "are",
+            "gener",
+            "ner",
+            "nera"
+        ],
+        "correctAnswer": "ner",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 543,
+        "topic": "Slicing",
+        "question": "What is the output of print('generator'[2:6])?",
+        "options": [
+            "genera",
+            "nera",
+            "nerat",
+            "tare"
+        ],
+        "correctAnswer": "nera",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 544,
+        "topic": "Slicing",
+        "question": "What is the output of print('generator'[2:7])?",
+        "options": [
+            "nerat",
+            "nerato",
+            "otare",
+            "generat"
+        ],
+        "correctAnswer": "nerat",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 545,
+        "topic": "Slicing",
+        "question": "What is the output of print('generator'[2:8])?",
+        "options": [
+            "nerator",
+            "rotare",
+            "generato",
+            "nerato"
+        ],
+        "correctAnswer": "nerato",
+        "explanation": "Slicing includes the start index and excludes the stop index."
+    },
+    {
+        "id": 546,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k1': 1, 'k2': 2}.get('k2'))?",
+        "options": [
+            "None",
+            "k2",
+            "2",
+            "1"
+        ],
+        "correctAnswer": "2",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 547,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k2': 2, 'k3': 3}.get('k3'))?",
+        "options": [
+            "k3",
+            "3",
+            "2",
+            "None"
+        ],
+        "correctAnswer": "3",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 548,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k3': 3, 'k4': 4}.get('k4'))?",
+        "options": [
+            "4",
+            "3",
+            "None",
+            "k4"
+        ],
+        "correctAnswer": "4",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 549,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k4': 4, 'k5': 5}.get('k5'))?",
+        "options": [
+            "4",
+            "None",
+            "k5",
+            "5"
+        ],
+        "correctAnswer": "5",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 550,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k5': 5, 'k6': 6}.get('k6'))?",
+        "options": [
+            "None",
+            "k6",
+            "6",
+            "5"
+        ],
+        "correctAnswer": "6",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 551,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k6': 6, 'k7': 7}.get('k7'))?",
+        "options": [
+            "k7",
+            "7",
+            "6",
+            "None"
+        ],
+        "correctAnswer": "7",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 552,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k7': 7, 'k8': 8}.get('k8'))?",
+        "options": [
+            "8",
+            "7",
+            "None",
+            "k8"
+        ],
+        "correctAnswer": "8",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 553,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k8': 8, 'k9': 9}.get('k9'))?",
+        "options": [
+            "8",
+            "None",
+            "k9",
+            "9"
+        ],
+        "correctAnswer": "9",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 554,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k9': 9, 'k10': 10}.get('k10'))?",
+        "options": [
+            "None",
+            "k10",
+            "10",
+            "9"
+        ],
+        "correctAnswer": "10",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 555,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k10': 10, 'k11': 11}.get('k11'))?",
+        "options": [
+            "k11",
+            "11",
+            "10",
+            "None"
+        ],
+        "correctAnswer": "11",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 556,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k11': 11, 'k12': 12}.get('k12'))?",
+        "options": [
+            "12",
+            "11",
+            "None",
+            "k12"
+        ],
+        "correctAnswer": "12",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 557,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k12': 12, 'k13': 13}.get('k13'))?",
+        "options": [
+            "12",
+            "None",
+            "k13",
+            "13"
+        ],
+        "correctAnswer": "13",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 558,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k13': 13, 'k14': 14}.get('k14'))?",
+        "options": [
+            "None",
+            "k14",
+            "14",
+            "13"
+        ],
+        "correctAnswer": "14",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 559,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k14': 14, 'k15': 15}.get('k15'))?",
+        "options": [
+            "k15",
+            "15",
+            "14",
+            "None"
+        ],
+        "correctAnswer": "15",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 560,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k15': 15, 'k16': 16}.get('k16'))?",
+        "options": [
+            "16",
+            "15",
+            "None",
+            "k16"
+        ],
+        "correctAnswer": "16",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 561,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k16': 16, 'k17': 17}.get('k17'))?",
+        "options": [
+            "16",
+            "None",
+            "k17",
+            "17"
+        ],
+        "correctAnswer": "17",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 562,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k17': 17, 'k18': 18}.get('k18'))?",
+        "options": [
+            "None",
+            "k18",
+            "18",
+            "17"
+        ],
+        "correctAnswer": "18",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 563,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k18': 18, 'k19': 19}.get('k19'))?",
+        "options": [
+            "k19",
+            "19",
+            "18",
+            "None"
+        ],
+        "correctAnswer": "19",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 564,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k19': 19, 'k20': 20}.get('k20'))?",
+        "options": [
+            "20",
+            "19",
+            "None",
+            "k20"
+        ],
+        "correctAnswer": "20",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 565,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k20': 20, 'k21': 21}.get('k21'))?",
+        "options": [
+            "20",
+            "None",
+            "k21",
+            "21"
+        ],
+        "correctAnswer": "21",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 566,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k21': 21, 'k22': 22}.get('k22'))?",
+        "options": [
+            "None",
+            "k22",
+            "22",
+            "21"
+        ],
+        "correctAnswer": "22",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 567,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k22': 22, 'k23': 23}.get('k23'))?",
+        "options": [
+            "k23",
+            "23",
+            "22",
+            "None"
+        ],
+        "correctAnswer": "23",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 568,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k23': 23, 'k24': 24}.get('k24'))?",
+        "options": [
+            "24",
+            "23",
+            "None",
+            "k24"
+        ],
+        "correctAnswer": "24",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 569,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k24': 24, 'k25': 25}.get('k25'))?",
+        "options": [
+            "24",
+            "None",
+            "k25",
+            "25"
+        ],
+        "correctAnswer": "25",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 570,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k25': 25, 'k26': 26}.get('k26'))?",
+        "options": [
+            "None",
+            "k26",
+            "26",
+            "25"
+        ],
+        "correctAnswer": "26",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 571,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k26': 26, 'k27': 27}.get('k27'))?",
+        "options": [
+            "k27",
+            "27",
+            "26",
+            "None"
+        ],
+        "correctAnswer": "27",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 572,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k27': 27, 'k28': 28}.get('k28'))?",
+        "options": [
+            "28",
+            "27",
+            "None",
+            "k28"
+        ],
+        "correctAnswer": "28",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 573,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k28': 28, 'k29': 29}.get('k29'))?",
+        "options": [
+            "28",
+            "None",
+            "k29",
+            "29"
+        ],
+        "correctAnswer": "29",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 574,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k29': 29, 'k30': 30}.get('k30'))?",
+        "options": [
+            "None",
+            "k30",
+            "30",
+            "29"
+        ],
+        "correctAnswer": "30",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 575,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k30': 30, 'k31': 31}.get('k31'))?",
+        "options": [
+            "k31",
+            "31",
+            "30",
+            "None"
+        ],
+        "correctAnswer": "31",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 576,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k31': 31, 'k32': 32}.get('k32'))?",
+        "options": [
+            "32",
+            "31",
+            "None",
+            "k32"
+        ],
+        "correctAnswer": "32",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 577,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k32': 32, 'k33': 33}.get('k33'))?",
+        "options": [
+            "32",
+            "None",
+            "k33",
+            "33"
+        ],
+        "correctAnswer": "33",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 578,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k33': 33, 'k34': 34}.get('k34'))?",
+        "options": [
+            "None",
+            "k34",
+            "34",
+            "33"
+        ],
+        "correctAnswer": "34",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 579,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k34': 34, 'k35': 35}.get('k35'))?",
+        "options": [
+            "k35",
+            "35",
+            "34",
+            "None"
+        ],
+        "correctAnswer": "35",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 580,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k35': 35, 'k36': 36}.get('k36'))?",
+        "options": [
+            "36",
+            "35",
+            "None",
+            "k36"
+        ],
+        "correctAnswer": "36",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 581,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k36': 36, 'k37': 37}.get('k37'))?",
+        "options": [
+            "36",
+            "None",
+            "k37",
+            "37"
+        ],
+        "correctAnswer": "37",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 582,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k37': 37, 'k38': 38}.get('k38'))?",
+        "options": [
+            "None",
+            "k38",
+            "38",
+            "37"
+        ],
+        "correctAnswer": "38",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 583,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k38': 38, 'k39': 39}.get('k39'))?",
+        "options": [
+            "k39",
+            "39",
+            "38",
+            "None"
+        ],
+        "correctAnswer": "39",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 584,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k39': 39, 'k40': 40}.get('k40'))?",
+        "options": [
+            "40",
+            "39",
+            "None",
+            "k40"
+        ],
+        "correctAnswer": "40",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 585,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k40': 40, 'k41': 41}.get('k41'))?",
+        "options": [
+            "40",
+            "None",
+            "k41",
+            "41"
+        ],
+        "correctAnswer": "41",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 586,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k41': 41, 'k42': 42}.get('k42'))?",
+        "options": [
+            "None",
+            "k42",
+            "42",
+            "41"
+        ],
+        "correctAnswer": "42",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 587,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k42': 42, 'k43': 43}.get('k43'))?",
+        "options": [
+            "k43",
+            "43",
+            "42",
+            "None"
+        ],
+        "correctAnswer": "43",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 588,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k43': 43, 'k44': 44}.get('k44'))?",
+        "options": [
+            "44",
+            "43",
+            "None",
+            "k44"
+        ],
+        "correctAnswer": "44",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 589,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k44': 44, 'k45': 45}.get('k45'))?",
+        "options": [
+            "44",
+            "None",
+            "k45",
+            "45"
+        ],
+        "correctAnswer": "45",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 590,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k45': 45, 'k46': 46}.get('k46'))?",
+        "options": [
+            "None",
+            "k46",
+            "46",
+            "45"
+        ],
+        "correctAnswer": "46",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 591,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k46': 46, 'k47': 47}.get('k47'))?",
+        "options": [
+            "k47",
+            "47",
+            "46",
+            "None"
+        ],
+        "correctAnswer": "47",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 592,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k47': 47, 'k48': 48}.get('k48'))?",
+        "options": [
+            "48",
+            "47",
+            "None",
+            "k48"
+        ],
+        "correctAnswer": "48",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 593,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k48': 48, 'k49': 49}.get('k49'))?",
+        "options": [
+            "48",
+            "None",
+            "k49",
+            "49"
+        ],
+        "correctAnswer": "49",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 594,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k49': 49, 'k50': 50}.get('k50'))?",
+        "options": [
+            "None",
+            "k50",
+            "50",
+            "49"
+        ],
+        "correctAnswer": "50",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 595,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k50': 50, 'k51': 51}.get('k51'))?",
+        "options": [
+            "k51",
+            "51",
+            "50",
+            "None"
+        ],
+        "correctAnswer": "51",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 596,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k51': 51, 'k52': 52}.get('k52'))?",
+        "options": [
+            "52",
+            "51",
+            "None",
+            "k52"
+        ],
+        "correctAnswer": "52",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 597,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k52': 52, 'k53': 53}.get('k53'))?",
+        "options": [
+            "52",
+            "None",
+            "k53",
+            "53"
+        ],
+        "correctAnswer": "53",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 598,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k53': 53, 'k54': 54}.get('k54'))?",
+        "options": [
+            "None",
+            "k54",
+            "54",
+            "53"
+        ],
+        "correctAnswer": "54",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 599,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k54': 54, 'k55': 55}.get('k55'))?",
+        "options": [
+            "k55",
+            "55",
+            "54",
+            "None"
+        ],
+        "correctAnswer": "55",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 600,
+        "topic": "Dictionaries",
+        "question": "What is the output of print({'k55': 55, 'k56': 56}.get('k56'))?",
+        "options": [
+            "56",
+            "55",
+            "None",
+            "k56"
+        ],
+        "correctAnswer": "56",
+        "explanation": "dict.get(key) returns the value for the key when it exists."
+    },
+    {
+        "id": 601,
+        "topic": "Filtering",
+        "question": "What is the output of print([x for x in [1, 2, 3, 4, 5, 6, 7] if x % 2 == 0])?",
+        "options": [
+            "[1, 3, 5, 7]",
+            "[1, 2, 3, 4, 5, 6, 7]",
+            "3",
+            "[2, 4, 6]"
+        ],
+        "correctAnswer": "[2, 4, 6]",
+        "explanation": "The condition keeps only even values."
+    },
+    {
+        "id": 602,
+        "topic": "Filtering",
+        "question": "What is the output of print([x for x in [2, 3, 4, 5, 6, 7, 8] if x % 2 == 0])?",
+        "options": [
+            "[2, 3, 4, 5, 6, 7, 8]",
+            "4",
+            "[2, 4, 6, 8]",
+            "[3, 5, 7]"
+        ],
+        "correctAnswer": "[2, 4, 6, 8]",
+        "explanation": "The condition keeps only even values."
+    },
+    {
+        "id": 603,
+        "topic": "Filtering",
+        "question": "What is the output of print([x for x in [0, 1, 2, 3, 4, 5, 6] if x % 2 == 0])?",
+        "options": [
+            "4",
+            "[0, 2, 4, 6]",
+            "[1, 3, 5]",
+            "[0, 1, 2, 3, 4, 5, 6]"
+        ],
+        "correctAnswer": "[0, 2, 4, 6]",
+        "explanation": "The condition keeps only even values."
+    },
+    {
+        "id": 604,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([1, 2, 3, 4, 5]) & set([3, 4, 5, 6, 7]))?",
+        "options": [
+            "[3, 4, 5]",
+            "[1, 2, 3, 4, 5, 6, 7]",
+            "[1, 2]",
+            "[6, 7]"
+        ],
+        "correctAnswer": "[3, 4, 5]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 605,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 2)",
+        "options": [
+            "finally",
+            "except",
+            "raise",
+            "else"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 606,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 3)",
+        "options": [
+            "pause",
+            "next",
+            "yield",
+            "return"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 607,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 4)",
+        "options": [
+            "x",
+            "a",
+            "r",
+            "w"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 608,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 5)",
+        "options": [
+            "**kwargs",
+            "*args",
+            "&kwargs",
+            "kwargs()"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 609,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 6)",
+        "options": [
+            "__file__",
+            "__module__",
+            "main",
+            "__main__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 610,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 7?",
+        "options": [
+            "6",
+            "lambda",
+            "8",
+            "7"
+        ],
+        "correctAnswer": "8",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 611,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([3, 4, 5, 6, 7]) & set([2, 3, 4, 5, 6]))?",
+        "options": [
+            "[2]",
+            "[3, 4, 5, 6]",
+            "[2, 3, 4, 5, 6, 7]",
+            "[7]"
+        ],
+        "correctAnswer": "[3, 4, 5, 6]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 612,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 9)",
+        "options": [
+            "else",
+            "finally",
+            "except",
+            "raise"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 613,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 10)",
+        "options": [
+            "return",
+            "pause",
+            "next",
+            "yield"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 614,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 11)",
+        "options": [
+            "w",
+            "x",
+            "a",
+            "r"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 615,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 12)",
+        "options": [
+            "kwargs()",
+            "**kwargs",
+            "*args",
+            "&kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 616,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 13)",
+        "options": [
+            "__main__",
+            "__file__",
+            "__module__",
+            "main"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 617,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 14?",
+        "options": [
+            "14",
+            "13",
+            "lambda",
+            "15"
+        ],
+        "correctAnswer": "15",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 618,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([0, 1, 2, 3, 4]) & set([5, 6, 7, 8, 9]))?",
+        "options": [
+            "[0, 1, 2, 3, 4]",
+            "[5, 6, 7, 8, 9]",
+            "[]",
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]"
+        ],
+        "correctAnswer": "[]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 619,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 16)",
+        "options": [
+            "raise",
+            "else",
+            "finally",
+            "except"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 620,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 17)",
+        "options": [
+            "yield",
+            "return",
+            "pause",
+            "next"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 621,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 18)",
+        "options": [
+            "r",
+            "w",
+            "x",
+            "a"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 622,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 19)",
+        "options": [
+            "&kwargs",
+            "kwargs()",
+            "**kwargs",
+            "*args"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 623,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 20)",
+        "options": [
+            "main",
+            "__main__",
+            "__file__",
+            "__module__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 624,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 21?",
+        "options": [
+            "22",
+            "21",
+            "20",
+            "lambda"
+        ],
+        "correctAnswer": "22",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 625,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([2, 3, 4, 5, 6]) & set([4, 5, 6, 7, 8]))?",
+        "options": [
+            "[2, 3, 4, 5, 6, 7, 8]",
+            "[2, 3]",
+            "[7, 8]",
+            "[4, 5, 6]"
+        ],
+        "correctAnswer": "[4, 5, 6]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 626,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 23)",
+        "options": [
+            "except",
+            "raise",
+            "else",
+            "finally"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 627,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 24)",
+        "options": [
+            "next",
+            "yield",
+            "return",
+            "pause"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 628,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 25)",
+        "options": [
+            "a",
+            "r",
+            "w",
+            "x"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 629,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 26)",
+        "options": [
+            "*args",
+            "&kwargs",
+            "kwargs()",
+            "**kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 630,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 27)",
+        "options": [
+            "__module__",
+            "main",
+            "__main__",
+            "__file__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 631,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 28?",
+        "options": [
+            "lambda",
+            "29",
+            "28",
+            "27"
+        ],
+        "correctAnswer": "29",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 632,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([4, 5, 6, 7, 8]) & set([3, 4, 5, 6, 7]))?",
+        "options": [
+            "[4, 5, 6, 7]",
+            "[3, 4, 5, 6, 7, 8]",
+            "[8]",
+            "[3]"
+        ],
+        "correctAnswer": "[4, 5, 6, 7]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 633,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 30)",
+        "options": [
+            "finally",
+            "except",
+            "raise",
+            "else"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 634,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 31)",
+        "options": [
+            "pause",
+            "next",
+            "yield",
+            "return"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 635,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 32)",
+        "options": [
+            "x",
+            "a",
+            "r",
+            "w"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 636,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 33)",
+        "options": [
+            "**kwargs",
+            "*args",
+            "&kwargs",
+            "kwargs()"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 637,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 34)",
+        "options": [
+            "__file__",
+            "__module__",
+            "main",
+            "__main__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 638,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 35?",
+        "options": [
+            "34",
+            "lambda",
+            "36",
+            "35"
+        ],
+        "correctAnswer": "36",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 639,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([1, 2, 3, 4, 5]) & set([2, 3, 4, 5, 6]))?",
+        "options": [
+            "[6]",
+            "[2, 3, 4, 5]",
+            "[1, 2, 3, 4, 5, 6]",
+            "[1]"
+        ],
+        "correctAnswer": "[2, 3, 4, 5]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 640,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 37)",
+        "options": [
+            "else",
+            "finally",
+            "except",
+            "raise"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 641,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 38)",
+        "options": [
+            "return",
+            "pause",
+            "next",
+            "yield"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 642,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 39)",
+        "options": [
+            "w",
+            "x",
+            "a",
+            "r"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 643,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 40)",
+        "options": [
+            "kwargs()",
+            "**kwargs",
+            "*args",
+            "&kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 644,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 41)",
+        "options": [
+            "__main__",
+            "__file__",
+            "__module__",
+            "main"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 645,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 5?",
+        "options": [
+            "5",
+            "4",
+            "lambda",
+            "6"
+        ],
+        "correctAnswer": "6",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 646,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([3, 4, 5, 6, 7]) & set([5, 6, 7, 8, 9]))?",
+        "options": [
+            "[3, 4]",
+            "[8, 9]",
+            "[5, 6, 7]",
+            "[3, 4, 5, 6, 7, 8, 9]"
+        ],
+        "correctAnswer": "[5, 6, 7]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 647,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 44)",
+        "options": [
+            "raise",
+            "else",
+            "finally",
+            "except"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 648,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 45)",
+        "options": [
+            "yield",
+            "return",
+            "pause",
+            "next"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 649,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 46)",
+        "options": [
+            "r",
+            "w",
+            "x",
+            "a"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 650,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 47)",
+        "options": [
+            "&kwargs",
+            "kwargs()",
+            "**kwargs",
+            "*args"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 651,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 48)",
+        "options": [
+            "main",
+            "__main__",
+            "__file__",
+            "__module__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 652,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 12?",
+        "options": [
+            "13",
+            "12",
+            "11",
+            "lambda"
+        ],
+        "correctAnswer": "13",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 653,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([0, 1, 2, 3, 4]) & set([4, 5, 6, 7, 8]))?",
+        "options": [
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8]",
+            "[0, 1, 2, 3]",
+            "[5, 6, 7, 8]",
+            "[4]"
+        ],
+        "correctAnswer": "[4]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 654,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 51)",
+        "options": [
+            "except",
+            "raise",
+            "else",
+            "finally"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 655,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 52)",
+        "options": [
+            "next",
+            "yield",
+            "return",
+            "pause"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 656,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 53)",
+        "options": [
+            "a",
+            "r",
+            "w",
+            "x"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 657,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 54)",
+        "options": [
+            "*args",
+            "&kwargs",
+            "kwargs()",
+            "**kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 658,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 55)",
+        "options": [
+            "__module__",
+            "main",
+            "__main__",
+            "__file__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 659,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 19?",
+        "options": [
+            "lambda",
+            "20",
+            "19",
+            "18"
+        ],
+        "correctAnswer": "20",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 660,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([2, 3, 4, 5, 6]) & set([3, 4, 5, 6, 7]))?",
+        "options": [
+            "[3, 4, 5, 6]",
+            "[2, 3, 4, 5, 6, 7]",
+            "[2]",
+            "[7]"
+        ],
+        "correctAnswer": "[3, 4, 5, 6]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 661,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 58)",
+        "options": [
+            "finally",
+            "except",
+            "raise",
+            "else"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 662,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 59)",
+        "options": [
+            "pause",
+            "next",
+            "yield",
+            "return"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 663,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 60)",
+        "options": [
+            "x",
+            "a",
+            "r",
+            "w"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 664,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 61)",
+        "options": [
+            "**kwargs",
+            "*args",
+            "&kwargs",
+            "kwargs()"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 665,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 62)",
+        "options": [
+            "__file__",
+            "__module__",
+            "main",
+            "__main__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 666,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 26?",
+        "options": [
+            "25",
+            "lambda",
+            "27",
+            "26"
+        ],
+        "correctAnswer": "27",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 667,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([4, 5, 6, 7, 8]) & set([2, 3, 4, 5, 6]))?",
+        "options": [
+            "[2, 3]",
+            "[4, 5, 6]",
+            "[2, 3, 4, 5, 6, 7, 8]",
+            "[7, 8]"
+        ],
+        "correctAnswer": "[4, 5, 6]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 668,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 65)",
+        "options": [
+            "else",
+            "finally",
+            "except",
+            "raise"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 669,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 66)",
+        "options": [
+            "return",
+            "pause",
+            "next",
+            "yield"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 670,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 67)",
+        "options": [
+            "w",
+            "x",
+            "a",
+            "r"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 671,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 68)",
+        "options": [
+            "kwargs()",
+            "**kwargs",
+            "*args",
+            "&kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 672,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 69)",
+        "options": [
+            "__main__",
+            "__file__",
+            "__module__",
+            "main"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 673,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 33?",
+        "options": [
+            "33",
+            "32",
+            "lambda",
+            "34"
+        ],
+        "correctAnswer": "34",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 674,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([1, 2, 3, 4, 5]) & set([5, 6, 7, 8, 9]))?",
+        "options": [
+            "[1, 2, 3, 4]",
+            "[6, 7, 8, 9]",
+            "[5]",
+            "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
+        ],
+        "correctAnswer": "[5]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 675,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 72)",
+        "options": [
+            "raise",
+            "else",
+            "finally",
+            "except"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 676,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 73)",
+        "options": [
+            "yield",
+            "return",
+            "pause",
+            "next"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 677,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 74)",
+        "options": [
+            "r",
+            "w",
+            "x",
+            "a"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 678,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 75)",
+        "options": [
+            "&kwargs",
+            "kwargs()",
+            "**kwargs",
+            "*args"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 679,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 76)",
+        "options": [
+            "main",
+            "__main__",
+            "__file__",
+            "__module__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 680,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 3?",
+        "options": [
+            "4",
+            "3",
+            "2",
+            "lambda"
+        ],
+        "correctAnswer": "4",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 681,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([3, 4, 5, 6, 7]) & set([4, 5, 6, 7, 8]))?",
+        "options": [
+            "[3, 4, 5, 6, 7, 8]",
+            "[3]",
+            "[8]",
+            "[4, 5, 6, 7]"
+        ],
+        "correctAnswer": "[4, 5, 6, 7]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 682,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 79)",
+        "options": [
+            "except",
+            "raise",
+            "else",
+            "finally"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 683,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 80)",
+        "options": [
+            "next",
+            "yield",
+            "return",
+            "pause"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 684,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 81)",
+        "options": [
+            "a",
+            "r",
+            "w",
+            "x"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 685,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 82)",
+        "options": [
+            "*args",
+            "&kwargs",
+            "kwargs()",
+            "**kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 686,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 83)",
+        "options": [
+            "__module__",
+            "main",
+            "__main__",
+            "__file__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 687,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 10?",
+        "options": [
+            "lambda",
+            "11",
+            "10",
+            "9"
+        ],
+        "correctAnswer": "11",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 688,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([0, 1, 2, 3, 4]) & set([3, 4, 5, 6, 7]))?",
+        "options": [
+            "[3, 4]",
+            "[0, 1, 2, 3, 4, 5, 6, 7]",
+            "[0, 1, 2]",
+            "[5, 6, 7]"
+        ],
+        "correctAnswer": "[3, 4]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 689,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 86)",
+        "options": [
+            "finally",
+            "except",
+            "raise",
+            "else"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 690,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 87)",
+        "options": [
+            "pause",
+            "next",
+            "yield",
+            "return"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 691,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 88)",
+        "options": [
+            "x",
+            "a",
+            "r",
+            "w"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 692,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 89)",
+        "options": [
+            "**kwargs",
+            "*args",
+            "&kwargs",
+            "kwargs()"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 693,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 90)",
+        "options": [
+            "__file__",
+            "__module__",
+            "main",
+            "__main__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 694,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 17?",
+        "options": [
+            "16",
+            "lambda",
+            "18",
+            "17"
+        ],
+        "correctAnswer": "18",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 695,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([2, 3, 4, 5, 6]) & set([2, 3, 4, 5, 6]))?",
+        "options": [
+            "None",
+            "[2, 3, 4, 5, 6]",
+            "[]",
+            "Raises an error"
+        ],
+        "correctAnswer": "[2, 3, 4, 5, 6]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 696,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 93)",
+        "options": [
+            "else",
+            "finally",
+            "except",
+            "raise"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 697,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 94)",
+        "options": [
+            "return",
+            "pause",
+            "next",
+            "yield"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 698,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 95)",
+        "options": [
+            "w",
+            "x",
+            "a",
+            "r"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 699,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 96)",
+        "options": [
+            "kwargs()",
+            "**kwargs",
+            "*args",
+            "&kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 700,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 97)",
+        "options": [
+            "__main__",
+            "__file__",
+            "__module__",
+            "main"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 701,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 24?",
+        "options": [
+            "24",
+            "23",
+            "lambda",
+            "25"
+        ],
+        "correctAnswer": "25",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 702,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([4, 5, 6, 7, 8]) & set([5, 6, 7, 8, 9]))?",
+        "options": [
+            "[4]",
+            "[9]",
+            "[5, 6, 7, 8]",
+            "[4, 5, 6, 7, 8, 9]"
+        ],
+        "correctAnswer": "[5, 6, 7, 8]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 703,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 100)",
+        "options": [
+            "raise",
+            "else",
+            "finally",
+            "except"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 704,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 101)",
+        "options": [
+            "yield",
+            "return",
+            "pause",
+            "next"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 705,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 102)",
+        "options": [
+            "r",
+            "w",
+            "x",
+            "a"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 706,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 103)",
+        "options": [
+            "&kwargs",
+            "kwargs()",
+            "**kwargs",
+            "*args"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 707,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 104)",
+        "options": [
+            "main",
+            "__main__",
+            "__file__",
+            "__module__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 708,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 31?",
+        "options": [
+            "32",
+            "31",
+            "30",
+            "lambda"
+        ],
+        "correctAnswer": "32",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 709,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([1, 2, 3, 4, 5]) & set([4, 5, 6, 7, 8]))?",
+        "options": [
+            "[1, 2, 3, 4, 5, 6, 7, 8]",
+            "[1, 2, 3]",
+            "[6, 7, 8]",
+            "[4, 5]"
+        ],
+        "correctAnswer": "[4, 5]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 710,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 107)",
+        "options": [
+            "except",
+            "raise",
+            "else",
+            "finally"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 711,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 108)",
+        "options": [
+            "next",
+            "yield",
+            "return",
+            "pause"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 712,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 109)",
+        "options": [
+            "a",
+            "r",
+            "w",
+            "x"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 713,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 110)",
+        "options": [
+            "*args",
+            "&kwargs",
+            "kwargs()",
+            "**kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 714,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 111)",
+        "options": [
+            "__module__",
+            "main",
+            "__main__",
+            "__file__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 715,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 1?",
+        "options": [
+            "lambda",
+            "2",
+            "1",
+            "0"
+        ],
+        "correctAnswer": "2",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 716,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([3, 4, 5, 6, 7]) & set([3, 4, 5, 6, 7]))?",
+        "options": [
+            "[3, 4, 5, 6, 7]",
+            "[]",
+            "Raises an error",
+            "None"
+        ],
+        "correctAnswer": "[3, 4, 5, 6, 7]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 717,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 114)",
+        "options": [
+            "finally",
+            "except",
+            "raise",
+            "else"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 718,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 115)",
+        "options": [
+            "pause",
+            "next",
+            "yield",
+            "return"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 719,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 116)",
+        "options": [
+            "x",
+            "a",
+            "r",
+            "w"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 720,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 117)",
+        "options": [
+            "**kwargs",
+            "*args",
+            "&kwargs",
+            "kwargs()"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 721,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 118)",
+        "options": [
+            "__file__",
+            "__module__",
+            "main",
+            "__main__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 722,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 8?",
+        "options": [
+            "7",
+            "lambda",
+            "9",
+            "8"
+        ],
+        "correctAnswer": "9",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 723,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([0, 1, 2, 3, 4]) & set([2, 3, 4, 5, 6]))?",
+        "options": [
+            "[5, 6]",
+            "[2, 3, 4]",
+            "[0, 1, 2, 3, 4, 5, 6]",
+            "[0, 1]"
+        ],
+        "correctAnswer": "[2, 3, 4]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 724,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 121)",
+        "options": [
+            "else",
+            "finally",
+            "except",
+            "raise"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 725,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 122)",
+        "options": [
+            "return",
+            "pause",
+            "next",
+            "yield"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 726,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 123)",
+        "options": [
+            "w",
+            "x",
+            "a",
+            "r"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 727,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 124)",
+        "options": [
+            "kwargs()",
+            "**kwargs",
+            "*args",
+            "&kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 728,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 125)",
+        "options": [
+            "__main__",
+            "__file__",
+            "__module__",
+            "main"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 729,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 15?",
+        "options": [
+            "15",
+            "14",
+            "lambda",
+            "16"
+        ],
+        "correctAnswer": "16",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 730,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([2, 3, 4, 5, 6]) & set([5, 6, 7, 8, 9]))?",
+        "options": [
+            "[2, 3, 4]",
+            "[7, 8, 9]",
+            "[5, 6]",
+            "[2, 3, 4, 5, 6, 7, 8, 9]"
+        ],
+        "correctAnswer": "[5, 6]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 731,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 128)",
+        "options": [
+            "raise",
+            "else",
+            "finally",
+            "except"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 732,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 129)",
+        "options": [
+            "yield",
+            "return",
+            "pause",
+            "next"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 733,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 130)",
+        "options": [
+            "r",
+            "w",
+            "x",
+            "a"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 734,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 131)",
+        "options": [
+            "&kwargs",
+            "kwargs()",
+            "**kwargs",
+            "*args"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 735,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 132)",
+        "options": [
+            "main",
+            "__main__",
+            "__file__",
+            "__module__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 736,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 22?",
+        "options": [
+            "23",
+            "22",
+            "21",
+            "lambda"
+        ],
+        "correctAnswer": "23",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 737,
+        "topic": "Set Operations",
+        "question": "What is sorted(set([4, 5, 6, 7, 8]) & set([4, 5, 6, 7, 8]))?",
+        "options": [
+            "[]",
+            "Raises an error",
+            "None",
+            "[4, 5, 6, 7, 8]"
+        ],
+        "correctAnswer": "[4, 5, 6, 7, 8]",
+        "explanation": "The & operator returns the set intersection."
+    },
+    {
+        "id": 738,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 135)",
+        "options": [
+            "except",
+            "raise",
+            "else",
+            "finally"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 739,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 136)",
+        "options": [
+            "next",
+            "yield",
+            "return",
+            "pause"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 740,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 137)",
+        "options": [
+            "a",
+            "r",
+            "w",
+            "x"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 741,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 138)",
+        "options": [
+            "*args",
+            "&kwargs",
+            "kwargs()",
+            "**kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 742,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 139)",
+        "options": [
+            "__module__",
+            "main",
+            "__main__",
+            "__file__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 743,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 29?",
+        "options": [
+            "lambda",
+            "30",
+            "29",
+            "28"
+        ],
+        "correctAnswer": "30",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 744,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 142)",
+        "options": [
+            "else",
+            "finally",
+            "except",
+            "raise"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 745,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 143)",
+        "options": [
+            "return",
+            "pause",
+            "next",
+            "yield"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 746,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 144)",
+        "options": [
+            "w",
+            "x",
+            "a",
+            "r"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 747,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 145)",
+        "options": [
+            "kwargs()",
+            "**kwargs",
+            "*args",
+            "&kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 748,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 146)",
+        "options": [
+            "__main__",
+            "__file__",
+            "__module__",
+            "main"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 749,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 36?",
+        "options": [
+            "36",
+            "35",
+            "lambda",
+            "37"
+        ],
+        "correctAnswer": "37",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 750,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 149)",
+        "options": [
+            "except",
+            "raise",
+            "else",
+            "finally"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 751,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 150)",
+        "options": [
+            "next",
+            "yield",
+            "return",
+            "pause"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 752,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 151)",
+        "options": [
+            "a",
+            "r",
+            "w",
+            "x"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 753,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 152)",
+        "options": [
+            "*args",
+            "&kwargs",
+            "kwargs()",
+            "**kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 754,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 153)",
+        "options": [
+            "__module__",
+            "main",
+            "__main__",
+            "__file__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 755,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 6?",
+        "options": [
+            "lambda",
+            "7",
+            "6",
+            "5"
+        ],
+        "correctAnswer": "7",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 756,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 156)",
+        "options": [
+            "else",
+            "finally",
+            "except",
+            "raise"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 757,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 157)",
+        "options": [
+            "return",
+            "pause",
+            "next",
+            "yield"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 758,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 158)",
+        "options": [
+            "w",
+            "x",
+            "a",
+            "r"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 759,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 159)",
+        "options": [
+            "kwargs()",
+            "**kwargs",
+            "*args",
+            "&kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 760,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 160)",
+        "options": [
+            "__main__",
+            "__file__",
+            "__module__",
+            "main"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 761,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 13?",
+        "options": [
+            "13",
+            "12",
+            "lambda",
+            "14"
+        ],
+        "correctAnswer": "14",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 762,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 163)",
+        "options": [
+            "except",
+            "raise",
+            "else",
+            "finally"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 763,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 164)",
+        "options": [
+            "next",
+            "yield",
+            "return",
+            "pause"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 764,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 165)",
+        "options": [
+            "a",
+            "r",
+            "w",
+            "x"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 765,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 166)",
+        "options": [
+            "*args",
+            "&kwargs",
+            "kwargs()",
+            "**kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 766,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 167)",
+        "options": [
+            "__module__",
+            "main",
+            "__main__",
+            "__file__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 767,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 20?",
+        "options": [
+            "lambda",
+            "21",
+            "20",
+            "19"
+        ],
+        "correctAnswer": "21",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 768,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 170)",
+        "options": [
+            "else",
+            "finally",
+            "except",
+            "raise"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 769,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 171)",
+        "options": [
+            "return",
+            "pause",
+            "next",
+            "yield"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 770,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 172)",
+        "options": [
+            "w",
+            "x",
+            "a",
+            "r"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 771,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 173)",
+        "options": [
+            "kwargs()",
+            "**kwargs",
+            "*args",
+            "&kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 772,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 174)",
+        "options": [
+            "__main__",
+            "__file__",
+            "__module__",
+            "main"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 773,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 27?",
+        "options": [
+            "27",
+            "26",
+            "lambda",
+            "28"
+        ],
+        "correctAnswer": "28",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 774,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 177)",
+        "options": [
+            "except",
+            "raise",
+            "else",
+            "finally"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 775,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 178)",
+        "options": [
+            "next",
+            "yield",
+            "return",
+            "pause"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 776,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 179)",
+        "options": [
+            "a",
+            "r",
+            "w",
+            "x"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 777,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 180)",
+        "options": [
+            "*args",
+            "&kwargs",
+            "kwargs()",
+            "**kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 778,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 181)",
+        "options": [
+            "__module__",
+            "main",
+            "__main__",
+            "__file__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 779,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 34?",
+        "options": [
+            "lambda",
+            "35",
+            "34",
+            "33"
+        ],
+        "correctAnswer": "35",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 780,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 184)",
+        "options": [
+            "else",
+            "finally",
+            "except",
+            "raise"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 781,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 185)",
+        "options": [
+            "return",
+            "pause",
+            "next",
+            "yield"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 782,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 186)",
+        "options": [
+            "w",
+            "x",
+            "a",
+            "r"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 783,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 187)",
+        "options": [
+            "kwargs()",
+            "**kwargs",
+            "*args",
+            "&kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 784,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 188)",
+        "options": [
+            "__main__",
+            "__file__",
+            "__module__",
+            "main"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 785,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 4?",
+        "options": [
+            "4",
+            "3",
+            "lambda",
+            "5"
+        ],
+        "correctAnswer": "5",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 786,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 191)",
+        "options": [
+            "except",
+            "raise",
+            "else",
+            "finally"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 787,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 192)",
+        "options": [
+            "next",
+            "yield",
+            "return",
+            "pause"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 788,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 193)",
+        "options": [
+            "a",
+            "r",
+            "w",
+            "x"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 789,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 194)",
+        "options": [
+            "*args",
+            "&kwargs",
+            "kwargs()",
+            "**kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 790,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 195)",
+        "options": [
+            "__module__",
+            "main",
+            "__main__",
+            "__file__"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 791,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 11?",
+        "options": [
+            "lambda",
+            "12",
+            "11",
+            "10"
+        ],
+        "correctAnswer": "12",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 792,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 198)",
+        "options": [
+            "else",
+            "finally",
+            "except",
+            "raise"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 793,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 199)",
+        "options": [
+            "return",
+            "pause",
+            "next",
+            "yield"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 794,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 200)",
+        "options": [
+            "w",
+            "x",
+            "a",
+            "r"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 795,
+        "topic": "Args and Kwargs",
+        "question": "What name is commonly used for extra keyword arguments? (Intermediate practice 201)",
+        "options": [
+            "kwargs()",
+            "**kwargs",
+            "*args",
+            "&kwargs"
+        ],
+        "correctAnswer": "**kwargs",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 796,
+        "topic": "Modules",
+        "question": "What does __name__ equal when a file is run directly? (Intermediate practice 202)",
+        "options": [
+            "__main__",
+            "__file__",
+            "__module__",
+            "main"
+        ],
+        "correctAnswer": "__main__",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 797,
+        "topic": "Lambda Functions",
+        "question": "What does lambda x: x + 1 return when called with 18?",
+        "options": [
+            "18",
+            "17",
+            "lambda",
+            "19"
+        ],
+        "correctAnswer": "19",
+        "explanation": "The lambda expression adds 1 to its argument."
+    },
+    {
+        "id": 798,
+        "topic": "Exception Handling",
+        "question": "Which block runs only when no exception is raised in try/except? (Intermediate practice 205)",
+        "options": [
+            "except",
+            "raise",
+            "else",
+            "finally"
+        ],
+        "correctAnswer": "else",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 799,
+        "topic": "Generators",
+        "question": "Which keyword pauses a function and produces the next value? (Intermediate practice 206)",
+        "options": [
+            "next",
+            "yield",
+            "return",
+            "pause"
+        ],
+        "correctAnswer": "yield",
+        "explanation": "This is a common intermediate Python rule."
+    },
+    {
+        "id": 800,
+        "topic": "File Handling",
+        "question": "Which mode opens a file for appending text? (Intermediate practice 207)",
+        "options": [
+            "a",
+            "r",
+            "w",
+            "x"
+        ],
+        "correctAnswer": "a",
+        "explanation": "This is a common intermediate Python rule."
+    }
+]

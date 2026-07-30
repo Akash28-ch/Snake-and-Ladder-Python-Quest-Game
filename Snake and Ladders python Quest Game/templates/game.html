@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Quest - Play</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        :root {
+            --bg-color: #f7f1df;
+            --surface-color: #fffaf0;
+            --panel-color: #2f3a43;
+            --text-color: #2b2118;
+            --muted-color: #6f6254;
+            --border-color: #b98b49;
+            --accent-color: #b87924;
+            --accent-hover: #9d6419;
+            --button-text: #fff8e7;
+            --shadow-color: rgba(76, 48, 18, 0.22);
+            --option-bg: #fffdf7;
+            --option-border: #d8c3a5;
+        }
+        [data-theme="dark"] {
+            --bg-color: #101820;
+            --surface-color: #18232d;
+            --panel-color: #0f1720;
+            --text-color: #f3ead7;
+            --muted-color: #c7b998;
+            --border-color: #d0a34f;
+            --accent-color: #f0b84f;
+            --accent-hover: #ffd27a;
+            --button-text: #1a1208;
+            --shadow-color: rgba(0, 0, 0, 0.45);
+            --option-bg: #22303d;
+            --option-border: #435363;
+        }
+
+        body {
+            background:
+                linear-gradient(135deg, rgba(184,121,36,0.10), transparent 34%),
+                linear-gradient(315deg, rgba(47,58,67,0.10), transparent 38%),
+                var(--bg-color);
+            color: var(--text-color);
+            transition: background-color 0.3s, color 0.3s;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+        }
+        .app-navbar {
+            background: var(--panel-color);
+            border-bottom: 3px solid var(--border-color);
+            box-shadow: 0 10px 22px var(--shadow-color);
+        }
+        .theme-toggle {
+            border-color: var(--accent-color);
+            color: var(--button-text);
+            background: var(--accent-color);
+            transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+        }
+        .theme-toggle:hover {
+            background: var(--accent-hover);
+            color: var(--button-text);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 18px var(--shadow-color);
+        }
+        #board {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            width: 100%;
+            max-width: 600px;
+            aspect-ratio: 1;
+            margin: auto;
+            border: 5px solid var(--border-color);
+            position: relative;
+            overflow: hidden;
+            background: url("{{ url_for('static', filename='images/snakes-ladders-board.jpg') }}") center / cover no-repeat;
+            box-shadow: 0 15px 35px var(--shadow-color);
+        }
+        .cell {
+            aspect-ratio: 1;
+            position: relative;
+            color: transparent;
+            pointer-events: none;
+        }
+        .player-token {
+            width: clamp(18px, 4.5vw, 28px);
+            height: clamp(18px, 4.5vw, 28px);
+            border-radius: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            transition: left 0.55s cubic-bezier(0.68, -0.55, 0.27, 1.55), top 0.55s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+            z-index: 100;
+            border: 2px solid white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        .user-token { background: #ff4757; }
+        .ai-token { background: #2f3542; }
+        .token-p1 { background: #ff4757; }
+        .token-p2 { background: #2f3542; }
+        .token-p3 { background: #1e90ff; }
+        .token-p4 { background: #ffa502; }
+        .player-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        .player-stat {
+            border: 1px solid rgba(255,255,255,0.22);
+            border-radius: 8px;
+            padding: 8px;
+            background: rgba(255,255,255,0.08);
+        }
+        .player-stat.active {
+            border-color: #ffc107;
+            background: rgba(255,193,7,0.18);
+        }
+        .player-dot {
+            display: inline-block;
+            width: 11px;
+            height: 11px;
+            border-radius: 50%;
+            margin-right: 6px;
+            vertical-align: middle;
+        }
+        .question-card {
+            background: var(--surface-color);
+            border: 2px solid var(--border-color);
+            border-radius: 10px;
+            padding: 25px;
+            color: var(--text-color);
+            box-shadow: 0 10px 30px var(--shadow-color);
+        }
+        .text-muted { color: var(--muted-color) !important; }
+        .btn-option {
+            text-align: left;
+            margin-bottom: 10px;
+            transition: transform 0.2s, background-color 0.2s, border-color 0.2s;
+            background: var(--option-bg);
+            border-color: var(--option-border);
+            color: var(--text-color);
+        }
+        .btn-option:hover {
+            transform: translateX(10px);
+            border-color: var(--accent-color);
+            background: color-mix(in srgb, var(--option-bg) 84%, var(--accent-color));
+            color: var(--text-color);
+        }
+        .control-panel {
+            background: var(--panel-color);
+            color: #fff;
+            border: 2px solid var(--border-color);
+            border-radius: 10px;
+            box-shadow: 0 10px 24px var(--shadow-color);
+        }
+        .btn-option.correct-answer {
+            background: #198754;
+            border-color: #198754;
+            color: #fff;
+        }
+        .btn-option.wrong-answer {
+            background: #dc3545;
+            border-color: #dc3545;
+            color: #fff;
+        }
+        .game-message {
+            min-height: 48px;
+            border-radius: 8px;
+            padding: 10px 12px;
+            margin-top: 14px;
+            display: none;
+            text-align: left;
+            font-weight: 600;
+        }
+        .game-message.show { display: block; }
+        .game-message.info { background: #cff4fc; color: #055160; }
+        .game-message.success { background: #d1e7dd; color: #0f5132; }
+        .game-message.warning { background: #fff3cd; color: #664d03; }
+        .game-message.danger { background: #f8d7da; color: #842029; }
+        .dice-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            perspective: 850px;
+            margin: 22px auto 14px;
+            min-height: 98px;
+        }
+        .dice {
+            --dice-size: 76px;
+            width: var(--dice-size);
+            height: var(--dice-size);
+            position: relative;
+            transform-style: preserve-3d;
+            transform: rotateX(0deg) rotateY(0deg);
+            transition: transform 0.75s cubic-bezier(0.18, 0.82, 0.22, 1);
+        }
+        .dice.rolling {
+            animation: dice-roll 0.7s cubic-bezier(0.18, 0.82, 0.22, 1);
+        }
+        @keyframes dice-roll {
+            0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); }
+            35% { transform: rotateX(210deg) rotateY(145deg) rotateZ(24deg) scale(1.08); }
+            70% { transform: rotateX(430deg) rotateY(330deg) rotateZ(-16deg) scale(1.04); }
+            100% { transform: rotateX(720deg) rotateY(540deg) rotateZ(0deg) scale(1); }
+        }
+        .dice-face {
+            position: absolute;
+            inset: 0;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 6px;
+            padding: 12px;
+            border-radius: 14px;
+            background: linear-gradient(145deg, #ffffff, #e8edf2);
+            border: 2px solid #f8fafc;
+            box-shadow: inset -7px -9px 14px rgba(15,23,42,0.12), inset 5px 5px 10px rgba(255,255,255,0.9), 0 12px 22px rgba(0,0,0,0.28);
+            backface-visibility: hidden;
+        }
+        .dice-face[data-face="1"] { transform: rotateY(0deg) translateZ(calc(var(--dice-size) / 2)); }
+        .dice-face[data-face="2"] { transform: rotateY(90deg) translateZ(calc(var(--dice-size) / 2)); }
+        .dice-face[data-face="3"] { transform: rotateX(90deg) translateZ(calc(var(--dice-size) / 2)); }
+        .dice-face[data-face="4"] { transform: rotateX(-90deg) translateZ(calc(var(--dice-size) / 2)); }
+        .dice-face[data-face="5"] { transform: rotateY(-90deg) translateZ(calc(var(--dice-size) / 2)); }
+        .dice-face[data-face="6"] { transform: rotateY(180deg) translateZ(calc(var(--dice-size) / 2)); }
+        .pip {
+            width: 11px;
+            height: 11px;
+            border-radius: 50%;
+            background: #111827;
+            align-self: center;
+            justify-self: center;
+            box-shadow: inset 1px 1px 2px rgba(255,255,255,0.18), inset -1px -1px 2px rgba(0,0,0,0.35);
+        }
+        .pip.center { grid-column: 2; grid-row: 2; }
+        .pip.top-left { grid-column: 1; grid-row: 1; }
+        .pip.top-right { grid-column: 3; grid-row: 1; }
+        .pip.middle-left { grid-column: 1; grid-row: 2; }
+        .pip.middle-right { grid-column: 3; grid-row: 2; }
+        .pip.bottom-left { grid-column: 1; grid-row: 3; }
+        .pip.bottom-right { grid-column: 3; grid-row: 3; }
+        .dice[data-roll="1"] { transform: rotateX(0deg) rotateY(0deg); }
+        .dice[data-roll="2"] { transform: rotateX(0deg) rotateY(-90deg); }
+        .dice[data-roll="3"] { transform: rotateX(-90deg) rotateY(0deg); }
+        .dice[data-roll="4"] { transform: rotateX(90deg) rotateY(0deg); }
+        .dice[data-roll="5"] { transform: rotateX(0deg) rotateY(90deg); }
+        .dice[data-roll="6"] { transform: rotateX(0deg) rotateY(180deg); }
+        .dice.rolling[data-roll] {
+            transform: none;
+        }
+    </style>
+</head>
+<body data-theme="light">
+
+<nav class="navbar navbar-dark app-navbar mb-4">
+    <div class="container">
+        <span class="navbar-brand">Python Quest</span>
+        <button id="theme-toggle" class="btn btn-sm theme-toggle" type="button" onclick="toggleTheme()">🌙 Dark</button>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6 mb-4">
+            <div id="board">
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div id="game-ui">
+                <div class="question-card animate__animated animate__fadeInRight" id="q-container">
+                    <h5 id="q-topic" class="text-muted small uppercase">Topic</h5>
+                    <h3 id="q-text" class="mb-4">Question loading...</h3>
+                    <div id="options" class="d-grid"></div>
+                    <div id="game-message" class="game-message" aria-live="polite"></div>
+                </div>
+
+                <div class="mt-4 p-3 text-center control-panel">
+                    <div id="player-stats" class="player-stats"></div>
+                    <div>Turn: <span id="current-turn" class="badge bg-warning text-dark">Player 1</span></div>
+                    <div class="dice-container">
+                        <div id="dice-visual" class="dice" data-roll="1" aria-label="Dice showing 1">
+                            <div class="dice-face" data-face="1">
+                                <span class="pip center"></span>
+                            </div>
+                            <div class="dice-face" data-face="2">
+                                <span class="pip top-left"></span>
+                                <span class="pip bottom-right"></span>
+                            </div>
+                            <div class="dice-face" data-face="3">
+                                <span class="pip top-left"></span>
+                                <span class="pip center"></span>
+                                <span class="pip bottom-right"></span>
+                            </div>
+                            <div class="dice-face" data-face="4">
+                                <span class="pip top-left"></span>
+                                <span class="pip top-right"></span>
+                                <span class="pip bottom-left"></span>
+                                <span class="pip bottom-right"></span>
+                            </div>
+                            <div class="dice-face" data-face="5">
+                                <span class="pip top-left"></span>
+                                <span class="pip top-right"></span>
+                                <span class="pip center"></span>
+                                <span class="pip bottom-left"></span>
+                                <span class="pip bottom-right"></span>
+                            </div>
+                            <div class="dice-face" data-face="6">
+                                <span class="pip top-left"></span>
+                                <span class="pip top-right"></span>
+                                <span class="pip middle-left"></span>
+                                <span class="pip middle-right"></span>
+                                <span class="pip bottom-left"></span>
+                                <span class="pip bottom-right"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="roll-btn" class="btn btn-success btn-lg mt-3 w-100" disabled>Roll Dice</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const difficulty = "{{ difficulty }}";
+    const mode = "{{ mode }}";
+    const configuredPlayerCount = {{ player_count }};
+    const isMultiplayer = mode === "multi";
+    let currentPlayerIndex = 0;
+    let awaitingRoll = false;
+
+    const snakes = {16: 7, 60: 19, 63: 18, 67: 30, 87: 24, 93: 69, 95: 75, 98: 77};
+    const ladders = {8: 27, 23: 37, 25: 54, 28: 50, 56: 64, 68: 88, 76: 97, 81: 100};
+    const tokenOffsets = [
+        { x: -9, y: -9 },
+        { x: 9, y: -9 },
+        { x: -9, y: 9 },
+        { x: 9, y: 9 }
+    ];
+    const players = isMultiplayer
+        ? Array.from({ length: configuredPlayerCount }, (_, index) => ({
+            name: `Player ${index + 1}`,
+            pos: 1,
+            tokenId: `player-${index + 1}-token`,
+            tokenClass: `token-p${index + 1}`,
+            isAi: false
+        }))
+        : [
+            { name: "Player", pos: 1, tokenId: "player-1-token", tokenClass: "token-p1", isAi: false },
+            { name: "AI", pos: 1, tokenId: "player-2-token", tokenClass: "token-p2", isAi: true }
+        ];
+
+    const board = document.getElementById('board');
+    const playerStats = document.getElementById('player-stats');
+
+    players.forEach(player => {
+        const token = document.createElement('div');
+        token.id = player.tokenId;
+        token.className = `player-token ${player.tokenClass}`;
+        board.appendChild(token);
+    });
+
+    for (let i = 0; i < 100; i++) {
+        const row = Math.floor(i / 10);
+        const col = i % 10;
+        const num = row % 2 === 0
+            ? 100 - (row * 10 + col)
+            : 100 - (row * 10 + (9 - col));
+
+        const cell = document.createElement('div');
+        cell.className = 'cell';
+        cell.id = `cell-${num}`;
+        cell.dataset.square = num;
+        cell.setAttribute('aria-label', `Square ${num}`);
+        board.appendChild(cell);
+    }
+
+    function currentPlayer() {
+        return players[currentPlayerIndex];
+    }
+
+    function moveToken(player, index = players.indexOf(player)) {
+        const cell = document.getElementById(`cell-${player.pos}`);
+        const token = document.getElementById(player.tokenId);
+        const offset = tokenOffsets[index] || { x: 0, y: 0 };
+        token.style.left = (cell.offsetLeft + (cell.offsetWidth / 2) + offset.x) + 'px';
+        token.style.top = (cell.offsetTop + (cell.offsetHeight / 2) + offset.y) + 'px';
+    }
+
+    function renderPlayerStats() {
+        playerStats.innerHTML = '';
+        players.forEach((player, index) => {
+            const item = document.createElement('div');
+            item.className = `player-stat ${index === currentPlayerIndex ? 'active' : ''}`;
+            item.innerHTML = `<span class="player-dot ${player.tokenClass}"></span>${player.name}: <strong>${player.pos}</strong>`;
+            playerStats.appendChild(item);
+        });
+        document.getElementById('current-turn').innerText = currentPlayer().name;
+    }
+
+    function moveAllTokens() {
+        players.forEach((player, index) => moveToken(player, index));
+    }
+
+    function updatePlayerPosition(player, pos) {
+        player.pos = pos;
+        moveToken(player);
+        renderPlayerStats();
+    }
+
+    function moveTokenById(id, pos) {
+        const cell = document.getElementById(`cell-${pos}`);
+        const token = document.getElementById(id);
+        token.style.left = (cell.offsetLeft + (cell.offsetWidth / 2)) + 'px';
+        token.style.top = (cell.offsetTop + (cell.offsetHeight / 2)) + 'px';
+    }
+
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    function setMessage(text, type = 'info') {
+        const message = document.getElementById('game-message');
+        message.className = `game-message show ${type}`;
+        message.innerText = text;
+    }
+
+    function clearMessage() {
+        const message = document.getElementById('game-message');
+        message.className = 'game-message';
+        message.innerText = '';
+    }
+
+    function disableOptions() {
+        document.querySelectorAll('#options .btn-option').forEach(option => {
+            option.disabled = true;
+            option.classList.remove('animate__pulse', 'animate__shakeX');
+        });
+    }
+
+    function revealCorrectAnswer(correctAnswer) {
+        document.querySelectorAll('#options .btn-option').forEach(option => {
+            if (option.innerText === correctAnswer) {
+                option.classList.add('correct-answer', 'animate__animated', 'animate__pulse');
+            }
+        });
+    }
+
+    async function animateDice(roll) {
+        const dice = document.getElementById('dice-visual');
+        dice.classList.add('rolling');
+        await sleep(700);
+        dice.classList.remove('rolling');
+        dice.dataset.roll = roll;
+        dice.setAttribute('aria-label', `Dice showing ${roll}`);
+    }
+
+    async function loadQuestion() {
+        if (currentPlayer().isAi) return;
+        const res = await fetch(`/api/get_question?difficulty=${difficulty}`);
+        const q = await res.json();
+
+        document.getElementById('q-topic').innerText = q.topic;
+        document.getElementById('q-text').innerText = q.question;
+        document.getElementById('roll-btn').disabled = true;
+        awaitingRoll = false;
+        clearMessage();
+        const opts = document.getElementById('options');
+        opts.innerHTML = '';
+        renderPlayerStats();
+
+        q.options.forEach(opt => {
+            const btn = document.createElement('button');
+            btn.className = 'btn btn-outline-primary btn-option';
+            btn.innerText = opt;
+            btn.onclick = () => {
+                if (opt === q.correctAnswer) {
+                    disableOptions();
+                    btn.className = 'btn btn-option correct-answer animate__animated animate__pulse';
+                    awaitingRoll = true;
+                    setMessage(`Correct, ${currentPlayer().name}! Roll the dice to move.`, 'success');
+                    document.getElementById('roll-btn').disabled = false;
+                } else {
+                    disableOptions();
+                    btn.className = 'btn btn-option wrong-answer animate__animated animate__shakeX';
+                    revealCorrectAnswer(q.correctAnswer);
+                    setMessage(`Incorrect, ${currentPlayer().name}. The correct answer is: ${q.correctAnswer}.`, 'danger');
+                    setTimeout(nextTurn, 2200);
+                }
+            };
+            opts.appendChild(btn);
+        });
+    }
+
+    function calculateMove(current, roll) {
+        const intermediate = current + roll;
+        if (intermediate > 100) {
+            return { intermediate: current, final: current, event: 'stay' };
+        }
+        if (snakes[intermediate]) {
+            return { intermediate, final: snakes[intermediate], event: 'snake' };
+        }
+        if (ladders[intermediate]) {
+            return { intermediate, final: ladders[intermediate], event: 'ladder' };
+        }
+        return { intermediate, final: intermediate, event: 'none' };
+    }
+
+    async function applyMove(player, roll) {
+        const result = calculateMove(player.pos, roll);
+
+        updatePlayerPosition(player, result.intermediate);
+
+        if (result.event === 'snake' || result.event === 'ladder') {
+            await sleep(650);
+            setMessage(result.event === 'snake' ? `${player.name} got a snake bite and moved down to ${result.final}.` : `${player.name} climbed a ladder to ${result.final}.`, result.event === 'snake' ? 'warning' : 'success');
+            updatePlayerPosition(player, result.final);
+        }
+
+        return result.final === 100;
+    }
+
+    async function handleAITurn() {
+        currentPlayerIndex = players.findIndex(player => player.isAi);
+        renderPlayerStats();
+        setMessage("AI is thinking...", "info");
+        const res = await fetch(`/api/ai_turn?difficulty=${difficulty}`);
+        const data = await res.json();
+
+        setTimeout(async () => {
+            if (data.is_correct && data.roll > 0) {
+                await animateDice(data.roll);
+                const aiWon = await applyMove(currentPlayer(), data.roll);
+                if (aiWon) {
+                    setMessage("AI wins!", "danger");
+                    setTimeout(() => {
+                        location.href = '/';
+                    }, 1800);
+                    return;
+                }
+            } else {
+                setMessage("AI answered incorrectly. Your turn.", "warning");
+            }
+
+            currentPlayerIndex = 0;
+            loadQuestion();
+        }, 2000);
+    }
+
+    function nextTurn() {
+        document.getElementById('roll-btn').disabled = true;
+        awaitingRoll = false;
+
+        if (!isMultiplayer) {
+            handleAITurn();
+            return;
+        }
+
+        currentPlayerIndex = (currentPlayerIndex + 1) % players.length;
+        loadQuestion();
+    }
+
+    document.getElementById('roll-btn').onclick = async () => {
+        if (!awaitingRoll || currentPlayer().isAi) return;
+        const roll = Math.floor(Math.random() * 6) + 1;
+        document.getElementById('roll-btn').disabled = true;
+        awaitingRoll = false;
+        const player = currentPlayer();
+
+        await animateDice(roll);
+        const won = await applyMove(player, roll);
+
+        if (won) {
+            setMessage(`${player.name} wins!`, 'success');
+            setTimeout(() => {
+                location.href = '/';
+            }, 1800);
+        } else {
+            setTimeout(nextTurn, 900);
+        }
+    };
+
+    function updateThemeButton() {
+        const button = document.getElementById('theme-toggle');
+        const isDark = document.body.getAttribute('data-theme') === 'dark';
+        button.innerText = isDark ? '☀️ Light' : '🌙 Dark';
+    }
+
+    function toggleTheme() {
+        const body = document.body;
+        const nextTheme = body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        body.setAttribute('data-theme', nextTheme);
+        localStorage.setItem('pythonQuestTheme', nextTheme);
+        updateThemeButton();
+    }
+
+    window.onload = () => {
+        document.body.setAttribute('data-theme', localStorage.getItem('pythonQuestTheme') || 'light');
+        updateThemeButton();
+        moveAllTokens();
+        renderPlayerStats();
+        loadQuestion();
+    };
+
+    window.addEventListener('resize', () => {
+        moveAllTokens();
+    });
+</script>
+</body>
+</html>
